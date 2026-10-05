@@ -1,0 +1,918 @@
+{
+  "id": "eval-t2-lomi",
+  "tier": "T2",
+  "seed": 72103,
+  "title": "eval-t2-lomi invented language",
+  "language": {
+    "name": "eval-t2-lomi synthetic language",
+    "tag": "qac"
+  },
+  "teaches": [
+    "noun and verb categories",
+    "ordered suffix slots",
+    "obligatory noun class marking",
+    "feature-conditioned allomorphs",
+    "generalization to unseen stem-affix sequences"
+  ],
+  "summary": "Invented T2 morphology with an obligatory feature-conditioned class suffix.",
+  "disclaimer": "SYNTHETIC EXAMPLE. All forms and meanings in this set are invented for parser evaluation.",
+  "description": "SYNTHETIC EXAMPLE. eval-t2-lomi is an invented language with no real-language source.",
+  "phonemes": [
+    "a",
+    "b",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "o",
+    "q",
+    "r",
+    "s",
+    "u",
+    "v",
+    "x",
+    "z",
+    "n",
+    "t"
+  ],
+  "naturalClasses": [],
+  "featureDefinitions": [
+    {
+      "id": "number",
+      "name": "Number",
+      "abbreviation": "NUM",
+      "values": [
+        {
+          "id": "plural",
+          "name": "Plural",
+          "abbreviation": "PL"
+        }
+      ]
+    },
+    {
+      "id": "case",
+      "name": "Case",
+      "abbreviation": "CASE",
+      "values": [
+        {
+          "id": "locative",
+          "name": "Locative",
+          "abbreviation": "LOC"
+        }
+      ]
+    },
+    {
+      "id": "tense",
+      "name": "Tense",
+      "abbreviation": "TNS",
+      "values": [
+        {
+          "id": "past",
+          "name": "Past",
+          "abbreviation": "PST"
+        }
+      ]
+    },
+    {
+      "id": "person",
+      "name": "Person",
+      "abbreviation": "PERS",
+      "values": [
+        {
+          "id": "first-singular",
+          "name": "First singular",
+          "abbreviation": "1SG"
+        }
+      ]
+    },
+    {
+      "id": "noun-class",
+      "name": "Noun class",
+      "abbreviation": "NCL",
+      "values": [
+        {
+          "id": "class-a",
+          "name": "Class A",
+          "abbreviation": "A"
+        },
+        {
+          "id": "class-b",
+          "name": "Class B",
+          "abbreviation": "B"
+        }
+      ]
+    }
+  ],
+  "environments": [],
+  "partsOfSpeech": [
+    {
+      "id": "noun",
+      "name": "Noun"
+    },
+    {
+      "id": "verb",
+      "name": "Verb"
+    }
+  ],
+  "stems": [
+    {
+      "id": "noun-01",
+      "form": "qaje",
+      "partOfSpeech": "noun",
+      "gloss": "basket",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-02",
+      "form": "zodo",
+      "partOfSpeech": "noun",
+      "gloss": "pebble",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-03",
+      "form": "xexa",
+      "partOfSpeech": "noun",
+      "gloss": "reed",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-04",
+      "form": "jubi",
+      "partOfSpeech": "noun",
+      "gloss": "lantern",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-05",
+      "form": "vizu",
+      "partOfSpeech": "noun",
+      "gloss": "button",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-06",
+      "form": "kare",
+      "partOfSpeech": "noun",
+      "gloss": "cloud",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-07",
+      "form": "moqo",
+      "partOfSpeech": "noun",
+      "gloss": "shell",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-08",
+      "form": "sesa",
+      "partOfSpeech": "noun",
+      "gloss": "ladder",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-09",
+      "form": "ruhi",
+      "partOfSpeech": "noun",
+      "gloss": "plum",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-10",
+      "form": "bimu",
+      "partOfSpeech": "noun",
+      "gloss": "blanket",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-11",
+      "form": "dafe",
+      "partOfSpeech": "noun",
+      "gloss": "kettle",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-12",
+      "form": "goko",
+      "partOfSpeech": "noun",
+      "gloss": "ribbon",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-13",
+      "form": "lela",
+      "partOfSpeech": "noun",
+      "gloss": "candle",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-14",
+      "form": "fuvi",
+      "partOfSpeech": "noun",
+      "gloss": "feather",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-15",
+      "form": "higu",
+      "partOfSpeech": "noun",
+      "gloss": "bottle",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-16",
+      "form": "qaj",
+      "partOfSpeech": "noun",
+      "gloss": "window",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-17",
+      "form": "zod",
+      "partOfSpeech": "noun",
+      "gloss": "hammer",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-18",
+      "form": "xex",
+      "partOfSpeech": "noun",
+      "gloss": "pocket",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-19",
+      "form": "jub",
+      "partOfSpeech": "noun",
+      "gloss": "garden",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-20",
+      "form": "viz",
+      "partOfSpeech": "noun",
+      "gloss": "pillow",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-21",
+      "form": "kar",
+      "partOfSpeech": "noun",
+      "gloss": "spoon",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-22",
+      "form": "moq",
+      "partOfSpeech": "noun",
+      "gloss": "marble",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-23",
+      "form": "ses",
+      "partOfSpeech": "noun",
+      "gloss": "saddle",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-24",
+      "form": "ruh",
+      "partOfSpeech": "noun",
+      "gloss": "bell",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-25",
+      "form": "bim",
+      "partOfSpeech": "noun",
+      "gloss": "thimble",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-26",
+      "form": "daf",
+      "partOfSpeech": "noun",
+      "gloss": "cabin",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-27",
+      "form": "gok",
+      "partOfSpeech": "noun",
+      "gloss": "plank",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-28",
+      "form": "lel",
+      "partOfSpeech": "noun",
+      "gloss": "meadow",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "noun-29",
+      "form": "fuv",
+      "partOfSpeech": "noun",
+      "gloss": "thread",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-a"
+        }
+      ]
+    },
+    {
+      "id": "noun-30",
+      "form": "hig",
+      "partOfSpeech": "noun",
+      "gloss": "mirror",
+      "features": [
+        {
+          "featureId": "noun-class",
+          "valueId": "class-b"
+        }
+      ]
+    },
+    {
+      "id": "verb-01",
+      "form": "xqaje",
+      "partOfSpeech": "verb",
+      "gloss": "to gather"
+    },
+    {
+      "id": "verb-02",
+      "form": "xzodo",
+      "partOfSpeech": "verb",
+      "gloss": "to bend"
+    },
+    {
+      "id": "verb-03",
+      "form": "xxexa",
+      "partOfSpeech": "verb",
+      "gloss": "to whisper"
+    },
+    {
+      "id": "verb-04",
+      "form": "xjubi",
+      "partOfSpeech": "verb",
+      "gloss": "to stumble"
+    },
+    {
+      "id": "verb-05",
+      "form": "xvizu",
+      "partOfSpeech": "verb",
+      "gloss": "to polish"
+    },
+    {
+      "id": "verb-06",
+      "form": "xkare",
+      "partOfSpeech": "verb",
+      "gloss": "to fold"
+    },
+    {
+      "id": "verb-07",
+      "form": "xmoqo",
+      "partOfSpeech": "verb",
+      "gloss": "to drizzle"
+    },
+    {
+      "id": "verb-08",
+      "form": "xsesa",
+      "partOfSpeech": "verb",
+      "gloss": "to wander"
+    },
+    {
+      "id": "verb-09",
+      "form": "xruhi",
+      "partOfSpeech": "verb",
+      "gloss": "to untie"
+    },
+    {
+      "id": "verb-10",
+      "form": "xbimu",
+      "partOfSpeech": "verb",
+      "gloss": "to balance"
+    },
+    {
+      "id": "verb-11",
+      "form": "xdafe",
+      "partOfSpeech": "verb",
+      "gloss": "to murmur"
+    },
+    {
+      "id": "verb-12",
+      "form": "xgoko",
+      "partOfSpeech": "verb",
+      "gloss": "to scatter"
+    },
+    {
+      "id": "verb-13",
+      "form": "xlela",
+      "partOfSpeech": "verb",
+      "gloss": "to nudge"
+    },
+    {
+      "id": "verb-14",
+      "form": "xfuvi",
+      "partOfSpeech": "verb",
+      "gloss": "to shimmer"
+    },
+    {
+      "id": "verb-15",
+      "form": "xhigu",
+      "partOfSpeech": "verb",
+      "gloss": "to crawl"
+    },
+    {
+      "id": "verb-16",
+      "form": "xqaj",
+      "partOfSpeech": "verb",
+      "gloss": "to mend"
+    },
+    {
+      "id": "verb-17",
+      "form": "xzod",
+      "partOfSpeech": "verb",
+      "gloss": "to carry"
+    },
+    {
+      "id": "verb-18",
+      "form": "xxex",
+      "partOfSpeech": "verb",
+      "gloss": "to float"
+    },
+    {
+      "id": "verb-19",
+      "form": "xjub",
+      "partOfSpeech": "verb",
+      "gloss": "to braid"
+    },
+    {
+      "id": "verb-20",
+      "form": "xviz",
+      "partOfSpeech": "verb",
+      "gloss": "to flatten"
+    },
+    {
+      "id": "verb-21",
+      "form": "xkar",
+      "partOfSpeech": "verb",
+      "gloss": "to hide"
+    },
+    {
+      "id": "verb-22",
+      "form": "xmoq",
+      "partOfSpeech": "verb",
+      "gloss": "to borrow"
+    },
+    {
+      "id": "verb-23",
+      "form": "xses",
+      "partOfSpeech": "verb",
+      "gloss": "to sprinkle"
+    },
+    {
+      "id": "verb-24",
+      "form": "xruh",
+      "partOfSpeech": "verb",
+      "gloss": "to lean"
+    },
+    {
+      "id": "verb-25",
+      "form": "xbim",
+      "partOfSpeech": "verb",
+      "gloss": "to hatch"
+    },
+    {
+      "id": "verb-26",
+      "form": "xdaf",
+      "partOfSpeech": "verb",
+      "gloss": "to ripple"
+    },
+    {
+      "id": "verb-27",
+      "form": "xgok",
+      "partOfSpeech": "verb",
+      "gloss": "to knock"
+    },
+    {
+      "id": "verb-28",
+      "form": "xlel",
+      "partOfSpeech": "verb",
+      "gloss": "to whistle"
+    },
+    {
+      "id": "verb-29",
+      "form": "xfuv",
+      "partOfSpeech": "verb",
+      "gloss": "to carve"
+    },
+    {
+      "id": "verb-30",
+      "form": "xhig",
+      "partOfSpeech": "verb",
+      "gloss": "to yawn"
+    }
+  ],
+  "affixSlots": [
+    {
+      "id": "class-marker",
+      "name": "Noun class",
+      "partOfSpeech": "noun",
+      "optional": false
+    },
+    {
+      "id": "number",
+      "name": "Number",
+      "partOfSpeech": "noun",
+      "optional": true
+    },
+    {
+      "id": "case",
+      "name": "Case",
+      "partOfSpeech": "noun",
+      "optional": true
+    },
+    {
+      "id": "tense",
+      "name": "Tense",
+      "partOfSpeech": "verb",
+      "optional": true
+    },
+    {
+      "id": "person",
+      "name": "Person",
+      "partOfSpeech": "verb",
+      "optional": true
+    }
+  ],
+  "affixTemplates": [
+    {
+      "id": "noun-template",
+      "name": "Noun suffixes",
+      "partOfSpeech": "noun",
+      "prefixSlots": [],
+      "suffixSlots": [
+        "class-marker",
+        "number",
+        "case"
+      ],
+      "final": true
+    },
+    {
+      "id": "verb-template",
+      "name": "Verb suffixes",
+      "partOfSpeech": "verb",
+      "prefixSlots": [],
+      "suffixSlots": [
+        "tense",
+        "person"
+      ],
+      "final": true
+    }
+  ],
+  "phonologicalRules": [],
+  "patterns": [
+    {
+      "id": "noun-bare",
+      "partOfSpeech": "noun",
+      "affixes": [
+        "noun-class-marker"
+      ],
+      "partition": "train"
+    },
+    {
+      "id": "noun-number",
+      "partOfSpeech": "noun",
+      "affixes": [
+        "noun-class-marker",
+        "plural"
+      ],
+      "partition": "train"
+    },
+    {
+      "id": "noun-case",
+      "partOfSpeech": "noun",
+      "affixes": [
+        "noun-class-marker",
+        "locative"
+      ],
+      "partition": "train"
+    },
+    {
+      "id": "noun-number-case",
+      "partOfSpeech": "noun",
+      "affixes": [
+        "noun-class-marker",
+        "plural",
+        "locative"
+      ],
+      "partition": "heldout"
+    },
+    {
+      "id": "verb-bare",
+      "partOfSpeech": "verb",
+      "affixes": [],
+      "partition": "train"
+    },
+    {
+      "id": "verb-past",
+      "partOfSpeech": "verb",
+      "affixes": [
+        "past"
+      ],
+      "partition": "train"
+    },
+    {
+      "id": "verb-person",
+      "partOfSpeech": "verb",
+      "affixes": [
+        "first-singular"
+      ],
+      "partition": "train"
+    },
+    {
+      "id": "verb-past-person",
+      "partOfSpeech": "verb",
+      "affixes": [
+        "past",
+        "first-singular"
+      ],
+      "partition": "heldout"
+    }
+  ],
+  "affixes": [
+    {
+      "id": "plural",
+      "partOfSpeech": "noun",
+      "slots": [
+        "number"
+      ],
+      "gloss": "PL",
+      "features": [
+        {
+          "featureId": "number",
+          "valueId": "plural"
+        }
+      ],
+      "allomorphs": [
+        {
+          "id": "plural-form",
+          "form": "ka",
+          "environment": null,
+          "morphType": "suffix"
+        }
+      ]
+    },
+    {
+      "id": "locative",
+      "partOfSpeech": "noun",
+      "slots": [
+        "case"
+      ],
+      "gloss": "LOC",
+      "features": [
+        {
+          "featureId": "case",
+          "valueId": "locative"
+        }
+      ],
+      "allomorphs": [
+        {
+          "id": "locative-form",
+          "form": "qi",
+          "environment": null,
+          "morphType": "suffix"
+        }
+      ]
+    },
+    {
+      "id": "past",
+      "partOfSpeech": "verb",
+      "slots": [
+        "tense"
+      ],
+      "gloss": "PST",
+      "features": [
+        {
+          "featureId": "tense",
+          "valueId": "past"
+        }
+      ],
+      "allomorphs": [
+        {
+          "id": "past-form",
+          "form": "zu",
+          "environment": null,
+          "morphType": "suffix"
+        }
+      ]
+    },
+    {
+      "id": "first-singular",
+      "partOfSpeech": "verb",
+      "slots": [
+        "person"
+      ],
+      "gloss": "1SG",
+      "features": [
+        {
+          "featureId": "person",
+          "valueId": "first-singular"
+        }
+      ],
+      "allomorphs": [
+        {
+          "id": "person-form",
+          "form": "me",
+          "environment": null,
+          "morphType": "suffix"
+        }
+      ]
+    },
+    {
+      "id": "noun-class-marker",
+      "partOfSpeech": "noun",
+      "slots": [
+        "class-marker"
+      ],
+      "gloss": "NCL",
+      "features": [],
+      "allomorphs": [
+        {
+          "id": "class-a-form",
+          "form": "na",
+          "environment": null,
+          "morphType": "suffix",
+          "requiredFeatures": [
+            {
+              "featureId": "noun-class",
+              "valueId": "class-a"
+            }
+          ]
+        },
+        {
+          "id": "class-b-form",
+          "form": "ta",
+          "environment": null,
+          "morphType": "suffix",
+          "requiredFeatures": [
+            {
+              "featureId": "noun-class",
+              "valueId": "class-b"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "defects": []
+}

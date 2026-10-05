@@ -1,0 +1,9 @@
+This repository holds Motif’s synthetic test languages, tasks, prompts, and gold answers outside the product source tree. Motif pins an immutable tagged revision and fetches its contents when tests or A/B runs need them.
+
+Each set lives under `evals/sets/<set-id>/`, with its language specification, generated word partitions, gold analyses, task prompts, answer keys, gold solutions, and a `LICENSES` record. Tasks use JSON-compatible YAML in `task.yaml` to name their set, tier, starting grammar, prompt, limits, status, and graders; generated FieldWorks projects are built at run time and are not committed. Run `pwsh ./Check-TestGrammars.ps1` to check the set structure, prompts, answer files, and licences.
+
+Motif records both a release tag and its full commit hash in `evals/test-grammars.lock.json`. `evals/Get-TestGrammars.ps1` checks out that exact revision into the Motif checkout’s `bin/.cache/test-grammars/` directory; developers and test environments can point `MOTIF_TEST_GRAMMARS` at a local clone instead.
+
+The tier ladder starts with unconditioned suffixes (T0), adds conditioned allomorphs (T1), richer templates and features (T2), and phonological rules (T3); T4 covers infixes and reduplication. Held-out forms use combinations absent from training, while plausible negative forms differ from positive forms by a grammatical error. Prompts do not disclose held-out analyses, and tasks reward compact rules that generalize rather than memorizing training words.
+
+Motif and these synthetic sets are MIT-licensed. Future real-language data carries its own share-alike or non-commercial terms recorded per set, and non-commercial corpora are fetched from their sources at test time and never committed here. Anyone forking Motif for a commercial product should review every set’s `LICENSES` file before using real-language data.

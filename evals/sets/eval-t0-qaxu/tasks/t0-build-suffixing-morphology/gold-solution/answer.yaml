@@ -1,0 +1,206 @@
+{
+  "grammar": {
+    "partsOfSpeech": [
+      {
+        "id": "noun",
+        "name": "Noun"
+      },
+      {
+        "id": "verb",
+        "name": "Verb"
+      }
+    ],
+    "affixSlots": [
+      {
+        "id": "number",
+        "name": "Number",
+        "partOfSpeech": "noun",
+        "optional": true
+      },
+      {
+        "id": "case",
+        "name": "Case",
+        "partOfSpeech": "noun",
+        "optional": true
+      },
+      {
+        "id": "tense",
+        "name": "Tense",
+        "partOfSpeech": "verb",
+        "optional": true
+      },
+      {
+        "id": "person",
+        "name": "Person",
+        "partOfSpeech": "verb",
+        "optional": true
+      }
+    ],
+    "affixTemplates": [
+      {
+        "id": "noun-template",
+        "name": "Noun suffixes",
+        "partOfSpeech": "noun",
+        "prefixSlots": [],
+        "suffixSlots": [
+          "number",
+          "case"
+        ],
+        "final": true
+      },
+      {
+        "id": "verb-template",
+        "name": "Verb suffixes",
+        "partOfSpeech": "verb",
+        "prefixSlots": [],
+        "suffixSlots": [
+          "tense",
+          "person"
+        ],
+        "final": true
+      }
+    ],
+    "affixes": [
+      {
+        "id": "plural",
+        "partOfSpeech": "noun",
+        "slots": [
+          "number"
+        ],
+        "gloss": "PL",
+        "features": [
+          {
+            "featureId": "number",
+            "valueId": "plural"
+          }
+        ],
+        "allomorphs": [
+          {
+            "id": "plural-form",
+            "form": "ka",
+            "environment": null,
+            "morphType": "suffix"
+          }
+        ]
+      },
+      {
+        "id": "locative",
+        "partOfSpeech": "noun",
+        "slots": [
+          "case"
+        ],
+        "gloss": "LOC",
+        "features": [
+          {
+            "featureId": "case",
+            "valueId": "locative"
+          }
+        ],
+        "allomorphs": [
+          {
+            "id": "locative-form",
+            "form": "qi",
+            "environment": null,
+            "morphType": "suffix"
+          }
+        ]
+      },
+      {
+        "id": "past",
+        "partOfSpeech": "verb",
+        "slots": [
+          "tense"
+        ],
+        "gloss": "PST",
+        "features": [
+          {
+            "featureId": "tense",
+            "valueId": "past"
+          }
+        ],
+        "allomorphs": [
+          {
+            "id": "past-form",
+            "form": "zu",
+            "environment": null,
+            "morphType": "suffix"
+          }
+        ]
+      },
+      {
+        "id": "first-singular",
+        "partOfSpeech": "verb",
+        "slots": [
+          "person"
+        ],
+        "gloss": "1SG",
+        "features": [
+          {
+            "featureId": "person",
+            "valueId": "first-singular"
+          }
+        ],
+        "allomorphs": [
+          {
+            "id": "person-form",
+            "form": "me",
+            "environment": null,
+            "morphType": "suffix"
+          }
+        ]
+      }
+    ],
+    "featureDefinitions": [
+      {
+        "id": "number",
+        "name": "Number",
+        "abbreviation": "NUM",
+        "values": [
+          {
+            "id": "plural",
+            "name": "Plural",
+            "abbreviation": "PL"
+          }
+        ]
+      },
+      {
+        "id": "case",
+        "name": "Case",
+        "abbreviation": "CASE",
+        "values": [
+          {
+            "id": "locative",
+            "name": "Locative",
+            "abbreviation": "LOC"
+          }
+        ]
+      },
+      {
+        "id": "tense",
+        "name": "Tense",
+        "abbreviation": "TNS",
+        "values": [
+          {
+            "id": "past",
+            "name": "Past",
+            "abbreviation": "PST"
+          }
+        ]
+      },
+      {
+        "id": "person",
+        "name": "Person",
+        "abbreviation": "PERS",
+        "values": [
+          {
+            "id": "first-singular",
+            "name": "First singular",
+            "abbreviation": "1SG"
+          }
+        ]
+      }
+    ],
+    "environments": [],
+    "naturalClasses": []
+  }
+}

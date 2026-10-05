@@ -1,0 +1,30 @@
+{
+  "id": "t0-edit-noun-slot-order",
+  "family": "edit",
+  "tier": "T0",
+  "set": "eval-t0-qaxu",
+  "start": "gold-minus:noun-slot-order",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "coverage",
+      "words": "heldout",
+      "weight": 0.6,
+      "pass": 0.8
+    },
+    {
+      "type": "negatives",
+      "weight": 0.3,
+      "pass": 0.95
+    },
+    {
+      "type": "parsimony",
+      "weight": 0.1
+    }
+  ],
+  "status": "future"
+}

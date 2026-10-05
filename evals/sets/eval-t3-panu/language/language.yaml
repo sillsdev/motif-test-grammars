@@ -1,0 +1,1254 @@
+{
+  "id": "eval-t3-panu",
+  "tier": "T3",
+  "seed": 83519,
+  "title": "eval-t3-panu invented language",
+  "language": {
+    "name": "eval-t3-panu synthetic language",
+    "tag": "qad"
+  },
+  "teaches": [
+    "noun and verb categories",
+    "ordered suffix slots",
+    "nasal place assimilation before bilabials",
+    "generalization to unseen stem-affix sequences"
+  ],
+  "summary": "Invented T3 morphology with a regular nasal assimilation rule.",
+  "disclaimer": "SYNTHETIC EXAMPLE. All forms and meanings in this set are invented for parser evaluation.",
+  "description": "SYNTHETIC EXAMPLE. eval-t3-panu is an invented language with no real-language source.",
+  "phonemes": [
+    "a",
+    "b",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "o",
+    "q",
+    "r",
+    "s",
+    "u",
+    "v",
+    "x",
+    "z",
+    "p",
+    "n",
+    "t"
+  ],
+  "phonologicalFeatureDefinitions": [
+    {
+      "id": "place",
+      "name": "Place",
+      "abbreviation": "PLACE",
+      "values": [
+        {
+          "id": "bilabial",
+          "name": "Bilabial",
+          "abbreviation": "BIL"
+        },
+        {
+          "id": "alveolar",
+          "name": "Alveolar",
+          "abbreviation": "ALV"
+        },
+        {
+          "id": "labiodental",
+          "name": "Labiodental",
+          "abbreviation": "LABD"
+        },
+        {
+          "id": "palatal",
+          "name": "Palatal",
+          "abbreviation": "PAL"
+        },
+        {
+          "id": "velar",
+          "name": "Velar",
+          "abbreviation": "VEL"
+        },
+        {
+          "id": "uvular",
+          "name": "Uvular",
+          "abbreviation": "UVU"
+        },
+        {
+          "id": "glottal",
+          "name": "Glottal",
+          "abbreviation": "GLO"
+        },
+        {
+          "id": "vowel",
+          "name": "Vowel",
+          "abbreviation": "VOW"
+        }
+      ]
+    },
+    {
+      "id": "manner",
+      "name": "Manner",
+      "abbreviation": "MANNER",
+      "values": [
+        {
+          "id": "stop",
+          "name": "Stop",
+          "abbreviation": "STOP"
+        },
+        {
+          "id": "nasal",
+          "name": "Nasal",
+          "abbreviation": "NAS"
+        },
+        {
+          "id": "fricative",
+          "name": "Fricative",
+          "abbreviation": "FRIC"
+        },
+        {
+          "id": "approximant",
+          "name": "Approximant",
+          "abbreviation": "APP"
+        },
+        {
+          "id": "trill",
+          "name": "Trill",
+          "abbreviation": "TRILL"
+        },
+        {
+          "id": "affricate",
+          "name": "Affricate",
+          "abbreviation": "AFFR"
+        },
+        {
+          "id": "vowel",
+          "name": "Vowel",
+          "abbreviation": "VOW"
+        }
+      ]
+    },
+    {
+      "id": "voicing",
+      "name": "Voicing",
+      "abbreviation": "VOICE",
+      "values": [
+        {
+          "id": "voiced",
+          "name": "Voiced",
+          "abbreviation": "VOI"
+        },
+        {
+          "id": "voiceless",
+          "name": "Voiceless",
+          "abbreviation": "VL"
+        }
+      ]
+    },
+    {
+      "id": "vowelQuality",
+      "name": "Vowel quality",
+      "abbreviation": "VQ",
+      "values": [
+        {
+          "id": "consonant",
+          "name": "Consonant",
+          "abbreviation": "C"
+        },
+        {
+          "id": "a",
+          "name": "a",
+          "abbreviation": "A"
+        },
+        {
+          "id": "e",
+          "name": "e",
+          "abbreviation": "E"
+        },
+        {
+          "id": "i",
+          "name": "i",
+          "abbreviation": "I"
+        },
+        {
+          "id": "o",
+          "name": "o",
+          "abbreviation": "O"
+        },
+        {
+          "id": "u",
+          "name": "u",
+          "abbreviation": "U"
+        }
+      ]
+    }
+  ],
+  "phonemeFeatures": {
+    "a": [
+      {
+        "featureId": "place",
+        "valueId": "vowel"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "vowel"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "a"
+      }
+    ],
+    "b": [
+      {
+        "featureId": "place",
+        "valueId": "bilabial"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "stop"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "d": [
+      {
+        "featureId": "place",
+        "valueId": "alveolar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "stop"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "e": [
+      {
+        "featureId": "place",
+        "valueId": "vowel"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "vowel"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "e"
+      }
+    ],
+    "f": [
+      {
+        "featureId": "place",
+        "valueId": "labiodental"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "fricative"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiceless"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "g": [
+      {
+        "featureId": "place",
+        "valueId": "velar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "stop"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "h": [
+      {
+        "featureId": "place",
+        "valueId": "glottal"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "fricative"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiceless"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "i": [
+      {
+        "featureId": "place",
+        "valueId": "vowel"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "vowel"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "i"
+      }
+    ],
+    "j": [
+      {
+        "featureId": "place",
+        "valueId": "palatal"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "affricate"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "k": [
+      {
+        "featureId": "place",
+        "valueId": "velar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "stop"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiceless"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "l": [
+      {
+        "featureId": "place",
+        "valueId": "alveolar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "approximant"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "m": [
+      {
+        "featureId": "place",
+        "valueId": "bilabial"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "nasal"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "o": [
+      {
+        "featureId": "place",
+        "valueId": "vowel"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "vowel"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "o"
+      }
+    ],
+    "q": [
+      {
+        "featureId": "place",
+        "valueId": "uvular"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "stop"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiceless"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "r": [
+      {
+        "featureId": "place",
+        "valueId": "alveolar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "trill"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "s": [
+      {
+        "featureId": "place",
+        "valueId": "alveolar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "fricative"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiceless"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "u": [
+      {
+        "featureId": "place",
+        "valueId": "vowel"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "vowel"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "u"
+      }
+    ],
+    "v": [
+      {
+        "featureId": "place",
+        "valueId": "labiodental"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "fricative"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "x": [
+      {
+        "featureId": "place",
+        "valueId": "velar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "fricative"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiceless"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "z": [
+      {
+        "featureId": "place",
+        "valueId": "alveolar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "fricative"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "p": [
+      {
+        "featureId": "place",
+        "valueId": "bilabial"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "stop"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiceless"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "n": [
+      {
+        "featureId": "place",
+        "valueId": "alveolar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "nasal"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
+    "t": [
+      {
+        "featureId": "place",
+        "valueId": "alveolar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "stop"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiceless"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ]
+  },
+  "naturalClasses": [
+    {
+      "id": "bilabials",
+      "name": "Bilabials",
+      "abbreviation": "B",
+      "phonemes": [
+        "p",
+        "b",
+        "m"
+      ]
+    }
+  ],
+  "featureDefinitions": [
+    {
+      "id": "number",
+      "name": "Number",
+      "abbreviation": "NUM",
+      "values": [
+        {
+          "id": "plural",
+          "name": "Plural",
+          "abbreviation": "PL"
+        }
+      ]
+    },
+    {
+      "id": "case",
+      "name": "Case",
+      "abbreviation": "CASE",
+      "values": [
+        {
+          "id": "locative",
+          "name": "Locative",
+          "abbreviation": "LOC"
+        }
+      ]
+    },
+    {
+      "id": "tense",
+      "name": "Tense",
+      "abbreviation": "TNS",
+      "values": [
+        {
+          "id": "past",
+          "name": "Past",
+          "abbreviation": "PST"
+        }
+      ]
+    },
+    {
+      "id": "person",
+      "name": "Person",
+      "abbreviation": "PERS",
+      "values": [
+        {
+          "id": "first-singular",
+          "name": "First singular",
+          "abbreviation": "1SG"
+        }
+      ]
+    }
+  ],
+  "environments": [],
+  "partsOfSpeech": [
+    {
+      "id": "noun",
+      "name": "Noun"
+    },
+    {
+      "id": "verb",
+      "name": "Verb"
+    }
+  ],
+  "stems": [
+    {
+      "id": "noun-01",
+      "form": "qajenp",
+      "partOfSpeech": "noun",
+      "gloss": "basket"
+    },
+    {
+      "id": "noun-02",
+      "form": "zodonp",
+      "partOfSpeech": "noun",
+      "gloss": "pebble"
+    },
+    {
+      "id": "noun-03",
+      "form": "xexanp",
+      "partOfSpeech": "noun",
+      "gloss": "reed"
+    },
+    {
+      "id": "noun-04",
+      "form": "jubinp",
+      "partOfSpeech": "noun",
+      "gloss": "lantern"
+    },
+    {
+      "id": "noun-05",
+      "form": "vizunp",
+      "partOfSpeech": "noun",
+      "gloss": "button"
+    },
+    {
+      "id": "noun-06",
+      "form": "karenp",
+      "partOfSpeech": "noun",
+      "gloss": "cloud"
+    },
+    {
+      "id": "noun-07",
+      "form": "moqonp",
+      "partOfSpeech": "noun",
+      "gloss": "shell"
+    },
+    {
+      "id": "noun-08",
+      "form": "sesanp",
+      "partOfSpeech": "noun",
+      "gloss": "ladder"
+    },
+    {
+      "id": "noun-09",
+      "form": "ruhinp",
+      "partOfSpeech": "noun",
+      "gloss": "plum"
+    },
+    {
+      "id": "noun-10",
+      "form": "bimunp",
+      "partOfSpeech": "noun",
+      "gloss": "blanket"
+    },
+    {
+      "id": "noun-11",
+      "form": "dafenp",
+      "partOfSpeech": "noun",
+      "gloss": "kettle"
+    },
+    {
+      "id": "noun-12",
+      "form": "gokonp",
+      "partOfSpeech": "noun",
+      "gloss": "ribbon"
+    },
+    {
+      "id": "noun-13",
+      "form": "lelanp",
+      "partOfSpeech": "noun",
+      "gloss": "candle"
+    },
+    {
+      "id": "noun-14",
+      "form": "fuvinp",
+      "partOfSpeech": "noun",
+      "gloss": "feather"
+    },
+    {
+      "id": "noun-15",
+      "form": "higunp",
+      "partOfSpeech": "noun",
+      "gloss": "bottle"
+    },
+    {
+      "id": "noun-16",
+      "form": "qajnp",
+      "partOfSpeech": "noun",
+      "gloss": "window"
+    },
+    {
+      "id": "noun-17",
+      "form": "zodnp",
+      "partOfSpeech": "noun",
+      "gloss": "hammer"
+    },
+    {
+      "id": "noun-18",
+      "form": "xexnp",
+      "partOfSpeech": "noun",
+      "gloss": "pocket"
+    },
+    {
+      "id": "noun-19",
+      "form": "jubnp",
+      "partOfSpeech": "noun",
+      "gloss": "garden"
+    },
+    {
+      "id": "noun-20",
+      "form": "viznp",
+      "partOfSpeech": "noun",
+      "gloss": "pillow"
+    },
+    {
+      "id": "noun-21",
+      "form": "karnp",
+      "partOfSpeech": "noun",
+      "gloss": "spoon"
+    },
+    {
+      "id": "noun-22",
+      "form": "moqnp",
+      "partOfSpeech": "noun",
+      "gloss": "marble"
+    },
+    {
+      "id": "noun-23",
+      "form": "sesnp",
+      "partOfSpeech": "noun",
+      "gloss": "saddle"
+    },
+    {
+      "id": "noun-24",
+      "form": "ruhnp",
+      "partOfSpeech": "noun",
+      "gloss": "bell"
+    },
+    {
+      "id": "noun-25",
+      "form": "bimnp",
+      "partOfSpeech": "noun",
+      "gloss": "thimble"
+    },
+    {
+      "id": "noun-26",
+      "form": "dafnp",
+      "partOfSpeech": "noun",
+      "gloss": "cabin"
+    },
+    {
+      "id": "noun-27",
+      "form": "goknp",
+      "partOfSpeech": "noun",
+      "gloss": "plank"
+    },
+    {
+      "id": "noun-28",
+      "form": "lelnp",
+      "partOfSpeech": "noun",
+      "gloss": "meadow"
+    },
+    {
+      "id": "noun-29",
+      "form": "fuvnp",
+      "partOfSpeech": "noun",
+      "gloss": "thread"
+    },
+    {
+      "id": "noun-30",
+      "form": "hignp",
+      "partOfSpeech": "noun",
+      "gloss": "mirror"
+    },
+    {
+      "id": "verb-01",
+      "form": "xqajenp",
+      "partOfSpeech": "verb",
+      "gloss": "to gather"
+    },
+    {
+      "id": "verb-02",
+      "form": "xzodonp",
+      "partOfSpeech": "verb",
+      "gloss": "to bend"
+    },
+    {
+      "id": "verb-03",
+      "form": "xxexanp",
+      "partOfSpeech": "verb",
+      "gloss": "to whisper"
+    },
+    {
+      "id": "verb-04",
+      "form": "xjubinp",
+      "partOfSpeech": "verb",
+      "gloss": "to stumble"
+    },
+    {
+      "id": "verb-05",
+      "form": "xvizunp",
+      "partOfSpeech": "verb",
+      "gloss": "to polish"
+    },
+    {
+      "id": "verb-06",
+      "form": "xkarenp",
+      "partOfSpeech": "verb",
+      "gloss": "to fold"
+    },
+    {
+      "id": "verb-07",
+      "form": "xmoqonp",
+      "partOfSpeech": "verb",
+      "gloss": "to drizzle"
+    },
+    {
+      "id": "verb-08",
+      "form": "xsesanp",
+      "partOfSpeech": "verb",
+      "gloss": "to wander"
+    },
+    {
+      "id": "verb-09",
+      "form": "xruhinp",
+      "partOfSpeech": "verb",
+      "gloss": "to untie"
+    },
+    {
+      "id": "verb-10",
+      "form": "xbimunp",
+      "partOfSpeech": "verb",
+      "gloss": "to balance"
+    },
+    {
+      "id": "verb-11",
+      "form": "xdafenp",
+      "partOfSpeech": "verb",
+      "gloss": "to murmur"
+    },
+    {
+      "id": "verb-12",
+      "form": "xgokonp",
+      "partOfSpeech": "verb",
+      "gloss": "to scatter"
+    },
+    {
+      "id": "verb-13",
+      "form": "xlelanp",
+      "partOfSpeech": "verb",
+      "gloss": "to nudge"
+    },
+    {
+      "id": "verb-14",
+      "form": "xfuvinp",
+      "partOfSpeech": "verb",
+      "gloss": "to shimmer"
+    },
+    {
+      "id": "verb-15",
+      "form": "xhigunp",
+      "partOfSpeech": "verb",
+      "gloss": "to crawl"
+    },
+    {
+      "id": "verb-16",
+      "form": "xqajnp",
+      "partOfSpeech": "verb",
+      "gloss": "to mend"
+    },
+    {
+      "id": "verb-17",
+      "form": "xzodnp",
+      "partOfSpeech": "verb",
+      "gloss": "to carry"
+    },
+    {
+      "id": "verb-18",
+      "form": "xxexnp",
+      "partOfSpeech": "verb",
+      "gloss": "to float"
+    },
+    {
+      "id": "verb-19",
+      "form": "xjubnp",
+      "partOfSpeech": "verb",
+      "gloss": "to braid"
+    },
+    {
+      "id": "verb-20",
+      "form": "xviznp",
+      "partOfSpeech": "verb",
+      "gloss": "to flatten"
+    },
+    {
+      "id": "verb-21",
+      "form": "xkarnp",
+      "partOfSpeech": "verb",
+      "gloss": "to hide"
+    },
+    {
+      "id": "verb-22",
+      "form": "xmoqnp",
+      "partOfSpeech": "verb",
+      "gloss": "to borrow"
+    },
+    {
+      "id": "verb-23",
+      "form": "xsesnp",
+      "partOfSpeech": "verb",
+      "gloss": "to sprinkle"
+    },
+    {
+      "id": "verb-24",
+      "form": "xruhnp",
+      "partOfSpeech": "verb",
+      "gloss": "to lean"
+    },
+    {
+      "id": "verb-25",
+      "form": "xbimnp",
+      "partOfSpeech": "verb",
+      "gloss": "to hatch"
+    },
+    {
+      "id": "verb-26",
+      "form": "xdafnp",
+      "partOfSpeech": "verb",
+      "gloss": "to ripple"
+    },
+    {
+      "id": "verb-27",
+      "form": "xgoknp",
+      "partOfSpeech": "verb",
+      "gloss": "to knock"
+    },
+    {
+      "id": "verb-28",
+      "form": "xlelnp",
+      "partOfSpeech": "verb",
+      "gloss": "to whistle"
+    },
+    {
+      "id": "verb-29",
+      "form": "xfuvnp",
+      "partOfSpeech": "verb",
+      "gloss": "to carve"
+    },
+    {
+      "id": "verb-30",
+      "form": "xhignp",
+      "partOfSpeech": "verb",
+      "gloss": "to yawn"
+    }
+  ],
+  "affixSlots": [
+    {
+      "id": "number",
+      "name": "Number",
+      "partOfSpeech": "noun",
+      "optional": true
+    },
+    {
+      "id": "case",
+      "name": "Case",
+      "partOfSpeech": "noun",
+      "optional": true
+    },
+    {
+      "id": "tense",
+      "name": "Tense",
+      "partOfSpeech": "verb",
+      "optional": true
+    },
+    {
+      "id": "person",
+      "name": "Person",
+      "partOfSpeech": "verb",
+      "optional": true
+    }
+  ],
+  "affixTemplates": [
+    {
+      "id": "noun-template",
+      "name": "Noun suffixes",
+      "partOfSpeech": "noun",
+      "prefixSlots": [],
+      "suffixSlots": [
+        "number",
+        "case"
+      ],
+      "final": true
+    },
+    {
+      "id": "verb-template",
+      "name": "Verb suffixes",
+      "partOfSpeech": "verb",
+      "prefixSlots": [],
+      "suffixSlots": [
+        "tense",
+        "person"
+      ],
+      "final": true
+    }
+  ],
+  "phonologicalRules": [
+    {
+      "id": "nasal-place-assimilation",
+      "name": "Nasal place assimilation",
+      "input": "n",
+      "output": "m",
+      "environment": "/ _ [B]"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "noun-bare",
+      "partOfSpeech": "noun",
+      "affixes": [],
+      "partition": "train"
+    },
+    {
+      "id": "noun-number",
+      "partOfSpeech": "noun",
+      "affixes": [
+        "plural"
+      ],
+      "partition": "train"
+    },
+    {
+      "id": "noun-case",
+      "partOfSpeech": "noun",
+      "affixes": [
+        "locative"
+      ],
+      "partition": "train"
+    },
+    {
+      "id": "noun-number-case",
+      "partOfSpeech": "noun",
+      "affixes": [
+        "plural",
+        "locative"
+      ],
+      "partition": "heldout"
+    },
+    {
+      "id": "verb-bare",
+      "partOfSpeech": "verb",
+      "affixes": [],
+      "partition": "train"
+    },
+    {
+      "id": "verb-past",
+      "partOfSpeech": "verb",
+      "affixes": [
+        "past"
+      ],
+      "partition": "train"
+    },
+    {
+      "id": "verb-person",
+      "partOfSpeech": "verb",
+      "affixes": [
+        "first-singular"
+      ],
+      "partition": "train"
+    },
+    {
+      "id": "verb-past-person",
+      "partOfSpeech": "verb",
+      "affixes": [
+        "past",
+        "first-singular"
+      ],
+      "partition": "heldout"
+    }
+  ],
+  "affixes": [
+    {
+      "id": "plural",
+      "partOfSpeech": "noun",
+      "slots": [
+        "number"
+      ],
+      "gloss": "PL",
+      "features": [
+        {
+          "featureId": "number",
+          "valueId": "plural"
+        }
+      ],
+      "allomorphs": [
+        {
+          "id": "plural-form",
+          "form": "ka",
+          "environment": null,
+          "morphType": "suffix"
+        }
+      ]
+    },
+    {
+      "id": "locative",
+      "partOfSpeech": "noun",
+      "slots": [
+        "case"
+      ],
+      "gloss": "LOC",
+      "features": [
+        {
+          "featureId": "case",
+          "valueId": "locative"
+        }
+      ],
+      "allomorphs": [
+        {
+          "id": "locative-form",
+          "form": "qi",
+          "environment": null,
+          "morphType": "suffix"
+        }
+      ]
+    },
+    {
+      "id": "past",
+      "partOfSpeech": "verb",
+      "slots": [
+        "tense"
+      ],
+      "gloss": "PST",
+      "features": [
+        {
+          "featureId": "tense",
+          "valueId": "past"
+        }
+      ],
+      "allomorphs": [
+        {
+          "id": "past-form",
+          "form": "zu",
+          "environment": null,
+          "morphType": "suffix"
+        }
+      ]
+    },
+    {
+      "id": "first-singular",
+      "partOfSpeech": "verb",
+      "slots": [
+        "person"
+      ],
+      "gloss": "1SG",
+      "features": [
+        {
+          "featureId": "person",
+          "valueId": "first-singular"
+        }
+      ],
+      "allomorphs": [
+        {
+          "id": "person-form",
+          "form": "me",
+          "environment": null,
+          "morphType": "suffix"
+        }
+      ]
+    }
+  ],
+  "defects": []
+}

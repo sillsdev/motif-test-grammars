@@ -1,0 +1,20 @@
+{
+  "id": "t1-lexicon-restore-missing-form",
+  "family": "lexicon",
+  "tier": "T1",
+  "set": "eval-t1-vexu",
+  "start": "gold-minus:missing-lexeme-form",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "proposal",
+      "pass": 0.99,
+      "weight": 1.0
+    }
+  ],
+  "status": "active"
+}

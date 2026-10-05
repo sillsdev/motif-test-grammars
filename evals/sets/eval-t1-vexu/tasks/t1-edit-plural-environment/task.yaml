@@ -1,0 +1,30 @@
+{
+  "id": "t1-edit-plural-environment",
+  "family": "edit",
+  "tier": "T1",
+  "set": "eval-t1-vexu",
+  "start": "gold-minus:plural-vowel-environment",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "coverage",
+      "words": "heldout",
+      "weight": 0.6,
+      "pass": 0.8
+    },
+    {
+      "type": "negatives",
+      "weight": 0.3,
+      "pass": 0.95
+    },
+    {
+      "type": "parsimony",
+      "weight": 0.1
+    }
+  ],
+  "status": "future"
+}

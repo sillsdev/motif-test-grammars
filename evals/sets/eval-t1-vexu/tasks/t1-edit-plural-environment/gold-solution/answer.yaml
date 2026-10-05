@@ -1,0 +1,8 @@
+{
+  "repair": {
+    "nounPlural": {
+      "afterVowel": "ra",
+      "afterConsonant": "ta"
+    }
+  }
+}

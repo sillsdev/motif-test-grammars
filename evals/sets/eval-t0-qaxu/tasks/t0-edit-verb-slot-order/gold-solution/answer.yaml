@@ -1,0 +1,9 @@
+{
+  "repair": {
+    "template": "verb-template",
+    "suffixSlots": [
+      "tense",
+      "person"
+    ]
+  }
+}

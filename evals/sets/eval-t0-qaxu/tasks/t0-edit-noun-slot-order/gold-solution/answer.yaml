@@ -1,0 +1,9 @@
+{
+  "repair": {
+    "template": "noun-template",
+    "suffixSlots": [
+      "number",
+      "case"
+    ]
+  }
+}

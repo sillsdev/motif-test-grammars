@@ -1,0 +1,8 @@
+{
+  "repair": {
+    "verbPast": {
+      "afterVowel": "nu",
+      "afterConsonant": "du"
+    }
+  }
+}
