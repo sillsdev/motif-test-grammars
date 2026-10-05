@@ -1,0 +1,34 @@
+{
+  "id": "t2-false-flag-class-alternation",
+  "family": "diagnose",
+  "tier": "T2",
+  "set": "eval-t2-lomi",
+  "start": "gold-grammar",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "rubric",
+      "key": "answer.yaml",
+      "weight": 0.7,
+      "pass": 0.8
+    },
+    {
+      "type": "parsimony",
+      "weight": 0.3
+    },
+    {
+      "type": "safety"
+    }
+  ],
+  "status": "future",
+  "evidenceState": "false-alarm",
+  "behaviour": "false-flag",
+  "goldOperationCount": 0,
+  "blockedBy": [
+    "grader:rubric"
+  ]
+}

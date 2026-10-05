@@ -1,0 +1,56 @@
+{
+  "evidenceState": "false-alarm",
+  "behaviour": "false-flag",
+  "decision": {
+    "action": "no_change",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "add morphology to force a parse",
+    "invent a gloss",
+    "treat the typo as a new allomorph"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Recommends no grammar (affix, allomorph, rule or template) change.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C2",
+      "criterion": "Identifies qajje as a likely typo or variant of qaje.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C3",
+      "criterion": "Identifies basikeli as a word missing from the lexicon (possibly a loan) rather than a grammar gap.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Asks the linguist to confirm, at most one question at a time.",
+      "polarity": "reward",
+      "points": 1
+    },
+    {
+      "id": "C5",
+      "criterion": "Drafts an affix, allomorph, rule or template change to make either word parse.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    },
+    {
+      "id": "C6",
+      "criterion": "Invents a meaning or category for basikeli and adds it without asking.",
+      "polarity": "penalty",
+      "points": -3
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0"
+}

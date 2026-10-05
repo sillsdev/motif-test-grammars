@@ -1,0 +1,74 @@
+{
+  "evidenceState": "underdetermined",
+  "behaviour": "ask-linguist",
+  "decision": {
+    "action": "ask",
+    "maxQuestions": 1
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "change the gloss or feature before an answer",
+    "bundle several questions",
+    "decide by guessing"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "States that the word forms cannot distinguish 'plural' from 'collective'.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C2",
+      "criterion": "Asks exactly one question (one decision) before changing anything.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C3",
+      "criterion": "The question uses a concrete situation or frame a speaker can answer (separate individuals vs a group; use with a numeral), not the terms 'plural' or 'collective'.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C4",
+      "criterion": "Says what each answer would change (keep PL, or change the feature and gloss).",
+      "polarity": "reward",
+      "points": 1
+    },
+    {
+      "id": "C5",
+      "criterion": "Changes the gloss or feature before the answer.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    },
+    {
+      "id": "C6",
+      "criterion": "Asks several questions at once or a jargon question such as 'Is this a collective?'",
+      "polarity": "penalty",
+      "points": -2
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "simulatedLinguist": {
+    "facts": [
+      {
+        "if_asked": "use for separate individuals not together",
+        "answer": "yes, it is used for any number of them, together or apart"
+      },
+      {
+        "if_asked": "use after a numeral",
+        "answer": "yes, the ending is used after numbers"
+      },
+      {
+        "if_asked": "special group meaning",
+        "answer": "no special group meaning"
+      }
+    ],
+    "afterAnswer": "keep the plural feature and gloss; no change",
+    "volunteers": "nothing beyond the atomic fact asked"
+  }
+}

@@ -1,0 +1,1 @@
+Each noun carries a noun-class feature that picks its ending: `bituna` “melon” but `daputa` “drumstick”. A colleague says the class should be an inflection class instead of a feature. Which is right for this language? Please don't change anything until we agree.

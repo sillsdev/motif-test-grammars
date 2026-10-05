@@ -5,7 +5,6 @@
   "set": "eval-t1-vexu",
   "start": "gold-minus:plural-vowel-allomorph-removed",
   "prompt": "prompt.md",
-  "status": "future",
   "limits": {
     "turns": 60,
     "wall_seconds": 1800
@@ -26,5 +25,11 @@
       "type": "parsimony",
       "weight": 0.1
     }
+  ],
+  "status": "future",
+  "evidenceState": "settled",
+  "behaviour": "repair",
+  "blockedBy": [
+    "composer:allomorph"
   ]
 }

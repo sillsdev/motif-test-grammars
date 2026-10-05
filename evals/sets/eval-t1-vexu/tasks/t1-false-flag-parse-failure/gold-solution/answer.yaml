@@ -1,0 +1,8 @@
+{
+  "decision": {
+    "action": "no_change",
+    "operations": []
+  },
+  "question": "Is basikeli a new word, and what does it mean?",
+  "message": "Probably nothing in the grammar. `qajje` looks like `qaje` “basket” typed with a doubled j: no ending in the grammar is -je, and no other word doubles a consonant. `basikeli` isn't in the dictionary at all; it may be a new or borrowed noun. Could you check the transcription of qajje, and tell me what basikeli means? Then the fix is a spelling correction and one new dictionary entry, not new endings."
+}

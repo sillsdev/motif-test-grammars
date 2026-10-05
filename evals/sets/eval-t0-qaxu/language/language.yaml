@@ -4,39 +4,38 @@
   "seed": 94721,
   "title": "eval-t0-qaxu invented language",
   "language": {
-    "name": "eval-t0-qaxu synthetic language",
+    "name": "Invented language qaa",
     "tag": "qaa"
   },
   "teaches": [
     "noun and verb categories",
     "ordered suffix slots",
     "inflection features",
-    "generalization to unseen stem-affix sequences"
+    "generalization to unseen stem-affix sequences",
+    "recognizing when suffix order is not attested"
   ],
-  "summary": "Invented T0 morphology for controlled grammar-building tasks.",
-  "disclaimer": "SYNTHETIC EXAMPLE. All forms and meanings in this set are invented for parser evaluation.",
-  "description": "SYNTHETIC EXAMPLE. eval-t0-qaxu is an invented language with no real-language source.",
+  "summary": "Invented T0 morphology: unconditioned noun and verb suffixes in ordered optional slots.",
+  "disclaimer": "SYNTHETIC EXAMPLE. All forms and meanings in this set are invented for parser evaluation; they describe no real language.",
+  "description": "Invented language for grammar practice. Its words and meanings are made up and describe no real language.",
   "phonemes": [
     "a",
-    "b",
-    "d",
     "e",
-    "f",
-    "g",
     "h",
     "i",
     "j",
     "k",
     "l",
     "m",
+    "n",
     "o",
+    "p",
     "q",
     "r",
     "s",
+    "t",
     "u",
-    "v",
-    "x",
-    "z"
+    "w",
+    "x"
   ],
   "naturalClasses": [],
   "featureDefinitions": [
@@ -109,357 +108,357 @@
     },
     {
       "id": "noun-02",
-      "form": "zodo",
+      "form": "peston",
       "partOfSpeech": "noun",
-      "gloss": "pebble"
+      "gloss": "river stone"
     },
     {
       "id": "noun-03",
-      "form": "xexa",
+      "form": "risu",
       "partOfSpeech": "noun",
-      "gloss": "reed"
+      "gloss": "ash"
     },
     {
       "id": "noun-04",
-      "form": "jubi",
+      "form": "apal",
       "partOfSpeech": "noun",
-      "gloss": "lantern"
+      "gloss": "sandal"
     },
     {
       "id": "noun-05",
-      "form": "vizu",
+      "form": "inpi",
       "partOfSpeech": "noun",
-      "gloss": "button"
+      "gloss": "goat"
     },
     {
       "id": "noun-06",
-      "form": "kare",
+      "form": "qeke",
       "partOfSpeech": "noun",
-      "gloss": "cloud"
+      "gloss": "fence"
     },
     {
       "id": "noun-07",
-      "form": "moqo",
+      "form": "usis",
+      "partOfSpeech": "noun",
+      "gloss": "ladle"
+    },
+    {
+      "id": "noun-08",
+      "form": "rike",
+      "partOfSpeech": "noun",
+      "gloss": "hill"
+    },
+    {
+      "id": "noun-09",
+      "form": "hore",
+      "partOfSpeech": "noun",
+      "gloss": "rope"
+    },
+    {
+      "id": "noun-10",
+      "form": "toqe",
+      "partOfSpeech": "noun",
+      "gloss": "drum"
+    },
+    {
+      "id": "noun-11",
+      "form": "xastu",
+      "partOfSpeech": "noun",
+      "gloss": "rain"
+    },
+    {
+      "id": "noun-12",
+      "form": "tisnu",
+      "partOfSpeech": "noun",
+      "gloss": "cave"
+    },
+    {
+      "id": "noun-13",
+      "form": "johojo",
+      "partOfSpeech": "noun",
+      "gloss": "bead"
+    },
+    {
+      "id": "noun-14",
+      "form": "ripe",
+      "partOfSpeech": "noun",
+      "gloss": "thorn"
+    },
+    {
+      "id": "noun-15",
+      "form": "luku",
+      "partOfSpeech": "noun",
+      "gloss": "pot"
+    },
+    {
+      "id": "noun-16",
+      "form": "riqu",
+      "partOfSpeech": "noun",
+      "gloss": "village"
+    },
+    {
+      "id": "noun-17",
+      "form": "lemas",
+      "partOfSpeech": "noun",
+      "gloss": "smoke"
+    },
+    {
+      "id": "noun-18",
+      "form": "wika",
+      "partOfSpeech": "noun",
+      "gloss": "nest"
+    },
+    {
+      "id": "noun-19",
+      "form": "rupo",
+      "partOfSpeech": "noun",
+      "gloss": "path"
+    },
+    {
+      "id": "noun-20",
+      "form": "oxala",
+      "partOfSpeech": "noun",
+      "gloss": "salt"
+    },
+    {
+      "id": "noun-21",
+      "form": "manu",
+      "partOfSpeech": "noun",
+      "gloss": "spear"
+    },
+    {
+      "id": "noun-22",
+      "form": "solipas",
+      "partOfSpeech": "noun",
+      "gloss": "mat"
+    },
+    {
+      "id": "noun-23",
+      "form": "haqon",
+      "partOfSpeech": "noun",
+      "gloss": "moon"
+    },
+    {
+      "id": "noun-24",
+      "form": "repina",
+      "partOfSpeech": "noun",
+      "gloss": "seed"
+    },
+    {
+      "id": "noun-25",
+      "form": "tuxexo",
       "partOfSpeech": "noun",
       "gloss": "shell"
     },
     {
-      "id": "noun-08",
-      "form": "sesa",
-      "partOfSpeech": "noun",
-      "gloss": "ladder"
-    },
-    {
-      "id": "noun-09",
-      "form": "ruhi",
-      "partOfSpeech": "noun",
-      "gloss": "plum"
-    },
-    {
-      "id": "noun-10",
-      "form": "bimu",
-      "partOfSpeech": "noun",
-      "gloss": "blanket"
-    },
-    {
-      "id": "noun-11",
-      "form": "dafe",
-      "partOfSpeech": "noun",
-      "gloss": "kettle"
-    },
-    {
-      "id": "noun-12",
-      "form": "goko",
-      "partOfSpeech": "noun",
-      "gloss": "ribbon"
-    },
-    {
-      "id": "noun-13",
-      "form": "lela",
-      "partOfSpeech": "noun",
-      "gloss": "candle"
-    },
-    {
-      "id": "noun-14",
-      "form": "fuvi",
-      "partOfSpeech": "noun",
-      "gloss": "feather"
-    },
-    {
-      "id": "noun-15",
-      "form": "higu",
-      "partOfSpeech": "noun",
-      "gloss": "bottle"
-    },
-    {
-      "id": "noun-16",
-      "form": "qaj",
-      "partOfSpeech": "noun",
-      "gloss": "window"
-    },
-    {
-      "id": "noun-17",
-      "form": "zod",
-      "partOfSpeech": "noun",
-      "gloss": "hammer"
-    },
-    {
-      "id": "noun-18",
-      "form": "xex",
-      "partOfSpeech": "noun",
-      "gloss": "pocket"
-    },
-    {
-      "id": "noun-19",
-      "form": "jub",
-      "partOfSpeech": "noun",
-      "gloss": "garden"
-    },
-    {
-      "id": "noun-20",
-      "form": "viz",
-      "partOfSpeech": "noun",
-      "gloss": "pillow"
-    },
-    {
-      "id": "noun-21",
-      "form": "kar",
-      "partOfSpeech": "noun",
-      "gloss": "spoon"
-    },
-    {
-      "id": "noun-22",
-      "form": "moq",
-      "partOfSpeech": "noun",
-      "gloss": "marble"
-    },
-    {
-      "id": "noun-23",
-      "form": "ses",
-      "partOfSpeech": "noun",
-      "gloss": "saddle"
-    },
-    {
-      "id": "noun-24",
-      "form": "ruh",
-      "partOfSpeech": "noun",
-      "gloss": "bell"
-    },
-    {
-      "id": "noun-25",
-      "form": "bim",
-      "partOfSpeech": "noun",
-      "gloss": "thimble"
-    },
-    {
       "id": "noun-26",
-      "form": "daf",
+      "form": "jenujox",
       "partOfSpeech": "noun",
-      "gloss": "cabin"
+      "gloss": "lake"
     },
     {
       "id": "noun-27",
-      "form": "gok",
+      "form": "kaka",
       "partOfSpeech": "noun",
-      "gloss": "plank"
+      "gloss": "roof"
     },
     {
       "id": "noun-28",
-      "form": "lel",
+      "form": "iki",
       "partOfSpeech": "noun",
-      "gloss": "meadow"
+      "gloss": "cloth"
     },
     {
       "id": "noun-29",
-      "form": "fuv",
+      "form": "luka",
       "partOfSpeech": "noun",
-      "gloss": "thread"
+      "gloss": "honey"
     },
     {
       "id": "noun-30",
-      "form": "hig",
+      "form": "xopu",
       "partOfSpeech": "noun",
-      "gloss": "mirror"
+      "gloss": "door"
     },
     {
       "id": "verb-01",
-      "form": "xqaje",
+      "form": "aqequx",
       "partOfSpeech": "verb",
-      "gloss": "to gather"
+      "gloss": "to sing"
     },
     {
       "id": "verb-02",
-      "form": "xzodo",
+      "form": "mala",
       "partOfSpeech": "verb",
-      "gloss": "to bend"
+      "gloss": "to cook"
     },
     {
       "id": "verb-03",
-      "form": "xxexa",
+      "form": "honrose",
       "partOfSpeech": "verb",
-      "gloss": "to whisper"
+      "gloss": "to climb"
     },
     {
       "id": "verb-04",
-      "form": "xjubi",
+      "form": "qosi",
       "partOfSpeech": "verb",
-      "gloss": "to stumble"
+      "gloss": "to weave"
     },
     {
       "id": "verb-05",
-      "form": "xvizu",
+      "form": "makir",
       "partOfSpeech": "verb",
-      "gloss": "to polish"
+      "gloss": "to dig"
     },
     {
       "id": "verb-06",
-      "form": "xkare",
+      "form": "ixe",
       "partOfSpeech": "verb",
-      "gloss": "to fold"
+      "gloss": "to sell"
     },
     {
       "id": "verb-07",
-      "form": "xmoqo",
+      "form": "hehas",
       "partOfSpeech": "verb",
-      "gloss": "to drizzle"
+      "gloss": "to hunt"
     },
     {
       "id": "verb-08",
-      "form": "xsesa",
+      "form": "miseko",
       "partOfSpeech": "verb",
-      "gloss": "to wander"
+      "gloss": "to sleep"
     },
     {
       "id": "verb-09",
-      "form": "xruhi",
+      "form": "tolen",
       "partOfSpeech": "verb",
-      "gloss": "to untie"
+      "gloss": "to wash"
     },
     {
       "id": "verb-10",
-      "form": "xbimu",
+      "form": "kenxus",
       "partOfSpeech": "verb",
-      "gloss": "to balance"
+      "gloss": "to grind"
     },
     {
       "id": "verb-11",
-      "form": "xdafe",
+      "form": "ropa",
       "partOfSpeech": "verb",
-      "gloss": "to murmur"
+      "gloss": "to plant"
     },
     {
       "id": "verb-12",
-      "form": "xgoko",
+      "form": "turi",
       "partOfSpeech": "verb",
-      "gloss": "to scatter"
+      "gloss": "to call"
     },
     {
       "id": "verb-13",
-      "form": "xlela",
+      "form": "nujo",
       "partOfSpeech": "verb",
-      "gloss": "to nudge"
+      "gloss": "to sweep"
     },
     {
       "id": "verb-14",
-      "form": "xfuvi",
+      "form": "liskenwe",
       "partOfSpeech": "verb",
-      "gloss": "to shimmer"
+      "gloss": "to shout"
     },
     {
       "id": "verb-15",
-      "form": "xhigu",
+      "form": "himepu",
       "partOfSpeech": "verb",
-      "gloss": "to crawl"
+      "gloss": "to laugh"
     },
     {
       "id": "verb-16",
-      "form": "xqaj",
-      "partOfSpeech": "verb",
-      "gloss": "to mend"
-    },
-    {
-      "id": "verb-17",
-      "form": "xzod",
-      "partOfSpeech": "verb",
-      "gloss": "to carry"
-    },
-    {
-      "id": "verb-18",
-      "form": "xxex",
-      "partOfSpeech": "verb",
-      "gloss": "to float"
-    },
-    {
-      "id": "verb-19",
-      "form": "xjub",
-      "partOfSpeech": "verb",
-      "gloss": "to braid"
-    },
-    {
-      "id": "verb-20",
-      "form": "xviz",
-      "partOfSpeech": "verb",
-      "gloss": "to flatten"
-    },
-    {
-      "id": "verb-21",
-      "form": "xkar",
-      "partOfSpeech": "verb",
-      "gloss": "to hide"
-    },
-    {
-      "id": "verb-22",
-      "form": "xmoq",
+      "form": "punnux",
       "partOfSpeech": "verb",
       "gloss": "to borrow"
     },
     {
-      "id": "verb-23",
-      "form": "xses",
-      "partOfSpeech": "verb",
-      "gloss": "to sprinkle"
-    },
-    {
-      "id": "verb-24",
-      "form": "xruh",
-      "partOfSpeech": "verb",
-      "gloss": "to lean"
-    },
-    {
-      "id": "verb-25",
-      "form": "xbim",
-      "partOfSpeech": "verb",
-      "gloss": "to hatch"
-    },
-    {
-      "id": "verb-26",
-      "form": "xdaf",
-      "partOfSpeech": "verb",
-      "gloss": "to ripple"
-    },
-    {
-      "id": "verb-27",
-      "form": "xgok",
-      "partOfSpeech": "verb",
-      "gloss": "to knock"
-    },
-    {
-      "id": "verb-28",
-      "form": "xlel",
-      "partOfSpeech": "verb",
-      "gloss": "to whistle"
-    },
-    {
-      "id": "verb-29",
-      "form": "xfuv",
+      "id": "verb-17",
+      "form": "eqa",
       "partOfSpeech": "verb",
       "gloss": "to carve"
     },
     {
-      "id": "verb-30",
-      "form": "xhig",
+      "id": "verb-18",
+      "form": "ransape",
       "partOfSpeech": "verb",
-      "gloss": "to yawn"
+      "gloss": "to pull"
+    },
+    {
+      "id": "verb-19",
+      "form": "ihe",
+      "partOfSpeech": "verb",
+      "gloss": "to hide"
+    },
+    {
+      "id": "verb-20",
+      "form": "kepeme",
+      "partOfSpeech": "verb",
+      "gloss": "to dance"
+    },
+    {
+      "id": "verb-21",
+      "form": "qetu",
+      "partOfSpeech": "verb",
+      "gloss": "to fish"
+    },
+    {
+      "id": "verb-22",
+      "form": "xoqa",
+      "partOfSpeech": "verb",
+      "gloss": "to tie"
+    },
+    {
+      "id": "verb-23",
+      "form": "lipu",
+      "partOfSpeech": "verb",
+      "gloss": "to pour"
+    },
+    {
+      "id": "verb-24",
+      "form": "omehon",
+      "partOfSpeech": "verb",
+      "gloss": "to bite"
+    },
+    {
+      "id": "verb-25",
+      "form": "uwi",
+      "partOfSpeech": "verb",
+      "gloss": "to run"
+    },
+    {
+      "id": "verb-26",
+      "form": "paqo",
+      "partOfSpeech": "verb",
+      "gloss": "to count"
+    },
+    {
+      "id": "verb-27",
+      "form": "tusqi",
+      "partOfSpeech": "verb",
+      "gloss": "to follow"
+    },
+    {
+      "id": "verb-28",
+      "form": "qunpuq",
+      "partOfSpeech": "verb",
+      "gloss": "to blow"
+    },
+    {
+      "id": "verb-29",
+      "form": "weno",
+      "partOfSpeech": "verb",
+      "gloss": "to spin"
+    },
+    {
+      "id": "verb-30",
+      "form": "pisju",
+      "partOfSpeech": "verb",
+      "gloss": "to wait"
     }
   ],
   "affixSlots": [
@@ -594,7 +593,7 @@
       "allomorphs": [
         {
           "id": "plural-form",
-          "form": "ka",
+          "form": "wa",
           "environment": null,
           "morphType": "suffix"
         }
@@ -616,7 +615,7 @@
       "allomorphs": [
         {
           "id": "locative-form",
-          "form": "qi",
+          "form": "ni",
           "environment": null,
           "morphType": "suffix"
         }
@@ -638,7 +637,7 @@
       "allomorphs": [
         {
           "id": "past-form",
-          "form": "zu",
+          "form": "ta",
           "environment": null,
           "morphType": "suffix"
         }
@@ -660,7 +659,7 @@
       "allomorphs": [
         {
           "id": "person-form",
-          "form": "me",
+          "form": "mu",
           "environment": null,
           "morphType": "suffix"
         }

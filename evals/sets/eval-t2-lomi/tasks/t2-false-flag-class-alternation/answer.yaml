@@ -1,0 +1,45 @@
+{
+  "evidenceState": "false-alarm",
+  "behaviour": "false-flag",
+  "decision": {
+    "action": "no_change",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "write an n→t rule",
+    "merge -na and -ta",
+    "remove class features"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Recommends no change and drafts nothing.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C2",
+      "criterion": "Cites at least one pair of nouns ending in the same sound that take different endings.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C3",
+      "criterion": "Explains that the choice is conditioned by lexical class, not by sound.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Drafts a phonological rule, merges the two allomorphs, or removes the class feature.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "grounding": "Parsimony review measure #5 (keep allomorphs when conditioning is morphological); Black §3.7.2"
+}

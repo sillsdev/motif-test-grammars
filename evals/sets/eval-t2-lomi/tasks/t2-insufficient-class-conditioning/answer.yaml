@@ -1,0 +1,56 @@
+{
+  "evidenceState": "insufficient",
+  "behaviour": "insufficient-data",
+  "decision": {
+    "action": "abstain",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "draft environments or class features",
+    "assert phonological conditioning"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "States both hypotheses: conditioning by the stem's last sound, and lexical class membership.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C2",
+      "criterion": "States that the six forms cannot distinguish them.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C3",
+      "criterion": "Drafts nothing.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Names the deciding evidence: a vowel-final noun with -ta or a consonant-final noun with -na.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C5",
+      "criterion": "Drafts sound-conditioned allomorphs (environments) for -na/-ta.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    },
+    {
+      "id": "C6",
+      "criterion": "Asserts either analysis as established.",
+      "polarity": "penalty",
+      "points": -3
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "truthNotShown": "lexical class: e.g. gegu “bowl” (vowel-final) takes -ta (geguta); tusis “anchor” (consonant-final) takes -na (tusisna)"
+}

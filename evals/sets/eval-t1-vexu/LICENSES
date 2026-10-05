@@ -1,2 +1,3 @@
 This set contains synthetic invented-language data and is available under the MIT License.
-No real-language source data is included. Motif software is licensed separately under the repository-root MIT License.
+No real-language source data is included: every form, gloss and rule was invented for this set. Its design follows published methodology (H. Andrew Black's Conceptual Introduction to Morphological Parsing for FLEx) and typological surveys, but copies no forms or text from them.
+Motif software is licensed separately under the repository-root MIT License.

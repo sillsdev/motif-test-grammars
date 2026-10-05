@@ -1,27 +1,28 @@
 {
   "id": "eval-t3-panu",
   "tier": "T3",
-  "seed": 83519,
+  "seed": 33047,
   "title": "eval-t3-panu invented language",
   "language": {
-    "name": "eval-t3-panu synthetic language",
+    "name": "Invented language qad",
     "tag": "qad"
   },
   "teaches": [
     "noun and verb categories",
     "ordered suffix slots",
-    "nasal place assimilation before bilabials",
+    "allomorphs conditioned by the stem's final sound",
+    "nasal place assimilation across a morpheme boundary",
+    "one phonological rule instead of listed stem allomorphs",
     "generalization to unseen stem-affix sequences"
   ],
-  "summary": "Invented T3 morphology with a regular nasal assimilation rule.",
-  "disclaimer": "SYNTHETIC EXAMPLE. All forms and meanings in this set are invented for parser evaluation.",
-  "description": "SYNTHETIC EXAMPLE. eval-t3-panu is an invented language with no real-language source.",
+  "summary": "Invented T3 morphology: stem-final n becomes m before suffixes beginning with p, b or m.",
+  "disclaimer": "SYNTHETIC EXAMPLE. All forms and meanings in this set are invented for parser evaluation; they describe no real language.",
+  "description": "Invented language for grammar practice. Its words and meanings are made up and describe no real language.",
   "phonemes": [
     "a",
     "b",
     "d",
     "e",
-    "f",
     "g",
     "h",
     "i",
@@ -29,17 +30,14 @@
     "k",
     "l",
     "m",
+    "n",
     "o",
-    "q",
+    "p",
     "r",
     "s",
+    "t",
     "u",
-    "v",
-    "x",
-    "z",
-    "p",
-    "n",
-    "t"
+    "w"
   ],
   "phonologicalFeatureDefinitions": [
     {
@@ -259,24 +257,6 @@
         "valueId": "e"
       }
     ],
-    "f": [
-      {
-        "featureId": "place",
-        "valueId": "labiodental"
-      },
-      {
-        "featureId": "manner",
-        "valueId": "fricative"
-      },
-      {
-        "featureId": "voicing",
-        "valueId": "voiceless"
-      },
-      {
-        "featureId": "vowelQuality",
-        "valueId": "consonant"
-      }
-    ],
     "g": [
       {
         "featureId": "place",
@@ -338,7 +318,7 @@
       },
       {
         "featureId": "manner",
-        "valueId": "affricate"
+        "valueId": "approximant"
       },
       {
         "featureId": "voicing",
@@ -403,6 +383,24 @@
         "valueId": "consonant"
       }
     ],
+    "n": [
+      {
+        "featureId": "place",
+        "valueId": "alveolar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "nasal"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiced"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
     "o": [
       {
         "featureId": "place",
@@ -421,10 +419,10 @@
         "valueId": "o"
       }
     ],
-    "q": [
+    "p": [
       {
         "featureId": "place",
-        "valueId": "uvular"
+        "valueId": "bilabial"
       },
       {
         "featureId": "manner",
@@ -475,6 +473,24 @@
         "valueId": "consonant"
       }
     ],
+    "t": [
+      {
+        "featureId": "place",
+        "valueId": "alveolar"
+      },
+      {
+        "featureId": "manner",
+        "valueId": "stop"
+      },
+      {
+        "featureId": "voicing",
+        "valueId": "voiceless"
+      },
+      {
+        "featureId": "vowelQuality",
+        "valueId": "consonant"
+      }
+    ],
     "u": [
       {
         "featureId": "place",
@@ -493,108 +509,18 @@
         "valueId": "u"
       }
     ],
-    "v": [
-      {
-        "featureId": "place",
-        "valueId": "labiodental"
-      },
-      {
-        "featureId": "manner",
-        "valueId": "fricative"
-      },
-      {
-        "featureId": "voicing",
-        "valueId": "voiced"
-      },
-      {
-        "featureId": "vowelQuality",
-        "valueId": "consonant"
-      }
-    ],
-    "x": [
-      {
-        "featureId": "place",
-        "valueId": "velar"
-      },
-      {
-        "featureId": "manner",
-        "valueId": "fricative"
-      },
-      {
-        "featureId": "voicing",
-        "valueId": "voiceless"
-      },
-      {
-        "featureId": "vowelQuality",
-        "valueId": "consonant"
-      }
-    ],
-    "z": [
-      {
-        "featureId": "place",
-        "valueId": "alveolar"
-      },
-      {
-        "featureId": "manner",
-        "valueId": "fricative"
-      },
-      {
-        "featureId": "voicing",
-        "valueId": "voiced"
-      },
-      {
-        "featureId": "vowelQuality",
-        "valueId": "consonant"
-      }
-    ],
-    "p": [
+    "w": [
       {
         "featureId": "place",
         "valueId": "bilabial"
       },
       {
         "featureId": "manner",
-        "valueId": "stop"
-      },
-      {
-        "featureId": "voicing",
-        "valueId": "voiceless"
-      },
-      {
-        "featureId": "vowelQuality",
-        "valueId": "consonant"
-      }
-    ],
-    "n": [
-      {
-        "featureId": "place",
-        "valueId": "alveolar"
-      },
-      {
-        "featureId": "manner",
-        "valueId": "nasal"
+        "valueId": "approximant"
       },
       {
         "featureId": "voicing",
         "valueId": "voiced"
-      },
-      {
-        "featureId": "vowelQuality",
-        "valueId": "consonant"
-      }
-    ],
-    "t": [
-      {
-        "featureId": "place",
-        "valueId": "alveolar"
-      },
-      {
-        "featureId": "manner",
-        "valueId": "stop"
-      },
-      {
-        "featureId": "voicing",
-        "valueId": "voiceless"
       },
       {
         "featureId": "vowelQuality",
@@ -603,6 +529,39 @@
     ]
   },
   "naturalClasses": [
+    {
+      "id": "vowels",
+      "name": "Vowels",
+      "abbreviation": "V",
+      "phonemes": [
+        "a",
+        "e",
+        "i",
+        "o",
+        "u"
+      ]
+    },
+    {
+      "id": "consonants",
+      "name": "Consonants",
+      "abbreviation": "C",
+      "phonemes": [
+        "b",
+        "d",
+        "g",
+        "h",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "p",
+        "r",
+        "s",
+        "t",
+        "w"
+      ]
+    },
     {
       "id": "bilabials",
       "name": "Bilabials",
@@ -664,7 +623,18 @@
       ]
     }
   ],
-  "environments": [],
+  "environments": [
+    {
+      "id": "after-vowel",
+      "name": "After a vowel",
+      "representation": "/[V]_"
+    },
+    {
+      "id": "after-consonant",
+      "name": "After a consonant",
+      "representation": "/[C]_"
+    }
+  ],
   "partsOfSpeech": [
     {
       "id": "noun",
@@ -678,363 +648,363 @@
   "stems": [
     {
       "id": "noun-01",
-      "form": "qajenp",
+      "form": "pidegi",
       "partOfSpeech": "noun",
-      "gloss": "basket"
+      "gloss": "palm"
     },
     {
       "id": "noun-02",
-      "form": "zodonp",
+      "form": "ralipi",
       "partOfSpeech": "noun",
-      "gloss": "pebble"
+      "gloss": "uncle"
     },
     {
       "id": "noun-03",
-      "form": "xexanp",
+      "form": "kogun",
       "partOfSpeech": "noun",
-      "gloss": "reed"
+      "gloss": "bundle"
     },
     {
       "id": "noun-04",
-      "form": "jubinp",
+      "form": "aget",
       "partOfSpeech": "noun",
-      "gloss": "lantern"
+      "gloss": "hearth"
     },
     {
       "id": "noun-05",
-      "form": "vizunp",
+      "form": "gobo",
       "partOfSpeech": "noun",
-      "gloss": "button"
+      "gloss": "crab"
     },
     {
       "id": "noun-06",
-      "form": "karenp",
+      "form": "muman",
       "partOfSpeech": "noun",
-      "gloss": "cloud"
+      "gloss": "pigeon"
     },
     {
       "id": "noun-07",
-      "form": "moqonp",
+      "form": "logidan",
       "partOfSpeech": "noun",
-      "gloss": "shell"
+      "gloss": "sling"
     },
     {
       "id": "noun-08",
-      "form": "sesanp",
+      "form": "mero",
       "partOfSpeech": "noun",
-      "gloss": "ladder"
+      "gloss": "clay"
     },
     {
       "id": "noun-09",
-      "form": "ruhinp",
+      "form": "dulun",
       "partOfSpeech": "noun",
-      "gloss": "plum"
+      "gloss": "fern"
     },
     {
       "id": "noun-10",
-      "form": "bimunp",
+      "form": "wogi",
       "partOfSpeech": "noun",
-      "gloss": "blanket"
+      "gloss": "gate"
     },
     {
       "id": "noun-11",
-      "form": "dafenp",
+      "form": "jowi",
       "partOfSpeech": "noun",
-      "gloss": "kettle"
+      "gloss": "slope"
     },
     {
       "id": "noun-12",
-      "form": "gokonp",
+      "form": "mubular",
       "partOfSpeech": "noun",
-      "gloss": "ribbon"
+      "gloss": "spark"
     },
     {
       "id": "noun-13",
-      "form": "lelanp",
+      "form": "gase",
       "partOfSpeech": "noun",
-      "gloss": "candle"
+      "gloss": "ladder rung"
     },
     {
       "id": "noun-14",
-      "form": "fuvinp",
+      "form": "hume",
       "partOfSpeech": "noun",
-      "gloss": "feather"
+      "gloss": "termite"
     },
     {
       "id": "noun-15",
-      "form": "higunp",
+      "form": "bukun",
       "partOfSpeech": "noun",
-      "gloss": "bottle"
+      "gloss": "bracelet"
     },
     {
       "id": "noun-16",
-      "form": "qajnp",
+      "form": "powo",
       "partOfSpeech": "noun",
-      "gloss": "window"
+      "gloss": "porridge"
     },
     {
       "id": "noun-17",
-      "form": "zodnp",
+      "form": "mehon",
       "partOfSpeech": "noun",
-      "gloss": "hammer"
+      "gloss": "dew"
     },
     {
       "id": "noun-18",
-      "form": "xexnp",
+      "form": "wotudu",
       "partOfSpeech": "noun",
-      "gloss": "pocket"
+      "gloss": "trough"
     },
     {
       "id": "noun-19",
-      "form": "jubnp",
+      "form": "wogon",
       "partOfSpeech": "noun",
-      "gloss": "garden"
+      "gloss": "flute"
     },
     {
       "id": "noun-20",
-      "form": "viznp",
+      "form": "bubor",
       "partOfSpeech": "noun",
-      "gloss": "pillow"
+      "gloss": "reef"
     },
     {
       "id": "noun-21",
-      "form": "karnp",
+      "form": "pudetun",
       "partOfSpeech": "noun",
-      "gloss": "spoon"
+      "gloss": "squash"
     },
     {
       "id": "noun-22",
-      "form": "moqnp",
+      "form": "ruho",
       "partOfSpeech": "noun",
-      "gloss": "marble"
+      "gloss": "pestle"
     },
     {
       "id": "noun-23",
-      "form": "sesnp",
+      "form": "diki",
       "partOfSpeech": "noun",
-      "gloss": "saddle"
+      "gloss": "goatskin"
     },
     {
       "id": "noun-24",
-      "form": "ruhnp",
+      "form": "reri",
       "partOfSpeech": "noun",
-      "gloss": "bell"
+      "gloss": "cliff"
     },
     {
       "id": "noun-25",
-      "form": "bimnp",
+      "form": "rowor",
       "partOfSpeech": "noun",
-      "gloss": "thimble"
+      "gloss": "mango"
     },
     {
       "id": "noun-26",
-      "form": "dafnp",
+      "form": "loru",
       "partOfSpeech": "noun",
-      "gloss": "cabin"
+      "gloss": "loincloth"
     },
     {
       "id": "noun-27",
-      "form": "goknp",
+      "form": "wowikon",
       "partOfSpeech": "noun",
-      "gloss": "plank"
+      "gloss": "beehive"
     },
     {
       "id": "noun-28",
-      "form": "lelnp",
+      "form": "weli",
       "partOfSpeech": "noun",
-      "gloss": "meadow"
+      "gloss": "tamarind"
     },
     {
       "id": "noun-29",
-      "form": "fuvnp",
+      "form": "turo",
       "partOfSpeech": "noun",
-      "gloss": "thread"
+      "gloss": "puddle"
     },
     {
       "id": "noun-30",
-      "form": "hignp",
+      "form": "uwen",
       "partOfSpeech": "noun",
-      "gloss": "mirror"
+      "gloss": "net"
     },
     {
       "id": "verb-01",
-      "form": "xqajenp",
+      "form": "johi",
       "partOfSpeech": "verb",
-      "gloss": "to gather"
+      "gloss": "to cough"
     },
     {
       "id": "verb-02",
-      "form": "xzodonp",
+      "form": "isen",
       "partOfSpeech": "verb",
-      "gloss": "to bend"
+      "gloss": "to sharpen"
     },
     {
       "id": "verb-03",
-      "form": "xxexanp",
+      "form": "wogul",
       "partOfSpeech": "verb",
-      "gloss": "to whisper"
+      "gloss": "to gossip"
     },
     {
       "id": "verb-04",
-      "form": "xjubinp",
+      "form": "kukuhu",
       "partOfSpeech": "verb",
-      "gloss": "to stumble"
+      "gloss": "to tremble"
     },
     {
       "id": "verb-05",
-      "form": "xvizunp",
+      "form": "jadun",
       "partOfSpeech": "verb",
-      "gloss": "to polish"
+      "gloss": "to thatch"
     },
     {
       "id": "verb-06",
-      "form": "xkarenp",
+      "form": "bumun",
       "partOfSpeech": "verb",
-      "gloss": "to fold"
+      "gloss": "to husk"
     },
     {
       "id": "verb-07",
-      "form": "xmoqonp",
+      "form": "mugu",
       "partOfSpeech": "verb",
-      "gloss": "to drizzle"
+      "gloss": "to ferment"
     },
     {
       "id": "verb-08",
-      "form": "xsesanp",
+      "form": "urare",
       "partOfSpeech": "verb",
-      "gloss": "to wander"
+      "gloss": "to wade"
     },
     {
       "id": "verb-09",
-      "form": "xruhinp",
+      "form": "puben",
       "partOfSpeech": "verb",
-      "gloss": "to untie"
+      "gloss": "to stammer"
     },
     {
       "id": "verb-10",
-      "form": "xbimunp",
+      "form": "lapigas",
       "partOfSpeech": "verb",
-      "gloss": "to balance"
+      "gloss": "to patch"
     },
     {
       "id": "verb-11",
-      "form": "xdafenp",
+      "form": "lawon",
       "partOfSpeech": "verb",
-      "gloss": "to murmur"
+      "gloss": "to winnow"
     },
     {
       "id": "verb-12",
-      "form": "xgokonp",
+      "form": "huge",
       "partOfSpeech": "verb",
-      "gloss": "to scatter"
+      "gloss": "to drum"
     },
     {
       "id": "verb-13",
-      "form": "xlelanp",
+      "form": "wowije",
       "partOfSpeech": "verb",
-      "gloss": "to nudge"
+      "gloss": "to bargain"
     },
     {
       "id": "verb-14",
-      "form": "xfuvinp",
+      "form": "awogin",
       "partOfSpeech": "verb",
-      "gloss": "to shimmer"
+      "gloss": "to scold"
     },
     {
       "id": "verb-15",
-      "form": "xhigunp",
+      "form": "suka",
       "partOfSpeech": "verb",
-      "gloss": "to crawl"
+      "gloss": "to graze"
     },
     {
       "id": "verb-16",
-      "form": "xqajnp",
+      "form": "halok",
       "partOfSpeech": "verb",
-      "gloss": "to mend"
+      "gloss": "to smear"
     },
     {
       "id": "verb-17",
-      "form": "xzodnp",
+      "form": "lehodet",
       "partOfSpeech": "verb",
-      "gloss": "to carry"
+      "gloss": "to tether"
     },
     {
       "id": "verb-18",
-      "form": "xxexnp",
+      "form": "sadugek",
       "partOfSpeech": "verb",
-      "gloss": "to float"
+      "gloss": "to sift"
     },
     {
       "id": "verb-19",
-      "form": "xjubnp",
+      "form": "hujo",
       "partOfSpeech": "verb",
-      "gloss": "to braid"
+      "gloss": "to hum"
     },
     {
       "id": "verb-20",
-      "form": "xviznp",
+      "form": "memuk",
       "partOfSpeech": "verb",
-      "gloss": "to flatten"
+      "gloss": "to crouch"
     },
     {
       "id": "verb-21",
-      "form": "xkarnp",
+      "form": "tedu",
       "partOfSpeech": "verb",
-      "gloss": "to hide"
+      "gloss": "to pound"
     },
     {
       "id": "verb-22",
-      "form": "xmoqnp",
+      "form": "pokilo",
       "partOfSpeech": "verb",
-      "gloss": "to borrow"
+      "gloss": "to soak"
     },
     {
       "id": "verb-23",
-      "form": "xsesnp",
+      "form": "pubos",
       "partOfSpeech": "verb",
-      "gloss": "to sprinkle"
+      "gloss": "to mourn"
     },
     {
       "id": "verb-24",
-      "form": "xruhnp",
+      "form": "gosur",
       "partOfSpeech": "verb",
-      "gloss": "to lean"
+      "gloss": "to haul"
     },
     {
       "id": "verb-25",
-      "form": "xbimnp",
+      "form": "segape",
       "partOfSpeech": "verb",
-      "gloss": "to hatch"
+      "gloss": "to whittle"
     },
     {
       "id": "verb-26",
-      "form": "xdafnp",
+      "form": "alihun",
       "partOfSpeech": "verb",
-      "gloss": "to ripple"
+      "gloss": "to bless"
     },
     {
       "id": "verb-27",
-      "form": "xgoknp",
+      "form": "todin",
       "partOfSpeech": "verb",
-      "gloss": "to knock"
+      "gloss": "to forage"
     },
     {
       "id": "verb-28",
-      "form": "xlelnp",
+      "form": "bahe",
       "partOfSpeech": "verb",
-      "gloss": "to whistle"
+      "gloss": "to sulk"
     },
     {
       "id": "verb-29",
-      "form": "xfuvnp",
+      "form": "kibon",
       "partOfSpeech": "verb",
-      "gloss": "to carve"
+      "gloss": "to nod"
     },
     {
       "id": "verb-30",
-      "form": "xhignp",
+      "form": "hago",
       "partOfSpeech": "verb",
-      "gloss": "to yawn"
+      "gloss": "to brew"
     }
   ],
   "affixSlots": [
@@ -1176,9 +1146,15 @@
       ],
       "allomorphs": [
         {
-          "id": "plural-form",
-          "form": "ka",
-          "environment": null,
+          "id": "plural-vowel",
+          "form": "so",
+          "environment": "after-vowel",
+          "morphType": "suffix"
+        },
+        {
+          "id": "plural-consonant",
+          "form": "eso",
+          "environment": "after-consonant",
           "morphType": "suffix"
         }
       ]
@@ -1199,7 +1175,7 @@
       "allomorphs": [
         {
           "id": "locative-form",
-          "form": "qi",
+          "form": "pa",
           "environment": null,
           "morphType": "suffix"
         }
@@ -1220,9 +1196,15 @@
       ],
       "allomorphs": [
         {
-          "id": "past-form",
-          "form": "zu",
-          "environment": null,
+          "id": "past-vowel",
+          "form": "ti",
+          "environment": "after-vowel",
+          "morphType": "suffix"
+        },
+        {
+          "id": "past-consonant",
+          "form": "iti",
+          "environment": "after-consonant",
           "morphType": "suffix"
         }
       ]
@@ -1243,7 +1225,7 @@
       "allomorphs": [
         {
           "id": "person-form",
-          "form": "me",
+          "form": "mo",
           "environment": null,
           "morphType": "suffix"
         }

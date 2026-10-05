@@ -1,1 +1,1 @@
-This word will not parse: `qajekaqi`. I have separate plural and locative forms in my notes. What is wrong with the order of the noun endings?
+This word will not parse: `qajewani`. It means “in the baskets”. Other nouns with both endings fail the same way. Can you find out why?

@@ -1,0 +1,29 @@
+{
+  "id": "t2-quiet-overgeneration-bare-nouns",
+  "family": "diagnose",
+  "tier": "T2",
+  "set": "eval-t2-lomi",
+  "start": "gold-minus:class-slot-optional",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "rubric",
+      "key": "answer.yaml",
+      "weight": 1.0,
+      "pass": 0.8
+    },
+    {
+      "type": "safety"
+    }
+  ],
+  "status": "future",
+  "evidenceState": "quiet-defect",
+  "behaviour": "quiet-overgeneration",
+  "blockedBy": [
+    "grader:rubric"
+  ]
+}

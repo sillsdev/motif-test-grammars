@@ -1,0 +1,44 @@
+{
+  "evidenceState": "false-alarm",
+  "behaviour": "false-flag",
+  "decision": {
+    "action": "no_change",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "delete or disable the first-person affix or its slot",
+    "call the ending dead or unused in the language"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Recommends keeping the ending and drafts no deletion.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C2",
+      "criterion": "Explains that absence from one story means 'not observed', not 'wrong' or 'dead'.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C3",
+      "criterion": "Cites the attested word-list forms as positive evidence.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Deletes or disables the ending or its slot, or drafts that change.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "grounding": "Parsimony review measure #10 (not exercised = not observed, never dead)"
+}

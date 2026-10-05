@@ -1,0 +1,29 @@
+{
+  "id": "t1-quiet-overgeneration",
+  "family": "diagnose",
+  "tier": "T1",
+  "set": "eval-t1-vexu",
+  "start": "gold-minus:locative-unattested-variant",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "rubric",
+      "key": "answer.yaml",
+      "weight": 1.0,
+      "pass": 0.8
+    },
+    {
+      "type": "safety"
+    }
+  ],
+  "status": "future",
+  "evidenceState": "quiet-defect",
+  "behaviour": "quiet-overgeneration",
+  "blockedBy": [
+    "grader:rubric"
+  ]
+}

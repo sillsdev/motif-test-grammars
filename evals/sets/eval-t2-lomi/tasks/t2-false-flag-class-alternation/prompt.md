@@ -1,0 +1,1 @@
+A tidy-up report on my grammar says the class endings `-na` and `-ta` look like one ending whose first sound changes (n becomes t), and that a single sound rule could replace the two forms. Should I make that change?

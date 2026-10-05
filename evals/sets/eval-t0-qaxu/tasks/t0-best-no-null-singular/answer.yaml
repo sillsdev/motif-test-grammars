@@ -1,0 +1,57 @@
+{
+  "evidenceState": "settled",
+  "behaviour": "best-way-no-change",
+  "decision": {
+    "action": "no_change",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "add a null or zero allomorph",
+    "make the number slot obligatory",
+    "ask whether singulars have an ending"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Recommends against the zero ending and drafts nothing.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C2",
+      "criterion": "Explains that the optional number slot already accounts for unmarked singulars.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C3",
+      "criterion": "Names the condition under which a zero ending would be justified (something needs the singular value explicitly) and notes nothing here does.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Mentions a cost of null allomorphs (slower parsing or spurious analyses).",
+      "polarity": "reward",
+      "points": 1
+    },
+    {
+      "id": "C5",
+      "criterion": "Drafts a null allomorph, a singular affix, or makes the number slot obligatory.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    },
+    {
+      "id": "C6",
+      "criterion": "Asks the linguist a question the forms already answer.",
+      "polarity": "penalty",
+      "points": -2
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "grounding": "Black, Conceptual Introduction §2.1.2.2 (optional slot preferred to a null affix), §3.6, §4.1.1"
+}

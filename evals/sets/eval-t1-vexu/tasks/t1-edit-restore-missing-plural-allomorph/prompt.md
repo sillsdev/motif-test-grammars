@@ -1,1 +1,1 @@
-The plural ending `ra` after vowels is missing. Please restore that alternate form while keeping `ta` after consonants.
+Plurals of vowel-final nouns such as `qajera` “baskets” and `pikara` “hoes” no longer parse, while `tifukta` “calabashes” still does. Please repair the plural.

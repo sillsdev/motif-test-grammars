@@ -1,4 +1,19 @@
 {
   "category": "ordered-slot-sequence",
-  "object": "noun-template"
+  "object": "noun-template",
+  "meaning": {
+    "required": [
+      "the noun template orders the case (locative) slot before the number (plural) slot",
+      "the data needs plural before locative"
+    ],
+    "acceptedParaphrases": [
+      "the noun endings are in the wrong order in the template",
+      "locative and plural slots are swapped"
+    ],
+    "mustNot": [
+      "blame the lexicon entry for qaje",
+      "propose a new affix or allomorph"
+    ]
+  },
+  "note": "The current harness compares category and object strings exactly; `meaning` is for a semantic grader."
 }

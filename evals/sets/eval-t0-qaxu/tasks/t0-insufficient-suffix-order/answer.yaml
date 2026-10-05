@@ -1,0 +1,65 @@
+{
+  "evidenceState": "insufficient",
+  "behaviour": "insufficient-data",
+  "decision": {
+    "action": "abstain",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "claim -wa precedes or follows -ni on the evidence given",
+    "draft any template, slot or ordering operation",
+    "cite a held-out style form as if it were attested"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "States that no form in the evidence carries two endings (or that the two endings never co-occur).",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C2",
+      "criterion": "Proposes no order and drafts no template or slot change.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C3",
+      "criterion": "Names the evidence that would settle it: one word with both noun endings (or both verb endings), ideally as a concrete example to record.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Asserts an order (either one) as established by the data.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    },
+    {
+      "id": "C5",
+      "criterion": "Drafts a template, slot order or co-occurrence restriction.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "simulatedLinguist": {
+    "facts": [
+      {
+        "if_asked": "how to say 'in the ladles' or any noun with both endings",
+        "answer": "usiswani"
+      },
+      {
+        "if_asked": "order of the verb endings",
+        "answer": "past then first person, as in tolentamu"
+      }
+    ],
+    "volunteers": "nothing beyond the atomic fact asked"
+  },
+  "twin": "t0-build-suffixing-morphology"
+}

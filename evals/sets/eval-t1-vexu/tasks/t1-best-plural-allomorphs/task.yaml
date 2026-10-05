@@ -1,0 +1,43 @@
+{
+  "id": "t1-best-plural-allomorphs",
+  "family": "build",
+  "tier": "T1",
+  "set": "eval-t1-vexu",
+  "start": "empty-grammar",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "rubric",
+      "key": "answer.yaml",
+      "weight": 0.5,
+      "pass": 0.8
+    },
+    {
+      "type": "coverage",
+      "words": "heldout",
+      "weight": 0.6,
+      "pass": 0.8
+    },
+    {
+      "type": "negatives",
+      "weight": 0.3,
+      "pass": 0.95
+    },
+    {
+      "type": "safety"
+    }
+  ],
+  "status": "future",
+  "evidenceState": "settled",
+  "behaviour": "best-way",
+  "blockedBy": [
+    "grader:rubric",
+    "composer:affix",
+    "composer:allomorph",
+    "composer:environment"
+  ]
+}

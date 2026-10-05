@@ -1,240 +1,240 @@
-{"word":"ses","analyses":[[["ses","saddle"]]]}
-{"word":"sesa","analyses":[[["sesa","ladder"]]]}
-{"word":"daf","analyses":[[["daf","cabin"]]]}
-{"word":"moqo","analyses":[[["moqo","shell"]]]}
-{"word":"moq","analyses":[[["moq","marble"]]]}
-{"word":"xex","analyses":[[["xex","pocket"]]]}
-{"word":"ruhi","analyses":[[["ruhi","plum"]]]}
-{"word":"higu","analyses":[[["higu","bottle"]]]}
-{"word":"lel","analyses":[[["lel","meadow"]]]}
-{"word":"xexa","analyses":[[["xexa","reed"]]]}
-{"word":"goko","analyses":[[["goko","ribbon"]]]}
-{"word":"gok","analyses":[[["gok","plank"]]]}
-{"word":"qaj","analyses":[[["qaj","window"]]]}
-{"word":"jubi","analyses":[[["jubi","lantern"]]]}
-{"word":"bim","analyses":[[["bim","thimble"]]]}
-{"word":"ruh","analyses":[[["ruh","bell"]]]}
+{"word":"haqon","analyses":[[["haqon","moon"]]]}
+{"word":"rike","analyses":[[["rike","hill"]]]}
+{"word":"jenujox","analyses":[[["jenujox","lake"]]]}
+{"word":"usis","analyses":[[["usis","ladle"]]]}
+{"word":"solipas","analyses":[[["solipas","mat"]]]}
+{"word":"wika","analyses":[[["wika","nest"]]]}
+{"word":"hore","analyses":[[["hore","rope"]]]}
+{"word":"luku","analyses":[[["luku","pot"]]]}
+{"word":"iki","analyses":[[["iki","cloth"]]]}
+{"word":"risu","analyses":[[["risu","ash"]]]}
+{"word":"tisnu","analyses":[[["tisnu","cave"]]]}
+{"word":"kaka","analyses":[[["kaka","roof"]]]}
+{"word":"riqu","analyses":[[["riqu","village"]]]}
+{"word":"apal","analyses":[[["apal","sandal"]]]}
+{"word":"tuxexo","analyses":[[["tuxexo","shell"]]]}
+{"word":"repina","analyses":[[["repina","seed"]]]}
 {"word":"qaje","analyses":[[["qaje","basket"]]]}
-{"word":"kare","analyses":[[["kare","cloud"]]]}
-{"word":"viz","analyses":[[["viz","pillow"]]]}
-{"word":"vizu","analyses":[[["vizu","button"]]]}
-{"word":"bimu","analyses":[[["bimu","blanket"]]]}
-{"word":"zodo","analyses":[[["zodo","pebble"]]]}
-{"word":"jub","analyses":[[["jub","garden"]]]}
-{"word":"kar","analyses":[[["kar","spoon"]]]}
-{"word":"dafe","analyses":[[["dafe","kettle"]]]}
-{"word":"fuv","analyses":[[["fuv","thread"]]]}
-{"word":"hig","analyses":[[["hig","mirror"]]]}
-{"word":"fuvi","analyses":[[["fuvi","feather"]]]}
-{"word":"zod","analyses":[[["zod","hammer"]]]}
-{"word":"lela","analyses":[[["lela","candle"]]]}
-{"word":"seska","analyses":[[["ses","saddle"],["ka","PL"]]]}
-{"word":"sesaka","analyses":[[["sesa","ladder"],["ka","PL"]]]}
-{"word":"dafka","analyses":[[["daf","cabin"],["ka","PL"]]]}
-{"word":"moqoka","analyses":[[["moqo","shell"],["ka","PL"]]]}
-{"word":"moqka","analyses":[[["moq","marble"],["ka","PL"]]]}
-{"word":"xexka","analyses":[[["xex","pocket"],["ka","PL"]]]}
-{"word":"ruhika","analyses":[[["ruhi","plum"],["ka","PL"]]]}
-{"word":"higuka","analyses":[[["higu","bottle"],["ka","PL"]]]}
-{"word":"lelka","analyses":[[["lel","meadow"],["ka","PL"]]]}
-{"word":"xexaka","analyses":[[["xexa","reed"],["ka","PL"]]]}
-{"word":"gokoka","analyses":[[["goko","ribbon"],["ka","PL"]]]}
-{"word":"gokka","analyses":[[["gok","plank"],["ka","PL"]]]}
-{"word":"qajka","analyses":[[["qaj","window"],["ka","PL"]]]}
-{"word":"jubika","analyses":[[["jubi","lantern"],["ka","PL"]]]}
-{"word":"bimka","analyses":[[["bim","thimble"],["ka","PL"]]]}
-{"word":"ruhka","analyses":[[["ruh","bell"],["ka","PL"]]]}
-{"word":"qajeka","analyses":[[["qaje","basket"],["ka","PL"]]]}
-{"word":"kareka","analyses":[[["kare","cloud"],["ka","PL"]]]}
-{"word":"vizka","analyses":[[["viz","pillow"],["ka","PL"]]]}
-{"word":"vizuka","analyses":[[["vizu","button"],["ka","PL"]]]}
-{"word":"bimuka","analyses":[[["bimu","blanket"],["ka","PL"]]]}
-{"word":"zodoka","analyses":[[["zodo","pebble"],["ka","PL"]]]}
-{"word":"jubka","analyses":[[["jub","garden"],["ka","PL"]]]}
-{"word":"karka","analyses":[[["kar","spoon"],["ka","PL"]]]}
-{"word":"dafeka","analyses":[[["dafe","kettle"],["ka","PL"]]]}
-{"word":"fuvka","analyses":[[["fuv","thread"],["ka","PL"]]]}
-{"word":"higka","analyses":[[["hig","mirror"],["ka","PL"]]]}
-{"word":"fuvika","analyses":[[["fuvi","feather"],["ka","PL"]]]}
-{"word":"zodka","analyses":[[["zod","hammer"],["ka","PL"]]]}
-{"word":"lelaka","analyses":[[["lela","candle"],["ka","PL"]]]}
-{"word":"sesqi","analyses":[[["ses","saddle"],["qi","LOC"]]]}
-{"word":"sesaqi","analyses":[[["sesa","ladder"],["qi","LOC"]]]}
-{"word":"dafqi","analyses":[[["daf","cabin"],["qi","LOC"]]]}
-{"word":"moqoqi","analyses":[[["moqo","shell"],["qi","LOC"]]]}
-{"word":"moqqi","analyses":[[["moq","marble"],["qi","LOC"]]]}
-{"word":"xexqi","analyses":[[["xex","pocket"],["qi","LOC"]]]}
-{"word":"ruhiqi","analyses":[[["ruhi","plum"],["qi","LOC"]]]}
-{"word":"higuqi","analyses":[[["higu","bottle"],["qi","LOC"]]]}
-{"word":"lelqi","analyses":[[["lel","meadow"],["qi","LOC"]]]}
-{"word":"xexaqi","analyses":[[["xexa","reed"],["qi","LOC"]]]}
-{"word":"gokoqi","analyses":[[["goko","ribbon"],["qi","LOC"]]]}
-{"word":"gokqi","analyses":[[["gok","plank"],["qi","LOC"]]]}
-{"word":"qajqi","analyses":[[["qaj","window"],["qi","LOC"]]]}
-{"word":"jubiqi","analyses":[[["jubi","lantern"],["qi","LOC"]]]}
-{"word":"bimqi","analyses":[[["bim","thimble"],["qi","LOC"]]]}
-{"word":"ruhqi","analyses":[[["ruh","bell"],["qi","LOC"]]]}
-{"word":"qajeqi","analyses":[[["qaje","basket"],["qi","LOC"]]]}
-{"word":"kareqi","analyses":[[["kare","cloud"],["qi","LOC"]]]}
-{"word":"vizqi","analyses":[[["viz","pillow"],["qi","LOC"]]]}
-{"word":"vizuqi","analyses":[[["vizu","button"],["qi","LOC"]]]}
-{"word":"bimuqi","analyses":[[["bimu","blanket"],["qi","LOC"]]]}
-{"word":"zodoqi","analyses":[[["zodo","pebble"],["qi","LOC"]]]}
-{"word":"jubqi","analyses":[[["jub","garden"],["qi","LOC"]]]}
-{"word":"karqi","analyses":[[["kar","spoon"],["qi","LOC"]]]}
-{"word":"dafeqi","analyses":[[["dafe","kettle"],["qi","LOC"]]]}
-{"word":"fuvqi","analyses":[[["fuv","thread"],["qi","LOC"]]]}
-{"word":"higqi","analyses":[[["hig","mirror"],["qi","LOC"]]]}
-{"word":"fuviqi","analyses":[[["fuvi","feather"],["qi","LOC"]]]}
-{"word":"zodqi","analyses":[[["zod","hammer"],["qi","LOC"]]]}
-{"word":"lelaqi","analyses":[[["lela","candle"],["qi","LOC"]]]}
-{"word":"xfuvi","analyses":[[["xfuvi","to shimmer"]]]}
-{"word":"xsesa","analyses":[[["xsesa","to wander"]]]}
-{"word":"xxexa","analyses":[[["xxexa","to whisper"]]]}
-{"word":"xmoqo","analyses":[[["xmoqo","to drizzle"]]]}
-{"word":"xxex","analyses":[[["xxex","to float"]]]}
-{"word":"xhigu","analyses":[[["xhigu","to crawl"]]]}
-{"word":"xbimu","analyses":[[["xbimu","to balance"]]]}
-{"word":"xzod","analyses":[[["xzod","to carry"]]]}
-{"word":"xlel","analyses":[[["xlel","to whistle"]]]}
-{"word":"xses","analyses":[[["xses","to sprinkle"]]]}
-{"word":"xviz","analyses":[[["xviz","to flatten"]]]}
-{"word":"xjubi","analyses":[[["xjubi","to stumble"]]]}
-{"word":"xruhi","analyses":[[["xruhi","to untie"]]]}
-{"word":"xgok","analyses":[[["xgok","to knock"]]]}
-{"word":"xgoko","analyses":[[["xgoko","to scatter"]]]}
-{"word":"xkar","analyses":[[["xkar","to hide"]]]}
-{"word":"xqaj","analyses":[[["xqaj","to mend"]]]}
-{"word":"xjub","analyses":[[["xjub","to braid"]]]}
-{"word":"xmoq","analyses":[[["xmoq","to borrow"]]]}
-{"word":"xbim","analyses":[[["xbim","to hatch"]]]}
-{"word":"xvizu","analyses":[[["xvizu","to polish"]]]}
-{"word":"xzodo","analyses":[[["xzodo","to bend"]]]}
-{"word":"xqaje","analyses":[[["xqaje","to gather"]]]}
-{"word":"xfuv","analyses":[[["xfuv","to carve"]]]}
-{"word":"xruh","analyses":[[["xruh","to lean"]]]}
-{"word":"xdaf","analyses":[[["xdaf","to ripple"]]]}
-{"word":"xdafe","analyses":[[["xdafe","to murmur"]]]}
-{"word":"xkare","analyses":[[["xkare","to fold"]]]}
-{"word":"xhig","analyses":[[["xhig","to yawn"]]]}
-{"word":"xlela","analyses":[[["xlela","to nudge"]]]}
-{"word":"xfuvizu","analyses":[[["xfuvi","to shimmer"],["zu","PST"]]]}
-{"word":"xsesazu","analyses":[[["xsesa","to wander"],["zu","PST"]]]}
-{"word":"xxexazu","analyses":[[["xxexa","to whisper"],["zu","PST"]]]}
-{"word":"xmoqozu","analyses":[[["xmoqo","to drizzle"],["zu","PST"]]]}
-{"word":"xxexzu","analyses":[[["xxex","to float"],["zu","PST"]]]}
-{"word":"xhiguzu","analyses":[[["xhigu","to crawl"],["zu","PST"]]]}
-{"word":"xbimuzu","analyses":[[["xbimu","to balance"],["zu","PST"]]]}
-{"word":"xzodzu","analyses":[[["xzod","to carry"],["zu","PST"]]]}
-{"word":"xlelzu","analyses":[[["xlel","to whistle"],["zu","PST"]]]}
-{"word":"xseszu","analyses":[[["xses","to sprinkle"],["zu","PST"]]]}
-{"word":"xvizzu","analyses":[[["xviz","to flatten"],["zu","PST"]]]}
-{"word":"xjubizu","analyses":[[["xjubi","to stumble"],["zu","PST"]]]}
-{"word":"xruhizu","analyses":[[["xruhi","to untie"],["zu","PST"]]]}
-{"word":"xgokzu","analyses":[[["xgok","to knock"],["zu","PST"]]]}
-{"word":"xgokozu","analyses":[[["xgoko","to scatter"],["zu","PST"]]]}
-{"word":"xkarzu","analyses":[[["xkar","to hide"],["zu","PST"]]]}
-{"word":"xqajzu","analyses":[[["xqaj","to mend"],["zu","PST"]]]}
-{"word":"xjubzu","analyses":[[["xjub","to braid"],["zu","PST"]]]}
-{"word":"xmoqzu","analyses":[[["xmoq","to borrow"],["zu","PST"]]]}
-{"word":"xbimzu","analyses":[[["xbim","to hatch"],["zu","PST"]]]}
-{"word":"xvizuzu","analyses":[[["xvizu","to polish"],["zu","PST"]]]}
-{"word":"xzodozu","analyses":[[["xzodo","to bend"],["zu","PST"]]]}
-{"word":"xqajezu","analyses":[[["xqaje","to gather"],["zu","PST"]]]}
-{"word":"xfuvzu","analyses":[[["xfuv","to carve"],["zu","PST"]]]}
-{"word":"xruhzu","analyses":[[["xruh","to lean"],["zu","PST"]]]}
-{"word":"xdafzu","analyses":[[["xdaf","to ripple"],["zu","PST"]]]}
-{"word":"xdafezu","analyses":[[["xdafe","to murmur"],["zu","PST"]]]}
-{"word":"xkarezu","analyses":[[["xkare","to fold"],["zu","PST"]]]}
-{"word":"xhigzu","analyses":[[["xhig","to yawn"],["zu","PST"]]]}
-{"word":"xlelazu","analyses":[[["xlela","to nudge"],["zu","PST"]]]}
-{"word":"xfuvime","analyses":[[["xfuvi","to shimmer"],["me","1SG"]]]}
-{"word":"xsesame","analyses":[[["xsesa","to wander"],["me","1SG"]]]}
-{"word":"xxexame","analyses":[[["xxexa","to whisper"],["me","1SG"]]]}
-{"word":"xmoqome","analyses":[[["xmoqo","to drizzle"],["me","1SG"]]]}
-{"word":"xxexme","analyses":[[["xxex","to float"],["me","1SG"]]]}
-{"word":"xhigume","analyses":[[["xhigu","to crawl"],["me","1SG"]]]}
-{"word":"xbimume","analyses":[[["xbimu","to balance"],["me","1SG"]]]}
-{"word":"xzodme","analyses":[[["xzod","to carry"],["me","1SG"]]]}
-{"word":"xlelme","analyses":[[["xlel","to whistle"],["me","1SG"]]]}
-{"word":"xsesme","analyses":[[["xses","to sprinkle"],["me","1SG"]]]}
-{"word":"xvizme","analyses":[[["xviz","to flatten"],["me","1SG"]]]}
-{"word":"xjubime","analyses":[[["xjubi","to stumble"],["me","1SG"]]]}
-{"word":"xruhime","analyses":[[["xruhi","to untie"],["me","1SG"]]]}
-{"word":"xgokme","analyses":[[["xgok","to knock"],["me","1SG"]]]}
-{"word":"xgokome","analyses":[[["xgoko","to scatter"],["me","1SG"]]]}
-{"word":"xkarme","analyses":[[["xkar","to hide"],["me","1SG"]]]}
-{"word":"xqajme","analyses":[[["xqaj","to mend"],["me","1SG"]]]}
-{"word":"xjubme","analyses":[[["xjub","to braid"],["me","1SG"]]]}
-{"word":"xmoqme","analyses":[[["xmoq","to borrow"],["me","1SG"]]]}
-{"word":"xbimme","analyses":[[["xbim","to hatch"],["me","1SG"]]]}
-{"word":"xvizume","analyses":[[["xvizu","to polish"],["me","1SG"]]]}
-{"word":"xzodome","analyses":[[["xzodo","to bend"],["me","1SG"]]]}
-{"word":"xqajeme","analyses":[[["xqaje","to gather"],["me","1SG"]]]}
-{"word":"xfuvme","analyses":[[["xfuv","to carve"],["me","1SG"]]]}
-{"word":"xruhme","analyses":[[["xruh","to lean"],["me","1SG"]]]}
-{"word":"xdafme","analyses":[[["xdaf","to ripple"],["me","1SG"]]]}
-{"word":"xdafeme","analyses":[[["xdafe","to murmur"],["me","1SG"]]]}
-{"word":"xkareme","analyses":[[["xkare","to fold"],["me","1SG"]]]}
-{"word":"xhigme","analyses":[[["xhig","to yawn"],["me","1SG"]]]}
-{"word":"xlelame","analyses":[[["xlela","to nudge"],["me","1SG"]]]}
-{"word":"seskaqi","analyses":[[["ses","saddle"],["ka","PL"],["qi","LOC"]]]}
-{"word":"sesakaqi","analyses":[[["sesa","ladder"],["ka","PL"],["qi","LOC"]]]}
-{"word":"dafkaqi","analyses":[[["daf","cabin"],["ka","PL"],["qi","LOC"]]]}
-{"word":"moqokaqi","analyses":[[["moqo","shell"],["ka","PL"],["qi","LOC"]]]}
-{"word":"moqkaqi","analyses":[[["moq","marble"],["ka","PL"],["qi","LOC"]]]}
-{"word":"xexkaqi","analyses":[[["xex","pocket"],["ka","PL"],["qi","LOC"]]]}
-{"word":"ruhikaqi","analyses":[[["ruhi","plum"],["ka","PL"],["qi","LOC"]]]}
-{"word":"higukaqi","analyses":[[["higu","bottle"],["ka","PL"],["qi","LOC"]]]}
-{"word":"lelkaqi","analyses":[[["lel","meadow"],["ka","PL"],["qi","LOC"]]]}
-{"word":"xexakaqi","analyses":[[["xexa","reed"],["ka","PL"],["qi","LOC"]]]}
-{"word":"gokokaqi","analyses":[[["goko","ribbon"],["ka","PL"],["qi","LOC"]]]}
-{"word":"gokkaqi","analyses":[[["gok","plank"],["ka","PL"],["qi","LOC"]]]}
-{"word":"qajkaqi","analyses":[[["qaj","window"],["ka","PL"],["qi","LOC"]]]}
-{"word":"jubikaqi","analyses":[[["jubi","lantern"],["ka","PL"],["qi","LOC"]]]}
-{"word":"bimkaqi","analyses":[[["bim","thimble"],["ka","PL"],["qi","LOC"]]]}
-{"word":"ruhkaqi","analyses":[[["ruh","bell"],["ka","PL"],["qi","LOC"]]]}
-{"word":"qajekaqi","analyses":[[["qaje","basket"],["ka","PL"],["qi","LOC"]]]}
-{"word":"karekaqi","analyses":[[["kare","cloud"],["ka","PL"],["qi","LOC"]]]}
-{"word":"vizkaqi","analyses":[[["viz","pillow"],["ka","PL"],["qi","LOC"]]]}
-{"word":"vizukaqi","analyses":[[["vizu","button"],["ka","PL"],["qi","LOC"]]]}
-{"word":"bimukaqi","analyses":[[["bimu","blanket"],["ka","PL"],["qi","LOC"]]]}
-{"word":"zodokaqi","analyses":[[["zodo","pebble"],["ka","PL"],["qi","LOC"]]]}
-{"word":"jubkaqi","analyses":[[["jub","garden"],["ka","PL"],["qi","LOC"]]]}
-{"word":"karkaqi","analyses":[[["kar","spoon"],["ka","PL"],["qi","LOC"]]]}
-{"word":"dafekaqi","analyses":[[["dafe","kettle"],["ka","PL"],["qi","LOC"]]]}
-{"word":"fuvkaqi","analyses":[[["fuv","thread"],["ka","PL"],["qi","LOC"]]]}
-{"word":"higkaqi","analyses":[[["hig","mirror"],["ka","PL"],["qi","LOC"]]]}
-{"word":"fuvikaqi","analyses":[[["fuvi","feather"],["ka","PL"],["qi","LOC"]]]}
-{"word":"zodkaqi","analyses":[[["zod","hammer"],["ka","PL"],["qi","LOC"]]]}
-{"word":"lelakaqi","analyses":[[["lela","candle"],["ka","PL"],["qi","LOC"]]]}
-{"word":"xfuvizume","analyses":[[["xfuvi","to shimmer"],["zu","PST"],["me","1SG"]]]}
-{"word":"xsesazume","analyses":[[["xsesa","to wander"],["zu","PST"],["me","1SG"]]]}
-{"word":"xxexazume","analyses":[[["xxexa","to whisper"],["zu","PST"],["me","1SG"]]]}
-{"word":"xmoqozume","analyses":[[["xmoqo","to drizzle"],["zu","PST"],["me","1SG"]]]}
-{"word":"xxexzume","analyses":[[["xxex","to float"],["zu","PST"],["me","1SG"]]]}
-{"word":"xhiguzume","analyses":[[["xhigu","to crawl"],["zu","PST"],["me","1SG"]]]}
-{"word":"xbimuzume","analyses":[[["xbimu","to balance"],["zu","PST"],["me","1SG"]]]}
-{"word":"xzodzume","analyses":[[["xzod","to carry"],["zu","PST"],["me","1SG"]]]}
-{"word":"xlelzume","analyses":[[["xlel","to whistle"],["zu","PST"],["me","1SG"]]]}
-{"word":"xseszume","analyses":[[["xses","to sprinkle"],["zu","PST"],["me","1SG"]]]}
-{"word":"xvizzume","analyses":[[["xviz","to flatten"],["zu","PST"],["me","1SG"]]]}
-{"word":"xjubizume","analyses":[[["xjubi","to stumble"],["zu","PST"],["me","1SG"]]]}
-{"word":"xruhizume","analyses":[[["xruhi","to untie"],["zu","PST"],["me","1SG"]]]}
-{"word":"xgokzume","analyses":[[["xgok","to knock"],["zu","PST"],["me","1SG"]]]}
-{"word":"xgokozume","analyses":[[["xgoko","to scatter"],["zu","PST"],["me","1SG"]]]}
-{"word":"xkarzume","analyses":[[["xkar","to hide"],["zu","PST"],["me","1SG"]]]}
-{"word":"xqajzume","analyses":[[["xqaj","to mend"],["zu","PST"],["me","1SG"]]]}
-{"word":"xjubzume","analyses":[[["xjub","to braid"],["zu","PST"],["me","1SG"]]]}
-{"word":"xmoqzume","analyses":[[["xmoq","to borrow"],["zu","PST"],["me","1SG"]]]}
-{"word":"xbimzume","analyses":[[["xbim","to hatch"],["zu","PST"],["me","1SG"]]]}
-{"word":"xvizuzume","analyses":[[["xvizu","to polish"],["zu","PST"],["me","1SG"]]]}
-{"word":"xzodozume","analyses":[[["xzodo","to bend"],["zu","PST"],["me","1SG"]]]}
-{"word":"xqajezume","analyses":[[["xqaje","to gather"],["zu","PST"],["me","1SG"]]]}
-{"word":"xfuvzume","analyses":[[["xfuv","to carve"],["zu","PST"],["me","1SG"]]]}
-{"word":"xruhzume","analyses":[[["xruh","to lean"],["zu","PST"],["me","1SG"]]]}
-{"word":"xdafzume","analyses":[[["xdaf","to ripple"],["zu","PST"],["me","1SG"]]]}
-{"word":"xdafezume","analyses":[[["xdafe","to murmur"],["zu","PST"],["me","1SG"]]]}
-{"word":"xkarezume","analyses":[[["xkare","to fold"],["zu","PST"],["me","1SG"]]]}
-{"word":"xhigzume","analyses":[[["xhig","to yawn"],["zu","PST"],["me","1SG"]]]}
-{"word":"xlelazume","analyses":[[["xlela","to nudge"],["zu","PST"],["me","1SG"]]]}
+{"word":"qeke","analyses":[[["qeke","fence"]]]}
+{"word":"oxala","analyses":[[["oxala","salt"]]]}
+{"word":"inpi","analyses":[[["inpi","goat"]]]}
+{"word":"toqe","analyses":[[["toqe","drum"]]]}
+{"word":"peston","analyses":[[["peston","river stone"]]]}
+{"word":"rupo","analyses":[[["rupo","path"]]]}
+{"word":"manu","analyses":[[["manu","spear"]]]}
+{"word":"xastu","analyses":[[["xastu","rain"]]]}
+{"word":"luka","analyses":[[["luka","honey"]]]}
+{"word":"xopu","analyses":[[["xopu","door"]]]}
+{"word":"ripe","analyses":[[["ripe","thorn"]]]}
+{"word":"lemas","analyses":[[["lemas","smoke"]]]}
+{"word":"johojo","analyses":[[["johojo","bead"]]]}
+{"word":"haqonwa","analyses":[[["haqon","moon"],["wa","PL"]]]}
+{"word":"rikewa","analyses":[[["rike","hill"],["wa","PL"]]]}
+{"word":"jenujoxwa","analyses":[[["jenujox","lake"],["wa","PL"]]]}
+{"word":"usiswa","analyses":[[["usis","ladle"],["wa","PL"]]]}
+{"word":"solipaswa","analyses":[[["solipas","mat"],["wa","PL"]]]}
+{"word":"wikawa","analyses":[[["wika","nest"],["wa","PL"]]]}
+{"word":"horewa","analyses":[[["hore","rope"],["wa","PL"]]]}
+{"word":"lukuwa","analyses":[[["luku","pot"],["wa","PL"]]]}
+{"word":"ikiwa","analyses":[[["iki","cloth"],["wa","PL"]]]}
+{"word":"risuwa","analyses":[[["risu","ash"],["wa","PL"]]]}
+{"word":"tisnuwa","analyses":[[["tisnu","cave"],["wa","PL"]]]}
+{"word":"kakawa","analyses":[[["kaka","roof"],["wa","PL"]]]}
+{"word":"riquwa","analyses":[[["riqu","village"],["wa","PL"]]]}
+{"word":"apalwa","analyses":[[["apal","sandal"],["wa","PL"]]]}
+{"word":"tuxexowa","analyses":[[["tuxexo","shell"],["wa","PL"]]]}
+{"word":"repinawa","analyses":[[["repina","seed"],["wa","PL"]]]}
+{"word":"qajewa","analyses":[[["qaje","basket"],["wa","PL"]]]}
+{"word":"qekewa","analyses":[[["qeke","fence"],["wa","PL"]]]}
+{"word":"oxalawa","analyses":[[["oxala","salt"],["wa","PL"]]]}
+{"word":"inpiwa","analyses":[[["inpi","goat"],["wa","PL"]]]}
+{"word":"toqewa","analyses":[[["toqe","drum"],["wa","PL"]]]}
+{"word":"pestonwa","analyses":[[["peston","river stone"],["wa","PL"]]]}
+{"word":"rupowa","analyses":[[["rupo","path"],["wa","PL"]]]}
+{"word":"manuwa","analyses":[[["manu","spear"],["wa","PL"]]]}
+{"word":"xastuwa","analyses":[[["xastu","rain"],["wa","PL"]]]}
+{"word":"lukawa","analyses":[[["luka","honey"],["wa","PL"]]]}
+{"word":"xopuwa","analyses":[[["xopu","door"],["wa","PL"]]]}
+{"word":"ripewa","analyses":[[["ripe","thorn"],["wa","PL"]]]}
+{"word":"lemaswa","analyses":[[["lemas","smoke"],["wa","PL"]]]}
+{"word":"johojowa","analyses":[[["johojo","bead"],["wa","PL"]]]}
+{"word":"haqonni","analyses":[[["haqon","moon"],["ni","LOC"]]]}
+{"word":"rikeni","analyses":[[["rike","hill"],["ni","LOC"]]]}
+{"word":"jenujoxni","analyses":[[["jenujox","lake"],["ni","LOC"]]]}
+{"word":"usisni","analyses":[[["usis","ladle"],["ni","LOC"]]]}
+{"word":"solipasni","analyses":[[["solipas","mat"],["ni","LOC"]]]}
+{"word":"wikani","analyses":[[["wika","nest"],["ni","LOC"]]]}
+{"word":"horeni","analyses":[[["hore","rope"],["ni","LOC"]]]}
+{"word":"lukuni","analyses":[[["luku","pot"],["ni","LOC"]]]}
+{"word":"ikini","analyses":[[["iki","cloth"],["ni","LOC"]]]}
+{"word":"risuni","analyses":[[["risu","ash"],["ni","LOC"]]]}
+{"word":"tisnuni","analyses":[[["tisnu","cave"],["ni","LOC"]]]}
+{"word":"kakani","analyses":[[["kaka","roof"],["ni","LOC"]]]}
+{"word":"riquni","analyses":[[["riqu","village"],["ni","LOC"]]]}
+{"word":"apalni","analyses":[[["apal","sandal"],["ni","LOC"]]]}
+{"word":"tuxexoni","analyses":[[["tuxexo","shell"],["ni","LOC"]]]}
+{"word":"repinani","analyses":[[["repina","seed"],["ni","LOC"]]]}
+{"word":"qajeni","analyses":[[["qaje","basket"],["ni","LOC"]]]}
+{"word":"qekeni","analyses":[[["qeke","fence"],["ni","LOC"]]]}
+{"word":"oxalani","analyses":[[["oxala","salt"],["ni","LOC"]]]}
+{"word":"inpini","analyses":[[["inpi","goat"],["ni","LOC"]]]}
+{"word":"toqeni","analyses":[[["toqe","drum"],["ni","LOC"]]]}
+{"word":"pestonni","analyses":[[["peston","river stone"],["ni","LOC"]]]}
+{"word":"ruponi","analyses":[[["rupo","path"],["ni","LOC"]]]}
+{"word":"manuni","analyses":[[["manu","spear"],["ni","LOC"]]]}
+{"word":"xastuni","analyses":[[["xastu","rain"],["ni","LOC"]]]}
+{"word":"lukani","analyses":[[["luka","honey"],["ni","LOC"]]]}
+{"word":"xopuni","analyses":[[["xopu","door"],["ni","LOC"]]]}
+{"word":"ripeni","analyses":[[["ripe","thorn"],["ni","LOC"]]]}
+{"word":"lemasni","analyses":[[["lemas","smoke"],["ni","LOC"]]]}
+{"word":"johojoni","analyses":[[["johojo","bead"],["ni","LOC"]]]}
+{"word":"liskenwe","analyses":[[["liskenwe","to shout"]]]}
+{"word":"miseko","analyses":[[["miseko","to sleep"]]]}
+{"word":"honrose","analyses":[[["honrose","to climb"]]]}
+{"word":"hehas","analyses":[[["hehas","to hunt"]]]}
+{"word":"ransape","analyses":[[["ransape","to pull"]]]}
+{"word":"himepu","analyses":[[["himepu","to laugh"]]]}
+{"word":"kenxus","analyses":[[["kenxus","to grind"]]]}
+{"word":"eqa","analyses":[[["eqa","to carve"]]]}
+{"word":"qunpuq","analyses":[[["qunpuq","to blow"]]]}
+{"word":"lipu","analyses":[[["lipu","to pour"]]]}
+{"word":"kepeme","analyses":[[["kepeme","to dance"]]]}
+{"word":"qosi","analyses":[[["qosi","to weave"]]]}
+{"word":"tolen","analyses":[[["tolen","to wash"]]]}
+{"word":"tusqi","analyses":[[["tusqi","to follow"]]]}
+{"word":"turi","analyses":[[["turi","to call"]]]}
+{"word":"qetu","analyses":[[["qetu","to fish"]]]}
+{"word":"punnux","analyses":[[["punnux","to borrow"]]]}
+{"word":"ihe","analyses":[[["ihe","to hide"]]]}
+{"word":"xoqa","analyses":[[["xoqa","to tie"]]]}
+{"word":"uwi","analyses":[[["uwi","to run"]]]}
+{"word":"makir","analyses":[[["makir","to dig"]]]}
+{"word":"mala","analyses":[[["mala","to cook"]]]}
+{"word":"aqequx","analyses":[[["aqequx","to sing"]]]}
+{"word":"weno","analyses":[[["weno","to spin"]]]}
+{"word":"omehon","analyses":[[["omehon","to bite"]]]}
+{"word":"paqo","analyses":[[["paqo","to count"]]]}
+{"word":"ropa","analyses":[[["ropa","to plant"]]]}
+{"word":"ixe","analyses":[[["ixe","to sell"]]]}
+{"word":"pisju","analyses":[[["pisju","to wait"]]]}
+{"word":"nujo","analyses":[[["nujo","to sweep"]]]}
+{"word":"liskenweta","analyses":[[["liskenwe","to shout"],["ta","PST"]]]}
+{"word":"misekota","analyses":[[["miseko","to sleep"],["ta","PST"]]]}
+{"word":"honroseta","analyses":[[["honrose","to climb"],["ta","PST"]]]}
+{"word":"hehasta","analyses":[[["hehas","to hunt"],["ta","PST"]]]}
+{"word":"ransapeta","analyses":[[["ransape","to pull"],["ta","PST"]]]}
+{"word":"himeputa","analyses":[[["himepu","to laugh"],["ta","PST"]]]}
+{"word":"kenxusta","analyses":[[["kenxus","to grind"],["ta","PST"]]]}
+{"word":"eqata","analyses":[[["eqa","to carve"],["ta","PST"]]]}
+{"word":"qunpuqta","analyses":[[["qunpuq","to blow"],["ta","PST"]]]}
+{"word":"liputa","analyses":[[["lipu","to pour"],["ta","PST"]]]}
+{"word":"kepemeta","analyses":[[["kepeme","to dance"],["ta","PST"]]]}
+{"word":"qosita","analyses":[[["qosi","to weave"],["ta","PST"]]]}
+{"word":"tolenta","analyses":[[["tolen","to wash"],["ta","PST"]]]}
+{"word":"tusqita","analyses":[[["tusqi","to follow"],["ta","PST"]]]}
+{"word":"turita","analyses":[[["turi","to call"],["ta","PST"]]]}
+{"word":"qetuta","analyses":[[["qetu","to fish"],["ta","PST"]]]}
+{"word":"punnuxta","analyses":[[["punnux","to borrow"],["ta","PST"]]]}
+{"word":"iheta","analyses":[[["ihe","to hide"],["ta","PST"]]]}
+{"word":"xoqata","analyses":[[["xoqa","to tie"],["ta","PST"]]]}
+{"word":"uwita","analyses":[[["uwi","to run"],["ta","PST"]]]}
+{"word":"makirta","analyses":[[["makir","to dig"],["ta","PST"]]]}
+{"word":"malata","analyses":[[["mala","to cook"],["ta","PST"]]]}
+{"word":"aqequxta","analyses":[[["aqequx","to sing"],["ta","PST"]]]}
+{"word":"wenota","analyses":[[["weno","to spin"],["ta","PST"]]]}
+{"word":"omehonta","analyses":[[["omehon","to bite"],["ta","PST"]]]}
+{"word":"paqota","analyses":[[["paqo","to count"],["ta","PST"]]]}
+{"word":"ropata","analyses":[[["ropa","to plant"],["ta","PST"]]]}
+{"word":"ixeta","analyses":[[["ixe","to sell"],["ta","PST"]]]}
+{"word":"pisjuta","analyses":[[["pisju","to wait"],["ta","PST"]]]}
+{"word":"nujota","analyses":[[["nujo","to sweep"],["ta","PST"]]]}
+{"word":"liskenwemu","analyses":[[["liskenwe","to shout"],["mu","1SG"]]]}
+{"word":"misekomu","analyses":[[["miseko","to sleep"],["mu","1SG"]]]}
+{"word":"honrosemu","analyses":[[["honrose","to climb"],["mu","1SG"]]]}
+{"word":"hehasmu","analyses":[[["hehas","to hunt"],["mu","1SG"]]]}
+{"word":"ransapemu","analyses":[[["ransape","to pull"],["mu","1SG"]]]}
+{"word":"himepumu","analyses":[[["himepu","to laugh"],["mu","1SG"]]]}
+{"word":"kenxusmu","analyses":[[["kenxus","to grind"],["mu","1SG"]]]}
+{"word":"eqamu","analyses":[[["eqa","to carve"],["mu","1SG"]]]}
+{"word":"qunpuqmu","analyses":[[["qunpuq","to blow"],["mu","1SG"]]]}
+{"word":"lipumu","analyses":[[["lipu","to pour"],["mu","1SG"]]]}
+{"word":"kepememu","analyses":[[["kepeme","to dance"],["mu","1SG"]]]}
+{"word":"qosimu","analyses":[[["qosi","to weave"],["mu","1SG"]]]}
+{"word":"tolenmu","analyses":[[["tolen","to wash"],["mu","1SG"]]]}
+{"word":"tusqimu","analyses":[[["tusqi","to follow"],["mu","1SG"]]]}
+{"word":"turimu","analyses":[[["turi","to call"],["mu","1SG"]]]}
+{"word":"qetumu","analyses":[[["qetu","to fish"],["mu","1SG"]]]}
+{"word":"punnuxmu","analyses":[[["punnux","to borrow"],["mu","1SG"]]]}
+{"word":"ihemu","analyses":[[["ihe","to hide"],["mu","1SG"]]]}
+{"word":"xoqamu","analyses":[[["xoqa","to tie"],["mu","1SG"]]]}
+{"word":"uwimu","analyses":[[["uwi","to run"],["mu","1SG"]]]}
+{"word":"makirmu","analyses":[[["makir","to dig"],["mu","1SG"]]]}
+{"word":"malamu","analyses":[[["mala","to cook"],["mu","1SG"]]]}
+{"word":"aqequxmu","analyses":[[["aqequx","to sing"],["mu","1SG"]]]}
+{"word":"wenomu","analyses":[[["weno","to spin"],["mu","1SG"]]]}
+{"word":"omehonmu","analyses":[[["omehon","to bite"],["mu","1SG"]]]}
+{"word":"paqomu","analyses":[[["paqo","to count"],["mu","1SG"]]]}
+{"word":"ropamu","analyses":[[["ropa","to plant"],["mu","1SG"]]]}
+{"word":"ixemu","analyses":[[["ixe","to sell"],["mu","1SG"]]]}
+{"word":"pisjumu","analyses":[[["pisju","to wait"],["mu","1SG"]]]}
+{"word":"nujomu","analyses":[[["nujo","to sweep"],["mu","1SG"]]]}
+{"word":"haqonwani","analyses":[[["haqon","moon"],["wa","PL"],["ni","LOC"]]]}
+{"word":"rikewani","analyses":[[["rike","hill"],["wa","PL"],["ni","LOC"]]]}
+{"word":"jenujoxwani","analyses":[[["jenujox","lake"],["wa","PL"],["ni","LOC"]]]}
+{"word":"usiswani","analyses":[[["usis","ladle"],["wa","PL"],["ni","LOC"]]]}
+{"word":"solipaswani","analyses":[[["solipas","mat"],["wa","PL"],["ni","LOC"]]]}
+{"word":"wikawani","analyses":[[["wika","nest"],["wa","PL"],["ni","LOC"]]]}
+{"word":"horewani","analyses":[[["hore","rope"],["wa","PL"],["ni","LOC"]]]}
+{"word":"lukuwani","analyses":[[["luku","pot"],["wa","PL"],["ni","LOC"]]]}
+{"word":"ikiwani","analyses":[[["iki","cloth"],["wa","PL"],["ni","LOC"]]]}
+{"word":"risuwani","analyses":[[["risu","ash"],["wa","PL"],["ni","LOC"]]]}
+{"word":"tisnuwani","analyses":[[["tisnu","cave"],["wa","PL"],["ni","LOC"]]]}
+{"word":"kakawani","analyses":[[["kaka","roof"],["wa","PL"],["ni","LOC"]]]}
+{"word":"riquwani","analyses":[[["riqu","village"],["wa","PL"],["ni","LOC"]]]}
+{"word":"apalwani","analyses":[[["apal","sandal"],["wa","PL"],["ni","LOC"]]]}
+{"word":"tuxexowani","analyses":[[["tuxexo","shell"],["wa","PL"],["ni","LOC"]]]}
+{"word":"repinawani","analyses":[[["repina","seed"],["wa","PL"],["ni","LOC"]]]}
+{"word":"qajewani","analyses":[[["qaje","basket"],["wa","PL"],["ni","LOC"]]]}
+{"word":"qekewani","analyses":[[["qeke","fence"],["wa","PL"],["ni","LOC"]]]}
+{"word":"oxalawani","analyses":[[["oxala","salt"],["wa","PL"],["ni","LOC"]]]}
+{"word":"inpiwani","analyses":[[["inpi","goat"],["wa","PL"],["ni","LOC"]]]}
+{"word":"toqewani","analyses":[[["toqe","drum"],["wa","PL"],["ni","LOC"]]]}
+{"word":"pestonwani","analyses":[[["peston","river stone"],["wa","PL"],["ni","LOC"]]]}
+{"word":"rupowani","analyses":[[["rupo","path"],["wa","PL"],["ni","LOC"]]]}
+{"word":"manuwani","analyses":[[["manu","spear"],["wa","PL"],["ni","LOC"]]]}
+{"word":"xastuwani","analyses":[[["xastu","rain"],["wa","PL"],["ni","LOC"]]]}
+{"word":"lukawani","analyses":[[["luka","honey"],["wa","PL"],["ni","LOC"]]]}
+{"word":"xopuwani","analyses":[[["xopu","door"],["wa","PL"],["ni","LOC"]]]}
+{"word":"ripewani","analyses":[[["ripe","thorn"],["wa","PL"],["ni","LOC"]]]}
+{"word":"lemaswani","analyses":[[["lemas","smoke"],["wa","PL"],["ni","LOC"]]]}
+{"word":"johojowani","analyses":[[["johojo","bead"],["wa","PL"],["ni","LOC"]]]}
+{"word":"liskenwetamu","analyses":[[["liskenwe","to shout"],["ta","PST"],["mu","1SG"]]]}
+{"word":"misekotamu","analyses":[[["miseko","to sleep"],["ta","PST"],["mu","1SG"]]]}
+{"word":"honrosetamu","analyses":[[["honrose","to climb"],["ta","PST"],["mu","1SG"]]]}
+{"word":"hehastamu","analyses":[[["hehas","to hunt"],["ta","PST"],["mu","1SG"]]]}
+{"word":"ransapetamu","analyses":[[["ransape","to pull"],["ta","PST"],["mu","1SG"]]]}
+{"word":"himeputamu","analyses":[[["himepu","to laugh"],["ta","PST"],["mu","1SG"]]]}
+{"word":"kenxustamu","analyses":[[["kenxus","to grind"],["ta","PST"],["mu","1SG"]]]}
+{"word":"eqatamu","analyses":[[["eqa","to carve"],["ta","PST"],["mu","1SG"]]]}
+{"word":"qunpuqtamu","analyses":[[["qunpuq","to blow"],["ta","PST"],["mu","1SG"]]]}
+{"word":"liputamu","analyses":[[["lipu","to pour"],["ta","PST"],["mu","1SG"]]]}
+{"word":"kepemetamu","analyses":[[["kepeme","to dance"],["ta","PST"],["mu","1SG"]]]}
+{"word":"qositamu","analyses":[[["qosi","to weave"],["ta","PST"],["mu","1SG"]]]}
+{"word":"tolentamu","analyses":[[["tolen","to wash"],["ta","PST"],["mu","1SG"]]]}
+{"word":"tusqitamu","analyses":[[["tusqi","to follow"],["ta","PST"],["mu","1SG"]]]}
+{"word":"turitamu","analyses":[[["turi","to call"],["ta","PST"],["mu","1SG"]]]}
+{"word":"qetutamu","analyses":[[["qetu","to fish"],["ta","PST"],["mu","1SG"]]]}
+{"word":"punnuxtamu","analyses":[[["punnux","to borrow"],["ta","PST"],["mu","1SG"]]]}
+{"word":"ihetamu","analyses":[[["ihe","to hide"],["ta","PST"],["mu","1SG"]]]}
+{"word":"xoqatamu","analyses":[[["xoqa","to tie"],["ta","PST"],["mu","1SG"]]]}
+{"word":"uwitamu","analyses":[[["uwi","to run"],["ta","PST"],["mu","1SG"]]]}
+{"word":"makirtamu","analyses":[[["makir","to dig"],["ta","PST"],["mu","1SG"]]]}
+{"word":"malatamu","analyses":[[["mala","to cook"],["ta","PST"],["mu","1SG"]]]}
+{"word":"aqequxtamu","analyses":[[["aqequx","to sing"],["ta","PST"],["mu","1SG"]]]}
+{"word":"wenotamu","analyses":[[["weno","to spin"],["ta","PST"],["mu","1SG"]]]}
+{"word":"omehontamu","analyses":[[["omehon","to bite"],["ta","PST"],["mu","1SG"]]]}
+{"word":"paqotamu","analyses":[[["paqo","to count"],["ta","PST"],["mu","1SG"]]]}
+{"word":"ropatamu","analyses":[[["ropa","to plant"],["ta","PST"],["mu","1SG"]]]}
+{"word":"ixetamu","analyses":[[["ixe","to sell"],["ta","PST"],["mu","1SG"]]]}
+{"word":"pisjutamu","analyses":[[["pisju","to wait"],["ta","PST"],["mu","1SG"]]]}
+{"word":"nujotamu","analyses":[[["nujo","to sweep"],["ta","PST"],["mu","1SG"]]]}

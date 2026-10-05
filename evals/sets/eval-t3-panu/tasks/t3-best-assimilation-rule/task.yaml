@@ -1,0 +1,43 @@
+{
+  "id": "t3-best-assimilation-rule",
+  "family": "build",
+  "tier": "T3",
+  "set": "eval-t3-panu",
+  "start": "empty-grammar",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "rubric",
+      "key": "answer.yaml",
+      "weight": 0.5,
+      "pass": 0.8
+    },
+    {
+      "type": "coverage",
+      "words": "heldout",
+      "weight": 0.6,
+      "pass": 0.8
+    },
+    {
+      "type": "negatives",
+      "weight": 0.3,
+      "pass": 0.95
+    },
+    {
+      "type": "safety"
+    }
+  ],
+  "status": "future",
+  "evidenceState": "settled",
+  "behaviour": "best-way",
+  "blockedBy": [
+    "grader:rubric",
+    "composer:phonological-rule",
+    "composer:natural-class",
+    "composer:affix"
+  ]
+}

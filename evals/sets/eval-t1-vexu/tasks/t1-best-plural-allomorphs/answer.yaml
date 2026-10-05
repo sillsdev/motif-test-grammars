@@ -1,0 +1,67 @@
+{
+  "evidenceState": "settled",
+  "behaviour": "best-way",
+  "decision": {
+    "action": "propose",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 3
+  },
+  "mustNot": [
+    "ask a question the table answers",
+    "enumerate per-stem plurals",
+    "create two plural affixes"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Drafts one plural affix (not two) with -ra and -ta as allomorphs.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C2",
+      "criterion": "Conditions -ra on a preceding vowel and -ta on a preceding consonant or as the last, elsewhere allomorph (most specific first).",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C3",
+      "criterion": "Justifies the choice with the counts or the complete split in the data (no exceptions).",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Lists a plural allomorph per stem, or adds the plural forms as separate lexical entries.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    },
+    {
+      "id": "C5",
+      "criterion": "Asks the linguist instead of acting, although every noun is attested.",
+      "polarity": "penalty",
+      "points": -3
+    },
+    {
+      "id": "C6",
+      "criterion": "Writes a phonological rule changing r to t (no phonetic motivation in the data).",
+      "polarity": "penalty",
+      "points": -2
+    },
+    {
+      "id": "C7",
+      "criterion": "Orders an unconditioned allomorph before a conditioned one.",
+      "polarity": "penalty",
+      "points": -3
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "grounding": "Black §3.1.3–3.1.4 and §4.1.2 (environments; most specific first, elsewhere last)",
+  "acceptableEncodings": [
+    "-ra /[V]_ then -ta unconditioned",
+    "-ra /[V]_ and -ta /[C]_ (either order)"
+  ]
+}

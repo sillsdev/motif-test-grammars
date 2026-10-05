@@ -1,0 +1,11 @@
+{
+  "decision": {
+    "action": "report-defect"
+  },
+  "operations": [
+    {
+      "intent": "make the class-marker slot obligatory again"
+    }
+  ],
+  "message": "No. Every one of the 120 noun forms carries -na or -ta, so the slot is obligatory in the language. With it optional, bare nouns such as bitu or dapu now parse, though no speaker says them. Coverage can't show this because the bad forms aren't in your list. I recommend making the slot obligatory again."
+}

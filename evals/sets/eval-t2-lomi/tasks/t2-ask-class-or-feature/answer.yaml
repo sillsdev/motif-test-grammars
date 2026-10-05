@@ -1,0 +1,64 @@
+{
+  "evidenceState": "underdetermined",
+  "behaviour": "ask-linguist",
+  "decision": {
+    "action": "ask",
+    "maxQuestions": 1
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "change the class encoding before an answer",
+    "ask several questions at once"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Names agreement (or meaning difference) as the deciding fact, in line with Black's Table 9.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C2",
+      "criterion": "States that single word forms cannot show agreement.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C3",
+      "criterion": "Asks exactly one concrete question a speaker can answer, using real nouns from the language.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C4",
+      "criterion": "Changes the encoding or drafts any operation before the answer.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    },
+    {
+      "id": "C5",
+      "criterion": "Decides by assertion ('noun classes are always features') without asking.",
+      "polarity": "penalty",
+      "points": -3
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "simulatedLinguist": {
+    "facts": [
+      {
+        "if_asked": "agreement on other words",
+        "answer": "no other word changes with the noun's class"
+      },
+      {
+        "if_asked": "meaning difference between -na and -ta",
+        "answer": "no difference in meaning; it depends only on the noun"
+      }
+    ],
+    "afterAnswer": "recommend an inflection class (Table 9, first row); note Motif cannot author inflection classes yet",
+    "volunteers": "nothing beyond the atomic fact asked"
+  },
+  "grounding": "Black §2.1.2.8, Table 9"
+}

@@ -26,5 +26,12 @@
       "weight": 0.1
     }
   ],
-  "status": "future"
+  "status": "future",
+  "evidenceState": "settled",
+  "behaviour": "best-way",
+  "blockedBy": [
+    "composer:affix",
+    "composer:template"
+  ],
+  "twin": "t0-insufficient-suffix-order"
 }

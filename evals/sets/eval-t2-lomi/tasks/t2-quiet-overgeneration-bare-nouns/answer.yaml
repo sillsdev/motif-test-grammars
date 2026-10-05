@@ -1,0 +1,50 @@
+{
+  "evidenceState": "quiet-defect",
+  "behaviour": "quiet-overgeneration",
+  "decision": {
+    "action": "report-defect",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 1
+  },
+  "mustNot": [
+    "approve on coverage alone",
+    "add bare nouns to the word list as if attested"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Says the change should not be kept.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C2",
+      "criterion": "Shows that bare nouns now parse (at least one example, preferably parser-checked).",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C3",
+      "criterion": "Cites the evidence that the marker is always present in the recorded nouns.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Recommends or drafts making the slot obligatory again.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C5",
+      "criterion": "Approves the change because every listed word parses.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "verifiedByParser": "PanGloss v0.6.2: all 240 positives parse and 120 negatives fail under this start; all 30 bare nouns parse (gold rejects all 30)"
+}

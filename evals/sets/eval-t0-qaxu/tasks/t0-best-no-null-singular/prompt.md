@@ -1,0 +1,1 @@
+Singular nouns like `qaje` “basket” have no ending, and plurals add `-wa`. A colleague says the number slot should get a zero singular ending so that every noun is marked for number. Should I add one? If so, please draft it.

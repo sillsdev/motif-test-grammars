@@ -1,0 +1,63 @@
+{
+  "evidenceState": "settled",
+  "behaviour": "best-way",
+  "decision": {
+    "action": "propose",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 4
+  },
+  "mustNot": [
+    "enumerate stem allomorphs per stem",
+    "split the locative into -pa/-mpa",
+    "ask instead of acting"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Keeps the n-final form as the stem in the lexicon.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C2",
+      "criterion": "Drafts one phonological rule n → m before a natural class of bilabial consonants (a class with p and m; adding b is an acceptable natural-class generalization).",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C3",
+      "criterion": "Keeps -pa and -mo as single, unconditioned forms.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Justifies the rule over listing with the recurrence across stems and endings.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C5",
+      "criterion": "Lists an m-final stem allomorph per stem, or a separate locative allomorph -mpa.",
+      "polarity": "penalty",
+      "points": -3
+    },
+    {
+      "id": "C6",
+      "criterion": "Asks the linguist although the forms settle the pattern.",
+      "polarity": "penalty",
+      "points": -2
+    },
+    {
+      "id": "C7",
+      "criterion": "Writes the rule so narrowly it names individual stems.",
+      "polarity": "penalty",
+      "points": -3,
+      "hardFail": true
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "grounding": "Black §6.1.2.1.4 (nasal assimilation); Parsimony review measure #5 (unwritten phonological rules)"
+}

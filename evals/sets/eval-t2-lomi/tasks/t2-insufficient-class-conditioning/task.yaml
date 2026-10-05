@@ -1,0 +1,35 @@
+{
+  "id": "t2-insufficient-class-conditioning",
+  "family": "diagnose",
+  "tier": "T2",
+  "set": "eval-t2-lomi",
+  "start": "empty-grammar",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "rubric",
+      "key": "answer.yaml",
+      "weight": 0.7,
+      "pass": 0.8
+    },
+    {
+      "type": "parsimony",
+      "weight": 0.3
+    },
+    {
+      "type": "safety"
+    }
+  ],
+  "status": "future",
+  "evidenceState": "insufficient",
+  "behaviour": "insufficient-data",
+  "goldOperationCount": 0,
+  "blockedBy": [
+    "grader:rubric",
+    "builder:empty-grammar-with-stem-features"
+  ]
+}

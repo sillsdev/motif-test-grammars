@@ -1,0 +1,17 @@
+{
+  "decision": {
+    "action": "propose"
+  },
+  "operations": [
+    {
+      "intent": "stems keep final n in the lexicon"
+    },
+    {
+      "intent": "locative -pa and first person -mo as single forms"
+    },
+    {
+      "intent": "one phonological rule: n becomes m before a bilabial natural class (p, m; b may be included)"
+    }
+  ],
+  "message": "Final n turns into m before an ending that starts with p or m, and stays n before vowels and other consonants. It happens on every n-final noun and verb, so one rule over the class {p, b, m} states it once. Listing an m-form for each stem would repeat the same fact many times and wouldn't extend to new words."
+}

@@ -1,0 +1,23 @@
+{
+  "decision": {
+    "action": "propose"
+  },
+  "operations": [
+    {
+      "intent": "one plural affix (PL) in the number slot with two allomorphs",
+      "allomorphs": [
+        {
+          "form": "ra",
+          "environment": "/[V]_ (after a vowel)",
+          "order": 1
+        },
+        {
+          "form": "ta",
+          "environment": "elsewhere, or /[C]_ (after a consonant)",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "message": "All 17 vowel-final nouns take -ra and all 13 consonant-final nouns take -ta, with no exceptions, so this is one plural ending whose shape depends on the stem's last sound. I listed -ra first, conditioned 'after a vowel', and -ta last as the elsewhere form."
+}

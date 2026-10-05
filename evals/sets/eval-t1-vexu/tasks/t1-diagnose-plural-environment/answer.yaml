@@ -1,4 +1,18 @@
 {
   "category": "allomorph-environment",
-  "object": "plural-vowel; after-vowel"
+  "object": "plural-vowel; after-vowel",
+  "meaning": {
+    "required": [
+      "the plural form -ra is restricted to the wrong environment (after consonants)",
+      "-ra belongs after vowel-final stems"
+    ],
+    "acceptedParaphrases": [
+      "the -ra allomorph has the consonant environment instead of the vowel one"
+    ],
+    "mustNot": [
+      "blame the stem entry",
+      "propose adding a new plural affix"
+    ]
+  },
+  "note": "The current harness compares category and object strings exactly; `meaning` is for a semantic grader."
 }

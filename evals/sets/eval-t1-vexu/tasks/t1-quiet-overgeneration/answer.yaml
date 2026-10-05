@@ -1,0 +1,59 @@
+{
+  "evidenceState": "quiet-defect",
+  "behaviour": "quiet-overgeneration",
+  "decision": {
+    "action": "report-defect",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 1
+  },
+  "mustNot": [
+    "call the grammar ready on coverage alone",
+    "delete attested -ki",
+    "add more allomorphs"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Says the grammar is not ready, or not ready without one fix.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C2",
+      "criterion": "Identifies the unattested locative form -ka as the problem.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C3",
+      "criterion": "Shows evidence of over-generation: at least one unattested form (e.g. a noun + -ka) that the grammar accepts, preferably checked with the parser.",
+      "polarity": "reward",
+      "points": 3
+    },
+    {
+      "id": "C4",
+      "criterion": "Recommends or drafts removing -ka, or asks whether -ka was ever recorded, without deleting -ki.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C5",
+      "criterion": "Declares the grammar ready because every listed word parses.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    },
+    {
+      "id": "C6",
+      "criterion": "Removes or changes -ki or any other attested form.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "grounding": "Black §1.2 (a parser's first task is to reject non-words); grammar-breadth note (over-generation is invisible to coverage)",
+  "verifiedByParser": "PanGloss v0.6.2: all 240 positives parse, all 120 committed negatives fail, qajeka/tifukka/qajeraka parse"
+}

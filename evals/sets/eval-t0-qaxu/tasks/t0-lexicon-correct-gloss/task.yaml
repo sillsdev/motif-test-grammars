@@ -5,7 +5,6 @@
   "set": "eval-t0-qaxu",
   "start": "gold-minus:wrong-noun-gloss",
   "prompt": "prompt.md",
-  "status": "active",
   "limits": {
     "turns": 60,
     "wall_seconds": 1800
@@ -16,5 +15,8 @@
       "pass": 0.99,
       "weight": 1.0
     }
-  ]
+  ],
+  "status": "active",
+  "evidenceState": "settled",
+  "behaviour": "follow-instruction"
 }
