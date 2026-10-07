@@ -1,0 +1,30 @@
+{
+  "category": "phonological-rule",
+  "object": "nasal-before-vowel",
+  "decision": {
+    "action": "no_change",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "Replace isen with isem or add a special -mmo ending.",
+    "Apply n to m everywhere or retain the before-vowel environment."
+  ],
+  "meaning": {
+    "required": [
+      "The n to m rule is incorrectly conditioned before vowels rather than bilabials.",
+      "isen plus -mo needs n to m before bilabial m across the morpheme boundary to produce isemmo.",
+      "Restore the right-hand bilabial environment without changing stems or suffix forms."
+    ],
+    "acceptedParaphrases": [
+      "The nasal assimilation rule has the wrong right-hand environment: it applies before vowels rather than bilabials. Underlying isen plus -mo needs n to become m before the bilabial m across the boundary, yielding isemmo. Restore the bilabial environment; retain isen and the single -mo ending."
+    ],
+    "mustNot": [
+      "Replace isen with isem or add a special -mmo ending.",
+      "Apply n to m everywhere or retain the before-vowel environment.",
+      "Ask the linguist a question rather than give the requested recommendation or name the missing evidence. Do not bundle an unnecessary confirmation question with a complete answer; explaining hypothetical future evidence without soliciting a reply is acceptable."
+    ]
+  }
+}

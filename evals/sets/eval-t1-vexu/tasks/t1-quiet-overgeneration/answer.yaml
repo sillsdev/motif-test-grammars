@@ -55,5 +55,24 @@
   ],
   "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
   "grounding": "Black §1.2 (a parser's first task is to reject non-words); grammar-breadth note (over-generation is invisible to coverage)",
-  "verifiedByParser": "PanGloss v0.6.2: all 240 positives parse, all 120 committed negatives fail, qajeka/tifukka/qajeraka parse"
+  "verifiedByParser": "PanGloss 0.6.0: gold rejects all 3 separate probes; gold-minus:locative-unattested-variant parses all 3. See evaluator-only defect-verification.json.",
+  "meaning": {
+    "required": [
+      "Says the grammar is not ready, or not ready without one fix.",
+      "Identifies the unattested locative form -ka as the problem.",
+      "Identifies at least one unrecorded noun + -ka form licensed by the extra allomorph.",
+      "Recommends or drafts removing -ka, or asks whether -ka was ever recorded, without deleting -ki."
+    ],
+    "acceptedParaphrases": [
+      "Not yet. Every listed word parses, but the locative has a second shape, -ka, with no conditioning. None of the 30 nouns ever takes -ka, all show -ki, yet the grammar now accepts forms such as qajeka, tifukka, malilaka. I recommend removing -ka unless you have recorded it."
+    ],
+    "mustNot": [
+      "call the grammar ready on coverage alone",
+      "delete attested -ki",
+      "add more allomorphs",
+      "Declares the grammar ready because every listed word parses.",
+      "Removes or changes -ki or any other attested form.",
+      "Ask the linguist a question rather than give the requested recommendation or name the missing evidence. Do not bundle an unnecessary confirmation question with a complete answer; explaining hypothetical future evidence without soliciting a reply is acceptable."
+    ]
+  }
 }

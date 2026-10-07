@@ -24,11 +24,8 @@
       "type": "safety"
     }
   ],
-  "status": "future",
+  "status": "active",
   "evidenceState": "false-alarm",
   "behaviour": "false-flag",
-  "goldOperationCount": 0,
-  "blockedBy": [
-    "grader:rubric"
-  ]
+  "goldOperationCount": 0
 }

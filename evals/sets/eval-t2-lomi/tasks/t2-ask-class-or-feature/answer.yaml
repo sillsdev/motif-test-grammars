@@ -60,5 +60,21 @@
     "afterAnswer": "recommend an inflection class (Table 9, first row); note Motif cannot author inflection classes yet",
     "volunteers": "nothing beyond the atomic fact asked"
   },
-  "grounding": "Black §2.1.2.8, Table 9"
+  "grounding": "Black §2.1.2.8, Table 9",
+  "meaning": {
+    "required": [
+      "Names agreement (or meaning difference) as the deciding fact, in line with Black's Table 9.",
+      "States that single word forms cannot show agreement.",
+      "Asks exactly one concrete question a speaker can answer, using real nouns from the language."
+    ],
+    "acceptedParaphrases": [
+      "It depends on two facts these words can't show: whether the class makes any other word agree with the noun, and whether -na and -ta differ in meaning. A class with no agreement and no meaning difference is an inflection class; one that drives agreement is a feature (Black's Table 9). The single words here show neither, so one question decides it. I have changed nothing pending your answer. In a sentence with bituna and in one with daputa, does any other word change to match the noun, for example the verb, a word like 'this', or a describing word?"
+    ],
+    "mustNot": [
+      "change the class encoding before an answer",
+      "ask several questions at once",
+      "Changes the encoding or drafts any operation before the answer.",
+      "Decides by assertion ('noun classes are always features') without asking."
+    ]
+  }
 }

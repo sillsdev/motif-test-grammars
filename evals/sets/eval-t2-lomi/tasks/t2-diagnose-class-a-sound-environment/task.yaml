@@ -1,9 +1,9 @@
 {
-  "id": "t1-false-flag-parse-failure",
+  "id": "t2-diagnose-class-a-sound-environment",
   "family": "diagnose",
-  "tier": "T1",
-  "set": "eval-t1-vexu",
-  "start": "gold-grammar",
+  "tier": "T2",
+  "set": "eval-t2-lomi",
+  "start": "gold-minus:class-a-sound-environment",
   "prompt": "prompt.md",
   "limits": {
     "turns": 60,
@@ -11,10 +11,10 @@
   },
   "graders": [
     {
-      "type": "rubric",
+      "type": "answer",
       "key": "answer.yaml",
       "weight": 0.7,
-      "pass": 0.8
+      "pass": 1
     },
     {
       "type": "parsimony",
@@ -25,7 +25,7 @@
     }
   ],
   "status": "active",
-  "evidenceState": "false-alarm",
-  "behaviour": "false-flag",
+  "evidenceState": "settled",
+  "behaviour": "diagnose",
   "goldOperationCount": 0
 }

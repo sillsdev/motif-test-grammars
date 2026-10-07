@@ -1,0 +1,30 @@
+{
+  "category": "allomorph-conditioning",
+  "object": "missing-class-b-allomorph",
+  "decision": {
+    "action": "no_change",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "Make the class slot optional.",
+    "Change dapu to class A or remove class conditioning."
+  ],
+  "meaning": {
+    "required": [
+      "The obligatory class slot is missing the -ta class B allomorph.",
+      "dapu belongs to class B, so the remaining class A -na cannot satisfy its obligatory slot.",
+      "Restore -ta with its class B requirement and keep the class slot obligatory."
+    ],
+    "acceptedParaphrases": [
+      "The obligatory class-marker slot lacks its class B allomorph -ta. dapu is class B; -na requires class A and cannot fill the slot for it. Restore -ta with its class B requirement while keeping the slot obligatory. Making the slot optional would license bare dapu and mask the defect."
+    ],
+    "mustNot": [
+      "Make the class slot optional.",
+      "Change dapu to class A or remove class conditioning.",
+      "Ask the linguist a question rather than give the requested recommendation or name the missing evidence. Do not bundle an unnecessary confirmation question with a complete answer; explaining hypothetical future evidence without soliciting a reply is acceptable."
+    ]
+  }
+}

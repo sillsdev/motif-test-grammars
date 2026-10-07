@@ -1,0 +1,7 @@
+{
+  "decision": {
+    "action": "no_change",
+    "operations": []
+  },
+  "message": "The nasal assimilation rule has the wrong right-hand environment: it applies before vowels rather than bilabials. Underlying isen plus -mo needs n to become m before the bilabial m across the boundary, yielding isemmo. Restore the bilabial environment; retain isen and the single -mo ending."
+}

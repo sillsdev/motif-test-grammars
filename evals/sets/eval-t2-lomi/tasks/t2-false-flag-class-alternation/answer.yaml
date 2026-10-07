@@ -41,5 +41,22 @@
     }
   ],
   "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
-  "grounding": "Parsimony review measure #5 (keep allomorphs when conditioning is morphological); Black §3.7.2"
+  "grounding": "Parsimony review measure #5 (keep allomorphs when conditioning is morphological); Black §3.7.2",
+  "meaning": {
+    "required": [
+      "Recommends no change and drafts nothing.",
+      "Cites at least one pair of nouns ending in the same sound that take different endings.",
+      "Explains that the choice is conditioned by lexical class, not by sound."
+    ],
+    "acceptedParaphrases": [
+      "No. A sound rule would need the change to depend on neighbouring sounds, but nouns that end the same way take different endings: bitu “melon” and dapu “drumstick” both end in u, but take -na and -ta respectively. The choice follows each noun's class, which is how the grammar already states it."
+    ],
+    "mustNot": [
+      "write an n→t rule",
+      "merge -na and -ta",
+      "remove class features",
+      "Drafts a phonological rule, merges the two allomorphs, or removes the class feature.",
+      "Ask the linguist a question rather than give the requested recommendation or name the missing evidence. Do not bundle an unnecessary confirmation question with a complete answer; explaining hypothetical future evidence without soliciting a reply is acceptable."
+    ]
+  }
 }

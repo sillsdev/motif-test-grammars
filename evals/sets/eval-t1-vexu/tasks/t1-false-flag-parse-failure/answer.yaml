@@ -3,7 +3,7 @@
   "behaviour": "false-flag",
   "decision": {
     "action": "no_change",
-    "maxQuestions": 0
+    "maxQuestions": 1
   },
   "proposal": {
     "maxOperations": 0
@@ -52,5 +52,23 @@
       "points": -3
     }
   ],
-  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0"
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "meaning": {
+    "required": [
+      "Recommends no grammar (affix, allomorph, rule or template) change.",
+      "Identifies qajje as a likely typo or variant of qaje.",
+      "Identifies basikeli as a word missing from the lexicon (possibly a loan) rather than a grammar gap.",
+      "Asks the linguist to confirm, at most one question at a time."
+    ],
+    "acceptedParaphrases": [
+      "No grammar change is warranted. qajje looks like qaje “basket” with a doubled j; basikeli is missing from the dictionary and may be a new or borrowed word. Its meaning needs confirmation before a lexical entry is added. I have drafted nothing. Is qajje a transcription error for qaje?"
+    ],
+    "mustNot": [
+      "add morphology to force a parse",
+      "invent a gloss",
+      "treat the typo as a new allomorph",
+      "Drafts an affix, allomorph, rule or template change to make either word parse.",
+      "Invents a meaning or category for basikeli and adds it without asking."
+    ]
+  }
 }

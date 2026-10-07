@@ -61,5 +61,23 @@
     ],
     "volunteers": "nothing beyond the atomic fact asked"
   },
-  "twin": "t0-build-suffixing-morphology"
+  "twin": "t0-build-suffixing-morphology",
+  "meaning": {
+    "required": [
+      "States that no form in the evidence carries two endings (or that the two endings never co-occur).",
+      "Proposes no order and drafts no template or slot change.",
+      "Names the evidence that would settle it: one word with both noun endings (or both verb endings), ideally as a concrete example to record."
+    ],
+    "acceptedParaphrases": [
+      "None of these 180 forms has two endings: every noun appears bare, with -wa or with -ni, and every verb bare, with -ta or with -mu. So the data cannot show whether the two noun endings can occur together, or in which order. I have not drafted an order. One recorded word would settle it, for example how a speaker says 'in the ladles' (from usis)."
+    ],
+    "mustNot": [
+      "claim -wa precedes or follows -ni on the evidence given",
+      "draft any template, slot or ordering operation",
+      "cite a held-out style form as if it were attested",
+      "Asserts an order (either one) as established by the data.",
+      "Drafts a template, slot order or co-occurrence restriction.",
+      "Ask the linguist a question rather than give the requested recommendation or name the missing evidence. Do not bundle an unnecessary confirmation question with a complete answer; explaining hypothetical future evidence without soliciting a reply is acceptable."
+    ]
+  }
 }

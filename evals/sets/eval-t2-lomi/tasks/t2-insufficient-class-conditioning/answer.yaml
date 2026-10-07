@@ -52,5 +52,22 @@
     }
   ],
   "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
-  "truthNotShown": "lexical class: e.g. gegu “bowl” (vowel-final) takes -ta (geguta); tusis “anchor” (consonant-final) takes -na (tusisna)"
+  "truthNotShown": "lexical class: e.g. gegu “bowl” (vowel-final) takes -ta (geguta); tusis “anchor” (consonant-final) takes -na (tusisna)",
+  "meaning": {
+    "required": [
+      "States both hypotheses: conditioning by the stem's last sound, and lexical class membership.",
+      "States that the six forms cannot distinguish them.",
+      "Drafts nothing.",
+      "Names the deciding evidence: a vowel-final noun with -ta or a consonant-final noun with -na."
+    ],
+    "acceptedParaphrases": [
+      "Two rules fit these six nouns equally well. Either the ending depends on the noun's last sound (-na after a vowel, -ta after a consonant), or each noun simply belongs to a class. These six can't tell them apart, so I haven't drafted either. One vowel-final noun that takes -ta, or a consonant-final noun that takes -na, would settle it."
+    ],
+    "mustNot": [
+      "draft environments or class features",
+      "assert phonological conditioning",
+      "Drafts sound-conditioned allomorphs (environments) for -na/-ta.",
+      "Asserts either analysis as established."
+    ]
+  }
 }

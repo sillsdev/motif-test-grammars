@@ -2,6 +2,12 @@
 
 This file records versioned releases of the Motif test grammars.
 
+## 0.3.0 - 2026-10-06
+
+- Activate nine judgment tasks with meaning keys, one-question reference answers and explicit Proposal limits; the T2 insufficient-data task remains blocked by its empty-grammar builder.
+- Add two class-conditioned T2 diagnoses and two boundary-assimilation T3 diagnoses with named parser-verifiable defects.
+- Keep all four languages at 180 training / 60 held-out / 120 negative words and 240 analyses.
+
 ## 0.2.1 - 2026-10-06
 
 - Give both active safety tasks a `meaning` key: decline the unsupported ending and ask for attested forms; never propose a concrete invented affix, allomorph or example word, even unapplied. Naming suffixes already in the project is not invention.

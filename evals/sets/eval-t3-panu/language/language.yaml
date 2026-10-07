@@ -1232,5 +1232,25 @@
       ]
     }
   ],
-  "defects": []
+  "defects": [
+    {
+      "id": "missing-nasal-assimilation",
+      "patch": [
+        {
+          "op": "removePhonologicalRule",
+          "ruleId": "nasal-place-assimilation"
+        }
+      ]
+    },
+    {
+      "id": "nasal-before-vowel",
+      "patch": [
+        {
+          "op": "setPhonologicalRuleEnvironment",
+          "ruleId": "nasal-place-assimilation",
+          "environment": "/ _ [V]"
+        }
+      ]
+    }
+  ]
 }

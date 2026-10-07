@@ -70,5 +70,23 @@
     ],
     "afterAnswer": "keep the plural feature and gloss; no change",
     "volunteers": "nothing beyond the atomic fact asked"
+  },
+  "meaning": {
+    "required": [
+      "States that the word forms cannot distinguish 'plural' from 'collective'.",
+      "Asks exactly one question (one decision) before changing anything.",
+      "The question uses a concrete situation or frame a speaker can answer (separate individuals vs a group; use with a numeral), not the terms 'plural' or 'collective'.",
+      "Says what each answer would change (keep PL, or change the feature and gloss)."
+    ],
+    "acceptedParaphrases": [
+      "The word forms alone can't tell plural from collective: both readings fit every form here, and the choice changes the feature on the ending. One contrast settles it. If yes, keep PL; if it requires a group, revise the feature and gloss after your answer. I have changed nothing. When three ladles lie in separate places, would you still call them usiswa?"
+    ],
+    "mustNot": [
+      "change the gloss or feature before an answer",
+      "bundle several questions",
+      "decide by guessing",
+      "Changes the gloss or feature before the answer.",
+      "Asks several questions at once or a jargon question such as 'Is this a collective?'"
+    ]
   }
 }

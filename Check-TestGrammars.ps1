@@ -10,8 +10,8 @@ $errors = [Collections.Generic.List[string]]::new()
 # Evidence states and the grader types the current Motif harness can run. A task whose graders need any other
 # type stays `future` until the harness implements it.
 $evidenceStates = @('settled', 'insufficient', 'underdetermined', 'false-alarm', 'quiet-defect')
-$harnessGraders = @('coverage', 'negatives', 'parsimony', 'proposal', 'answer', 'safety')
-$keyedGraders = @('answer', 'rubric', 'proposal')
+$harnessGraders = @('coverage', 'negatives', 'parsimony', 'proposal', 'answer', 'meaning', 'rubric', 'safety')
+$keyedGraders = @('answer', 'meaning', 'rubric', 'proposal')
 $rubricActions = @('propose', 'no_change', 'abstain', 'ask', 'report-defect')
 # Words that mark a prompt as a test rather than a linguist's request (R3: remove benchmark fingerprints).
 $fingerprints = @('gold', 'grader', 'answer key', 'eval', 'held-out', 'heldout', 'benchmark', 'test set', 'synthetic')
@@ -144,14 +144,24 @@ foreach ($set in $sets) {
                 $errors.Add("${taskPath}: answer key is missing or outside its task directory: $($grader.key)")
                 continue
             }
-            if ($grader.type -ne 'rubric') { continue }
-
             $keyPath = Join-Path $taskDirectory.FullName ([string]$grader.key)
             try { $key = Get-Content -LiteralPath $keyPath -Raw | ConvertFrom-Json -AsHashtable }
             catch {
                 $errors.Add("${keyPath} is not valid JSON-compatible YAML: $($_.Exception.Message)")
                 continue
             }
+            if (-not $isFuture -and $grader.type -in @('meaning', 'rubric') -and -not $key.Contains('meaning')) {
+                $errors.Add("${keyPath}: active $($grader.type) grader requires a meaning key")
+            }
+            if ($key.Contains('meaning')) {
+                foreach ($field in @('required', 'acceptedParaphrases', 'mustNot')) {
+                    $values = @($key.meaning[$field])
+                    if ($values.Count -eq 0 -or @($values | Where-Object { $_ -isnot [string] -or [string]::IsNullOrWhiteSpace($_) }).Count -gt 0) {
+                        $errors.Add("${keyPath}: meaning.$field must contain nonempty statements")
+                    }
+                }
+            }
+            if ($grader.type -ne 'rubric') { continue }
             if (-not $key.Contains('decision') -or $key.decision.action -notin $rubricActions) {
                 $errors.Add("${keyPath}: rubric key needs decision.action in $($rubricActions -join ', ')")
             }

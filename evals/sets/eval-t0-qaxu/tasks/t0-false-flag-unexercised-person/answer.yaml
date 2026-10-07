@@ -40,5 +40,21 @@
     }
   ],
   "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
-  "grounding": "Parsimony review measure #10 (not exercised = not observed, never dead)"
+  "grounding": "Parsimony review measure #10 (not exercised = not observed, never dead)",
+  "meaning": {
+    "required": [
+      "Recommends keeping the ending and drafts no deletion.",
+      "Explains that absence from one story means 'not observed', not 'wrong' or 'dead'.",
+      "Cites the attested word-list forms as positive evidence."
+    ],
+    "acceptedParaphrases": [
+      "Keep it. 'Not exercised' only means this one story has no first-person verb, which is normal for a third-person narrative. Your word list attests -mu on verbs such as malamu, turimu, so deleting it would make those words fail."
+    ],
+    "mustNot": [
+      "delete or disable the first-person affix or its slot",
+      "call the ending dead or unused in the language",
+      "Deletes or disables the ending or its slot, or drafts that change.",
+      "Ask the linguist a question rather than give the requested recommendation or name the missing evidence. Do not bundle an unnecessary confirmation question with a complete answer; explaining hypothetical future evidence without soliciting a reply is acceptable."
+    ]
+  }
 }

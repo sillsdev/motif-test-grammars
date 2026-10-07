@@ -973,6 +973,26 @@
           "optional": true
         }
       ]
+    },
+    {
+      "id": "class-a-sound-environment",
+      "patch": [
+        {
+          "op": "setEnvironment",
+          "allomorphId": "class-a-form",
+          "environmentId": "after-consonant"
+        }
+      ]
+    },
+    {
+      "id": "missing-class-b-allomorph",
+      "patch": [
+        {
+          "op": "removeAllomorph",
+          "affixId": "noun-class-marker",
+          "allomorphId": "class-b-form"
+        }
+      ]
     }
   ]
 }

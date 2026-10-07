@@ -1,0 +1,30 @@
+{
+  "category": "phonological-rule",
+  "object": "missing-nasal-assimilation",
+  "decision": {
+    "action": "no_change",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "Replace kogun with kogum.",
+    "Add per-stem allomorphs or a new -mpa suffix."
+  ],
+  "meaning": {
+    "required": [
+      "The nasal assimilation rule is missing.",
+      "kogun plus -pa requires stem-final n to become m before bilabial p, across the morpheme boundary.",
+      "Restore general n to m assimilation before bilabials and retain underlying kogun and -pa."
+    ],
+    "acceptedParaphrases": [
+      "The grammar is missing nasal place assimilation across the stem–suffix boundary. Underlying kogun plus locative -pa must change n to m before the bilabial p, yielding kogumpa. Restore the general n to m rule before bilabials, preserving kogun and -pa rather than adding stem-specific allomorphs."
+    ],
+    "mustNot": [
+      "Replace kogun with kogum.",
+      "Add per-stem allomorphs or a new -mpa suffix.",
+      "Ask the linguist a question rather than give the requested recommendation or name the missing evidence. Do not bundle an unnecessary confirmation question with a complete answer; explaining hypothetical future evidence without soliciting a reply is acceptable."
+    ]
+  }
+}

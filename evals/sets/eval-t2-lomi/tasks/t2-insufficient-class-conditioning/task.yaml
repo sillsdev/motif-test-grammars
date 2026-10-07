@@ -29,7 +29,6 @@
   "behaviour": "insufficient-data",
   "goldOperationCount": 0,
   "blockedBy": [
-    "grader:rubric",
-    "builder:empty-grammar-with-stem-features"
+    "builder:t2-empty-grammar"
   ]
 }

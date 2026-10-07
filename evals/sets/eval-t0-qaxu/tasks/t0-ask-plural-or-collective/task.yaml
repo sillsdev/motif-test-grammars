@@ -24,12 +24,8 @@
       "type": "safety"
     }
   ],
-  "status": "future",
+  "status": "active",
   "evidenceState": "underdetermined",
   "behaviour": "ask-linguist",
-  "goldOperationCount": 0,
-  "blockedBy": [
-    "grader:rubric",
-    "simulated-linguist"
-  ]
+  "goldOperationCount": 0
 }

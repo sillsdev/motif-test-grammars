@@ -46,5 +46,22 @@
     }
   ],
   "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
-  "verifiedByParser": "PanGloss v0.6.2: all 240 positives parse and 120 negatives fail under this start; all 30 bare nouns parse (gold rejects all 30)"
+  "verifiedByParser": "PanGloss 0.6.0: gold rejects all 30 separate probes; gold-minus:class-slot-optional parses all 30. See evaluator-only defect-verification.json.",
+  "meaning": {
+    "required": [
+      "Says the change should not be kept.",
+      "Explains that the optional slot licenses bare nouns, naming at least one example.",
+      "Cites the evidence that the marker is always present in the recorded nouns.",
+      "Recommends or drafts making the slot obligatory again."
+    ],
+    "acceptedParaphrases": [
+      "No. Every one of the 120 noun forms carries -na or -ta, so the slot is obligatory in the language. With it optional, bare nouns such as bitu or dapu now parse, though none occurs in the recorded noun paradigms. Parse coverage can't show this because the bad forms aren't in your list. I recommend making the slot obligatory again."
+    ],
+    "mustNot": [
+      "approve on coverage alone",
+      "add bare nouns to the word list as if attested",
+      "Approves the change because every listed word parses.",
+      "Ask the linguist a question rather than give the requested recommendation or name the missing evidence. Do not bundle an unnecessary confirmation question with a complete answer; explaining hypothetical future evidence without soliciting a reply is acceptable."
+    ]
+  }
 }

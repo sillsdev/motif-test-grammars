@@ -24,12 +24,9 @@
       "type": "safety"
     }
   ],
-  "status": "future",
+  "status": "active",
   "evidenceState": "insufficient",
   "behaviour": "insufficient-data",
   "goldOperationCount": 0,
-  "blockedBy": [
-    "grader:rubric"
-  ],
   "twin": "t0-build-suffixing-morphology"
 }

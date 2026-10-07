@@ -1,0 +1,30 @@
+{
+  "category": "allomorph-conditioning",
+  "object": "class-a-sound-environment",
+  "decision": {
+    "action": "no_change",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 0
+  },
+  "mustNot": [
+    "Claim noun class follows final sound.",
+    "Change bitu or replace -na with -ta."
+  ],
+  "meaning": {
+    "required": [
+      "The -na allomorph has an incorrect preceding-consonant environment.",
+      "bitu is a vowel-final class A noun, so that environment blocks bituna.",
+      "Retain lexical class conditioning and remove the added sound restriction."
+    ],
+    "acceptedParaphrases": [
+      "The class A ending -na is incorrectly restricted to consonant-final stems. bitu ends in u and belongs to class A, so this restriction blocks bituna. Class membership, rather than the final sound, chooses -na versus -ta; remove the added sound environment while preserving the class requirement."
+    ],
+    "mustNot": [
+      "Claim noun class follows final sound.",
+      "Change bitu or replace -na with -ta.",
+      "Ask the linguist a question rather than give the requested recommendation or name the missing evidence. Do not bundle an unnecessary confirmation question with a complete answer; explaining hypothetical future evidence without soliciting a reply is acceptable."
+    ]
+  }
+}

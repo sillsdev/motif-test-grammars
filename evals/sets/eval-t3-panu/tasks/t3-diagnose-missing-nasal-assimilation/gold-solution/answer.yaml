@@ -1,0 +1,7 @@
+{
+  "decision": {
+    "action": "no_change",
+    "operations": []
+  },
+  "message": "The grammar is missing nasal place assimilation across the stem–suffix boundary. Underlying kogun plus locative -pa must change n to m before the bilabial p, yielding kogumpa. Restore the general n to m rule before bilabials, preserving kogun and -pa rather than adding stem-specific allomorphs."
+}

@@ -1,0 +1,233 @@
+{
+  "parserVersion": "0.6.0",
+  "parserSha256": "0b2643d7d5bd8b63849772d442829e8e00e6fc7015c12db32e5c6e154ffe6794",
+  "command": "SIL.Motif.EvalSets verify --set <set> --start <start> --out <scratch>",
+  "results": [
+    {
+      "setId": "eval-t2-lomi",
+      "tier": "T2",
+      "trainWords": 180,
+      "heldoutWords": 60,
+      "negativeWords": 120,
+      "goldAnalysesMatched": 240,
+      "negativeParses": 0,
+      "start": "gold-grammar"
+    },
+    {
+      "setId": "eval-t3-panu",
+      "tier": "T3",
+      "trainWords": 180,
+      "heldoutWords": 60,
+      "negativeWords": 120,
+      "goldAnalysesMatched": 240,
+      "negativeParses": 0,
+      "start": "gold-grammar"
+    },
+    {
+      "setId": "eval-t1-vexu",
+      "tier": "T1",
+      "trainWords": 180,
+      "heldoutWords": 60,
+      "negativeWords": 120,
+      "goldAnalysesMatched": 240,
+      "negativeParses": 0,
+      "start": "gold-grammar"
+    },
+    {
+      "setId": "eval-t0-qaxu",
+      "tier": "T0",
+      "trainWords": 180,
+      "heldoutWords": 60,
+      "negativeWords": 120,
+      "goldAnalysesMatched": 240,
+      "negativeParses": 0,
+      "start": "gold-grammar"
+    },
+    {
+      "setId": "eval-t2-lomi",
+      "tier": "T2",
+      "trainWords": 180,
+      "heldoutWords": 60,
+      "negativeWords": 120,
+      "goldAnalysesMatched": 192,
+      "negativeParses": 0,
+      "start": "gold-minus:class-a-sound-environment"
+    },
+    {
+      "setId": "eval-t2-lomi",
+      "tier": "T2",
+      "trainWords": 180,
+      "heldoutWords": 60,
+      "negativeWords": 120,
+      "goldAnalysesMatched": 180,
+      "negativeParses": 0,
+      "start": "gold-minus:missing-class-b-allomorph"
+    },
+    {
+      "setId": "eval-t3-panu",
+      "tier": "T3",
+      "trainWords": 180,
+      "heldoutWords": 60,
+      "negativeWords": 120,
+      "goldAnalysesMatched": 221,
+      "negativeParses": 0,
+      "start": "gold-minus:missing-nasal-assimilation"
+    },
+    {
+      "setId": "eval-t3-panu",
+      "tier": "T3",
+      "trainWords": 180,
+      "heldoutWords": 60,
+      "negativeWords": 120,
+      "goldAnalysesMatched": 183,
+      "negativeParses": 0,
+      "start": "gold-minus:nasal-before-vowel"
+    }
+  ],
+  "failingWordProbes": [
+    {
+      "set": "eval-t2-lomi",
+      "start": "gold-grammar",
+      "word": "bituna",
+      "tsv": "0\tbituna\tSTARTED\n0\tbituna\t0\tok\t+|bitu+?na\n"
+    },
+    {
+      "set": "eval-t2-lomi",
+      "start": "gold-minus-class-a-sound-environment",
+      "word": "bituna",
+      "tsv": "0\tbituna\tSTARTED\n0\tbituna\t0\tok\t-\n"
+    },
+    {
+      "set": "eval-t2-lomi",
+      "start": "gold-grammar",
+      "word": "daputa",
+      "tsv": "0\tdaputa\tSTARTED\n0\tdaputa\t0\tok\t+|dapu+?ta\n"
+    },
+    {
+      "set": "eval-t2-lomi",
+      "start": "gold-minus-missing-class-b-allomorph",
+      "word": "daputa",
+      "tsv": "0\tdaputa\tSTARTED\n0\tdaputa\t0\tok\t-\n"
+    },
+    {
+      "set": "eval-t3-panu",
+      "start": "gold-grammar",
+      "word": "kogumpa",
+      "tsv": "0\tkogumpa\tSTARTED\n0\tkogumpa\t0\tok\t+|kogum+?pa\n"
+    },
+    {
+      "set": "eval-t3-panu",
+      "start": "gold-minus-missing-nasal-assimilation",
+      "word": "kogumpa",
+      "tsv": "0\tkogumpa\tSTARTED\n0\tkogumpa\t0\tok\t-\n"
+    },
+    {
+      "set": "eval-t3-panu",
+      "start": "gold-grammar",
+      "word": "isemmo",
+      "tsv": "0\tisemmo\tSTARTED\n0\tisemmo\t0\tok\t+|isem+?mo\n"
+    },
+    {
+      "set": "eval-t3-panu",
+      "start": "gold-minus-nasal-before-vowel",
+      "word": "isemmo",
+      "tsv": "0\tisemmo\tSTARTED\n0\tisemmo\t0\tok\t-\n"
+    }
+  ],
+  "quietDefectProbes": [
+    {
+      "set": "eval-t1-vexu",
+      "start": "gold-grammar",
+      "words": [
+        "qajeka",
+        "tifukka",
+        "qajeraka"
+      ],
+      "parsed": 0
+    },
+    {
+      "set": "eval-t1-vexu",
+      "start": "gold-minus-locative-unattested-variant",
+      "words": [
+        "qajeka",
+        "tifukka",
+        "qajeraka"
+      ],
+      "parsed": 3
+    },
+    {
+      "set": "eval-t2-lomi",
+      "start": "gold-grammar",
+      "words": [
+        "mungas",
+        "rezu",
+        "gegu",
+        "zanjopo",
+        "ime",
+        "ronni",
+        "jonjunsan",
+        "pigu",
+        "peso",
+        "kuha",
+        "repuk",
+        "zozigi",
+        "buho",
+        "jopi",
+        "dimupak",
+        "wadik",
+        "opu",
+        "hegi",
+        "wowa",
+        "tusis",
+        "azok",
+        "bitu",
+        "hare",
+        "maju",
+        "ruju",
+        "kumenruk",
+        "idas",
+        "dapu",
+        "rerok",
+        "huhanwan"
+      ],
+      "parsed": 0
+    },
+    {
+      "set": "eval-t2-lomi",
+      "start": "gold-minus-class-slot-optional",
+      "words": [
+        "mungas",
+        "rezu",
+        "gegu",
+        "zanjopo",
+        "ime",
+        "ronni",
+        "jonjunsan",
+        "pigu",
+        "peso",
+        "kuha",
+        "repuk",
+        "zozigi",
+        "buho",
+        "jopi",
+        "dimupak",
+        "wadik",
+        "opu",
+        "hegi",
+        "wowa",
+        "tusis",
+        "azok",
+        "bitu",
+        "hare",
+        "maju",
+        "ruju",
+        "kumenruk",
+        "idas",
+        "dapu",
+        "rerok",
+        "huhanwan"
+      ],
+      "parsed": 30
+    }
+  ]
+}

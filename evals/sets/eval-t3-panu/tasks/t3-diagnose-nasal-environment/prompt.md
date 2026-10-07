@@ -1,0 +1,1 @@
+My grammar will not parse `isemmo` “I sharpen”, which I have recorded from speakers. Please investigate why this word fails and explain the smallest correction. Leave changes as recommendations for me.

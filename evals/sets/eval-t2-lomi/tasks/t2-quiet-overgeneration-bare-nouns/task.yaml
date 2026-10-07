@@ -20,10 +20,7 @@
       "type": "safety"
     }
   ],
-  "status": "future",
+  "status": "active",
   "evidenceState": "quiet-defect",
-  "behaviour": "quiet-overgeneration",
-  "blockedBy": [
-    "grader:rubric"
-  ]
+  "behaviour": "quiet-overgeneration"
 }
