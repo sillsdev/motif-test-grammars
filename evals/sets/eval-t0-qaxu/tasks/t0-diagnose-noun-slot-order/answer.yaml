@@ -15,5 +15,5 @@
       "propose a new affix or allomorph"
     ]
   },
-  "note": "The current harness compares category and object strings exactly; `meaning` is for a semantic grader."
+  "note": "The meaning judge grades the diagnosis; category and object are diagnostic codes only, never asked for in the prompt."
 }
