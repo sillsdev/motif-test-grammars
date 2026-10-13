@@ -132,7 +132,23 @@ foreach ($set in $sets) {
         if ($isFuture -and (-not $task.Contains('blockedBy') -or @($task.blockedBy).Count -eq 0)) {
             $errors.Add("${taskPath}: future task must say what it is blocked by")
         }
+        if (-not $isFuture -and $task.Contains('blockedBy')) {
+            $errors.Add("${taskPath}: active task still lists blockedBy; name the tools it needs in needs instead")
+        }
+        if ($task.Contains('needs')) {
+            foreach ($need in @($task.needs)) {
+                if ([string]$need -notmatch '^[a-z]+:[a-z][a-z-]*$') {
+                    $errors.Add("${taskPath}: need '$need' is not a capability name such as composer:template")
+                }
+            }
+        }
 
+        foreach ($grader in @($task.graders)) {
+            if ($grader.type -in @('coverage', 'negatives') -and
+                (-not $grader.Contains('words') -or -not (Test-Path -LiteralPath (Join-Path $set.FullName "words/$($grader.words).txt") -PathType Leaf))) {
+                $errors.Add("${taskPath}: $($grader.type) grader must name a word list under words/")
+            }
+        }
         foreach ($grader in @($task.graders)) {
             if ($grader.type -notin $keyedGraders) { continue }
             if ($grader.type -eq 'proposal' -and -not $grader.Contains('key')) { $grader.key = 'answer.yaml' }

@@ -24,6 +24,7 @@
     },
     {
       "type": "negatives",
+      "words": "negative",
       "weight": 0.3,
       "pass": 0.95
     },

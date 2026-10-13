@@ -55,6 +55,7 @@ Each `tasks/<task-id>/` contains `task.yaml`, a linguist-phrased `prompt.md`, an
 - `evidenceState`: what the evidence the agent sees can decide. `settled`: it decides the answer, so the agent should act and say why. `insufficient`: it cannot decide, so the agent should propose nothing and name the evidence that would decide. `underdetermined`: a speaker could decide it, so the agent should ask one evidence-backed question. `false-alarm`: a warning or failure looks alarming but the grammar is right. `quiet-defect`: everything looks fine but the grammar over-generates.
 - `behaviour`: a short label for the expected behaviour (for example `best-way`, `insufficient-data`, `ask-linguist`, `false-flag`, `quiet-overgeneration`).
 - `status` or `availability`: `active` when the current MCP tools and harness graders can run the task, `future` otherwise. A future task lists `blockedBy` (for example `composer:template`, `grader:rubric`, `simulated-linguist`).
+- `needs`: capabilities an active task requires beyond the tools every profile has, such as `composer:template`. The harness maps each to Motif tools and gives them to both arms, so a task never depends on which profile an arm chose. An active task has no `blockedBy`.
 - `goldOperationCount`: required as `0` for tasks whose right answer changes nothing, so the parsimony grader fails any edit.
 - `twin`: the matched task whose evidence differs by one deciding fact.
 

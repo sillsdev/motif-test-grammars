@@ -24,11 +24,8 @@
       "type": "safety"
     }
   ],
-  "status": "future",
+  "status": "active",
   "evidenceState": "insufficient",
   "behaviour": "insufficient-data",
-  "goldOperationCount": 0,
-  "blockedBy": [
-    "builder:t2-empty-grammar"
-  ]
+  "goldOperationCount": 0
 }

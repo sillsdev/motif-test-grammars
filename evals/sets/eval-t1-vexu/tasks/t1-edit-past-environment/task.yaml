@@ -18,6 +18,7 @@
     },
     {
       "type": "negatives",
+      "words": "negative",
       "weight": 0.3,
       "pass": 0.95
     },
@@ -26,10 +27,10 @@
       "weight": 0.1
     }
   ],
-  "status": "future",
+  "status": "active",
+  "needs": [
+    "composer:allomorph-condition"
+  ],
   "evidenceState": "settled",
-  "behaviour": "repair",
-  "blockedBy": [
-    "composer:environment"
-  ]
+  "behaviour": "repair"
 }

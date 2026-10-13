@@ -2,6 +2,12 @@
 
 This file records versioned releases of the Motif test grammars.
 
+## 0.4.0 - 2026-10-13
+
+- Activate four repair tasks whose tools now exist: the T0 noun and verb slot-order repairs, and the T1 plural and past environment repairs.
+- Activate the T2 insufficient-data task `t2-insufficient-class-conditioning`; its empty-grammar start no longer carries class or feature data, which would have decided the question.
+- Tasks name what they need beyond every profile's tools in `needs` (for example `composer:template`); an active task has no `blockedBy`, and `Check-TestGrammars.ps1` enforces both.
+
 ## 0.3.0 - 2026-10-06
 
 - Activate nine judgment tasks with meaning keys, one-question reference answers and explicit Proposal limits; the T2 insufficient-data task remains blocked by its empty-grammar builder.
