@@ -6,7 +6,7 @@
     "maxQuestions": 0
   },
   "proposal": {
-    "maxOperations": 3
+    "maxOperations": 4
   },
   "mustNot": [
     "change the stems, the slots or the other affixes",
