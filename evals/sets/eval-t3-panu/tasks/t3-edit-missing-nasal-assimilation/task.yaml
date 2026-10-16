@@ -27,11 +27,11 @@
       "weight": 0.1
     }
   ],
-  "status": "active",
-  "needs": [
-    "compose-author-phonological-rule"
-  ],
+  "status": "future",
   "evidenceState": "settled",
   "behaviour": "repair",
-  "twin": "t3-diagnose-missing-nasal-assimilation"
+  "twin": "t3-diagnose-missing-nasal-assimilation",
+  "blockedBy": [
+    "builder:stable-phonological-data-id"
+  ]
 }

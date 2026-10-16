@@ -27,11 +27,11 @@
       "weight": 0.1
     }
   ],
-  "status": "active",
-  "needs": [
-    "compose-author-alternate-form"
-  ],
+  "status": "future",
   "evidenceState": "settled",
   "behaviour": "repair",
-  "twin": "t2-diagnose-missing-class-b"
+  "twin": "t2-diagnose-missing-class-b",
+  "blockedBy": [
+    "composer:allomorph-feature-condition"
+  ]
 }

@@ -21,11 +21,10 @@
       "weight": 0.1
     }
   ],
-  "status": "active",
-  "needs": [
-    "compose-author-feature-structure",
-    "compose-author-feature-value"
-  ],
+  "status": "future",
   "evidenceState": "settled",
-  "behaviour": "repair"
+  "behaviour": "repair",
+  "blockedBy": [
+    "builder:stable-msa-ids"
+  ]
 }
