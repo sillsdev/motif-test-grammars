@@ -29,7 +29,7 @@
   ],
   "status": "active",
   "needs": [
-    "composer:template"
+    "compose-edit-affix-template"
   ],
   "evidenceState": "settled",
   "behaviour": "repair"

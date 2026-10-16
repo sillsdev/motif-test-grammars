@@ -1,0 +1,58 @@
+{
+  "evidenceState": "settled",
+  "behaviour": "repair",
+  "decision": {
+    "action": "propose",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 3
+  },
+  "mustNot": [
+    "change the stems, the slots or the other affixes",
+    "add a new feature definition"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Gives the plural ending a number feature with the value plural.",
+      "polarity": "reward",
+      "points": 4
+    },
+    {
+      "id": "C2",
+      "criterion": "Uses the existing number feature rather than defining a new one.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C3",
+      "criterion": "Changes nothing else in the grammar.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Changes slots, stems or other affixes, or defines a new feature, instead of restoring the plural affix's number value.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "meaning": {
+    "required": [
+      "Gives the plural ending a number feature with the value plural.",
+      "Uses the existing number feature rather than defining a new one.",
+      "Changes nothing else in the grammar."
+    ],
+    "acceptedParaphrases": [
+      "The plural affix lost its number feature, so I gave it a feature structure and set number to plural, and changed nothing else."
+    ],
+    "mustNot": [
+      "change the stems, the slots or the other affixes",
+      "add a new feature definition",
+      "Changes slots, stems or other affixes, or defines a new feature, instead of restoring the plural affix's number value."
+    ]
+  }
+}

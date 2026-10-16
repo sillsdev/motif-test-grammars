@@ -2,6 +2,11 @@
 
 This file records versioned releases of the Motif test grammars.
 
+## Unreleased
+
+- A task's `needs` entries are exact Motif command verbs (`compose-edit-affix-template`) or `kind:name` capabilities (`grader:rubric`); the `composer:<x>` placeholders on the four repair tasks are now exact verbs, and the lexicon tasks name `compose-author-lexeme-form` and `add-set-gloss`.
+- Add four edit tasks, each a repair twin of an existing defect: `t3-edit-missing-nasal-assimilation`, `t2-edit-missing-class-b-allomorph`, `t2-edit-class-slot-obligatory` and `t0-edit-plural-number-feature`. The last two defects change no committed parse, so they are graded by a rubric and parsimony instead of coverage and negatives.
+
 ## 0.4.0 - 2026-10-13
 
 - Activate four repair tasks whose tools now exist: the T0 noun and verb slot-order repairs, and the T1 plural and past environment repairs.

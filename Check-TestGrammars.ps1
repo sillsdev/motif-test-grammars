@@ -137,8 +137,8 @@ foreach ($set in $sets) {
         }
         if ($task.Contains('needs')) {
             foreach ($need in @($task.needs)) {
-                if ([string]$need -notmatch '^[a-z]+:[a-z][a-z-]*$') {
-                    $errors.Add("${taskPath}: need '$need' is not a capability name such as composer:template")
+                if ([string]$need -notmatch '^[a-z][a-z-]*$' -and [string]$need -notmatch '^[a-z]+:[a-z][a-z0-9-]*$') {
+                    $errors.Add("${taskPath}: need '$need' is neither a command verb such as compose-edit-affix-slot nor a kind:name capability such as grader:rubric")
                 }
             }
         }

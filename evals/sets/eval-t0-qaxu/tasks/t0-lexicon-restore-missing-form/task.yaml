@@ -18,5 +18,8 @@
   ],
   "status": "active",
   "evidenceState": "settled",
-  "behaviour": "follow-instruction"
+  "behaviour": "follow-instruction",
+  "needs": [
+    "compose-author-lexeme-form"
+  ]
 }

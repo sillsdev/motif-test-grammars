@@ -1,0 +1,31 @@
+{
+  "id": "t0-edit-plural-number-feature",
+  "family": "edit",
+  "tier": "T0",
+  "set": "eval-t0-qaxu",
+  "start": "gold-minus:plural-number-feature-missing",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "rubric",
+      "key": "answer.yaml",
+      "weight": 0.9,
+      "pass": 0.8
+    },
+    {
+      "type": "parsimony",
+      "weight": 0.1
+    }
+  ],
+  "status": "active",
+  "needs": [
+    "compose-author-feature-structure",
+    "compose-author-feature-value"
+  ],
+  "evidenceState": "settled",
+  "behaviour": "repair"
+}

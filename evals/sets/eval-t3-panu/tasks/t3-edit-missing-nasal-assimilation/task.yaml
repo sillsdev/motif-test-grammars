@@ -1,0 +1,37 @@
+{
+  "id": "t3-edit-missing-nasal-assimilation",
+  "family": "edit",
+  "tier": "T3",
+  "set": "eval-t3-panu",
+  "start": "gold-minus:missing-nasal-assimilation",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "coverage",
+      "words": "heldout",
+      "weight": 0.6,
+      "pass": 0.8
+    },
+    {
+      "type": "negatives",
+      "words": "negative",
+      "weight": 0.3,
+      "pass": 0.95
+    },
+    {
+      "type": "parsimony",
+      "weight": 0.1
+    }
+  ],
+  "status": "active",
+  "needs": [
+    "compose-author-phonological-rule"
+  ],
+  "evidenceState": "settled",
+  "behaviour": "repair",
+  "twin": "t3-diagnose-missing-nasal-assimilation"
+}

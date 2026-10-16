@@ -29,7 +29,7 @@
   ],
   "status": "active",
   "needs": [
-    "composer:allomorph-condition"
+    "compose-edit-allomorph-condition"
   ],
   "evidenceState": "settled",
   "behaviour": "repair"

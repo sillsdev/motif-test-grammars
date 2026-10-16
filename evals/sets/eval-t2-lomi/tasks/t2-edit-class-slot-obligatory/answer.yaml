@@ -1,0 +1,58 @@
+{
+  "evidenceState": "settled",
+  "behaviour": "repair",
+  "decision": {
+    "action": "propose",
+    "maxQuestions": 0
+  },
+  "proposal": {
+    "maxOperations": 1
+  },
+  "mustNot": [
+    "add bare nouns to the word list as if attested",
+    "add allomorphs or stem-specific entries"
+  ],
+  "rubric": [
+    {
+      "id": "C1",
+      "criterion": "Proposes making the class-ending slot obligatory again.",
+      "polarity": "reward",
+      "points": 4
+    },
+    {
+      "id": "C2",
+      "criterion": "Keeps the change to the single slot, adding nothing else.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C3",
+      "criterion": "Says that bare nouns such as wowa no longer parse once it is obligatory, or that every recorded noun carries a class ending.",
+      "polarity": "reward",
+      "points": 2
+    },
+    {
+      "id": "C4",
+      "criterion": "Adds new affixes, allomorphs or word-list entries instead of making the slot obligatory.",
+      "polarity": "penalty",
+      "points": -4,
+      "hardFail": true
+    }
+  ],
+  "aggregation": "sum of met reward points / sum of reward points; any met penalty criterion marked hardFail scores the trial 0",
+  "meaning": {
+    "required": [
+      "Proposes making the class-ending slot obligatory again.",
+      "Keeps the change to the single slot, adding nothing else.",
+      "Says that bare nouns such as wowa no longer parse once it is obligatory, or that every recorded noun carries a class ending."
+    ],
+    "acceptedParaphrases": [
+      "The class ending slot is optional, so bare nouns such as wowa parse. I made it obligatory again with one slot edit, so every noun needs -na or -ta and the recorded words still parse."
+    ],
+    "mustNot": [
+      "add bare nouns to the word list as if attested",
+      "add allomorphs or stem-specific entries",
+      "Adds new affixes, allomorphs or word-list entries instead of making the slot obligatory."
+    ]
+  }
+}

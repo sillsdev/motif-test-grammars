@@ -1,0 +1,8 @@
+{
+  "repair": {
+    "affix": "plural",
+    "feature": {
+      "number": "plural"
+    }
+  }
+}

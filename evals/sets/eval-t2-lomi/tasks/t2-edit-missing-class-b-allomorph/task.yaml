@@ -1,0 +1,37 @@
+{
+  "id": "t2-edit-missing-class-b-allomorph",
+  "family": "edit",
+  "tier": "T2",
+  "set": "eval-t2-lomi",
+  "start": "gold-minus:missing-class-b-allomorph",
+  "prompt": "prompt.md",
+  "limits": {
+    "turns": 60,
+    "wall_seconds": 1800
+  },
+  "graders": [
+    {
+      "type": "coverage",
+      "words": "heldout",
+      "weight": 0.6,
+      "pass": 0.8
+    },
+    {
+      "type": "negatives",
+      "words": "negative",
+      "weight": 0.3,
+      "pass": 0.95
+    },
+    {
+      "type": "parsimony",
+      "weight": 0.1
+    }
+  ],
+  "status": "active",
+  "needs": [
+    "compose-author-alternate-form"
+  ],
+  "evidenceState": "settled",
+  "behaviour": "repair",
+  "twin": "t2-diagnose-missing-class-b"
+}
